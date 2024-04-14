@@ -534,6 +534,7 @@ body {
   border-block-end: 3px solid transparent;
   box-shadow: var(--shadow-3);
   transition: var(--transition-1);
+  
 }
 
 .service-card:is(:hover, :focus-within) { border-color: hsl(var(--color)); }
@@ -662,7 +663,7 @@ body {
   position: relative;
   border-radius: var(--radius-15);
   overflow: hidden;
-}
+}project-card
 
 .project-card .card-banner img { transition: var(--transition-2); }
 
@@ -1434,9 +1435,9 @@ body {
    * SERVICE
    */
 
-  .service .grid-list { grid-template-columns: repeat(4, 1fr); }
+  .service .grid-list { grid-template-columns: repeat(3, 1fr); }
 
-  .service-card .h3 { --fs-3: 2rem; }
+  .service-card .h3 { --fs-3: 2.5rem; }
 
 
 
