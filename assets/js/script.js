@@ -49,14 +49,20 @@ addEventOnElem(navbarLinks, "click", closeNavbar);
 
 const header = document.querySelector("[data-header]");
 const backTopBtn = document.querySelector("[data-back-top-btn]");
+const textLogo = document.querySelector("[data-text-logo]")
+const imgLogo = document.querySelector("[data-logo-img]")
 
 const headerActive = function () {
   if (window.scrollY > 80) {
     header.classList.add("active");
     backTopBtn.classList.add("active");
+    imgLogo.classList.add("active");
+    textLogo.classList.add("text-logo-hidden")
   } else {
     header.classList.remove("active");
     backTopBtn.classList.remove("active");
+    textLogo.classList.remove("text-logo-hidden")
+    imgLogo.classList.remove("active");
   }
 }
 
