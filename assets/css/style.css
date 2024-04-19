@@ -603,7 +603,28 @@ body {
 .feature .container,
 .feature-list {
   display: grid;
-  gap: 60px;
+}
+
+.feature .container{
+  display: flex;
+  justify-content: center;
+}
+
+.feature.section{
+  background: url(/assets/images/Group-Photo.JPG) no-repeat center center fixed; ;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.feature-content {
+  background: white;
+  opacity: 90%;
+  width: 60%;
+  padding: 1rem 4rem;
+  border-radius: 2rem;
+
 }
 
 .feature-card .card-icon {
@@ -622,7 +643,8 @@ body {
 }
 
 .feature-card .card-text {
-  color: var(--cool-gray);
+  /* color: var(--cool-gray); */
+  color: black;
   font-size: var(--fs-7);
   margin-block-start: 10px;
 }
@@ -1591,7 +1613,7 @@ body {
    */
 
   .footer-top {
-    grid-template-columns: 1fr 0.5fr 0.5fr 0.9fr;
+    grid-template-columns: 1fr 1fr;
     padding-block: 120px;
   }
 
