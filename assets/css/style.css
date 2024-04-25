@@ -1022,10 +1022,9 @@ body {
   gap: 40px;
 }
 
-
 .team-section {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-gap: 20px;
 }
 
@@ -1048,6 +1047,33 @@ body {
   object-fit: cover;
 }
 
+.social-links {
+  margin-top: 10px;
+}
+
+.social-links a {
+  display: inline-block;
+  margin-right: 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+.social-links a:hover {
+  color: #007bff;
+}
+
+
+@media (max-width: 750px) {
+  .team-section {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 500px) {
+  .team-section {
+    grid-template-columns: 1fr;
+  }
+}
 
 .blog-card .card-banner {
   border-radius: var(--radius-20);
