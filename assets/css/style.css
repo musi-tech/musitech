@@ -718,7 +718,7 @@ body {
 \*-----------------------------------*/
 
 .project {
-  background-color: var(--ghost-white);
+  background-color: var(--gainsboro);
 }
 
 .project .section-title {
