@@ -67,3 +67,13 @@ const headerActive = function () {
 }
 
 addEventOnElem(window, "scroll", headerActive);
+
+const carousel = document.querySelector('.carousel');
+
+carousel.addEventListener('mouseleave', () => {
+  carousel.classList.remove('hover');
+});
+
+carousel.addEventListener('mouseenter', () => {
+  carousel.classList.add('hover');
+});

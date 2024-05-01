@@ -1245,7 +1245,7 @@ footer {
   height: auto;
   margin-bottom: 10px; /* Add margin below the logo */
 }
-.row {
+footer .row {
   width: 85%;
   margin: auto;
   display: flex;
@@ -1964,7 +1964,6 @@ hr {
     transition: var(--transition-1);
   }
 
-
   .service-card:is(:hover, :focus-within) {
     border-color: hsl(var(--color));
   }
@@ -2020,10 +2019,8 @@ hr {
   }
 
   .service-card .card-title {
-    color: #000; 
+    color: #000;
   }
-  
-
 
   /**
    * PROJECT
@@ -2058,4 +2055,80 @@ hr {
   .blog-card .card-title {
     --fs-4: 2.4rem;
   }
+}
+
+:root {
+  --no-of-slides: 6;
+  --slides-in-view: 3;
+  --slide-width: 400px;
+  --slide-height: 500px;
+  --iteration-time: 10s;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(var(--slide-width) * var(--no-of-slides) * -1));
+  }
+}
+
+.carousel__wrapper {
+  display: flex;
+  /*justify-content: center;*/
+  align-items: center;
+
+  width: calc(var(--slides-in-view) * var(--slide-width));
+  overflow: hidden;
+  border: 1px dashed red;
+  margin: 0 auto;
+}
+
+.carousel {
+  padding: 100px 0;
+  background: lightblue;
+
+  overflow: hidden;
+  width: calc(2 * var(--no-of-slides));
+}
+
+.carousel__slide {
+  animation: scroll var(--iteration-time) linear infinite;
+  display: flex;
+  flex-direction: column;
+
+  flex: 0 0 auto;
+  width: var(--slide-width);
+  height: var(--slide-height);
+  box-sizing: border-box;
+  /*border: 1px dotted darkblue;*/
+}
+
+.carousel__image {
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  height: 50%;
+  /* width: 100px; */
+  margin: 15px 20px;
+}
+
+/* just for analysis remove this 3 rules later*/
+.carousel__slide {
+  position: relative;
+  background-color: var(--blue-ryb_80);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+  padding: 2rem;
+}
+
+.carousel {
+  counter-reset: slideNo;
+}
+
+.carousel:hover .carousel__slide {
+  animation-play-state: paused;
 }
