@@ -2062,7 +2062,7 @@ hr {
   --slides-in-view: 3;
   --slide-width: 400px;
   --slide-height: 500px;
-  --iteration-time: 10s;
+  --iteration-time: 20s;
 }
 
 @keyframes scroll {
