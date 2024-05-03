@@ -2058,66 +2058,66 @@ hr {
 }
 
 :root {
-  --no-of-slides: 6;
-  --slides-in-view: 3;
-  --slide-width: 400px;
-  --slide-height: 500px;
-  --iteration-time: 20s;
+  --no-of-slides: 5; 
+  --slides-in-view: 3; /* Number of visible slides at once */
+  --slide-width: 500px;
+  --slide-height: 600px;
+  --iteration-time: 15s; /* Adjusted animation duration */
 }
+
 
 @keyframes scroll {
   0% {
-    transform: translateX(0);
+    transform: translateX(0); /* Start at the initial position (first slide) */
   }
   100% {
-    transform: translateX(calc(var(--slide-width) * var(--no-of-slides) * -1));
+    transform: translateX(calc(-1 * var(--slide-width) * var(--no-of-slides) + var(--slide-width))); /* End at the position after the last slide */
   }
+}
+
+.carouselContainer {
+  background: var(--ghost-white);
 }
 
 .carousel__wrapper {
   display: flex;
-  /*justify-content: center;*/
+  justify-content: start;
   align-items: center;
-
   width: calc(var(--slides-in-view) * var(--slide-width));
   overflow: hidden;
-  border: 1px dashed red;
   margin: 0 auto;
 }
 
 .carousel {
   padding: 100px 0;
-  background: lightblue;
-
   overflow: hidden;
   width: calc(2 * var(--no-of-slides));
 }
+
 
 .carousel__slide {
   animation: scroll var(--iteration-time) linear infinite;
   display: flex;
   flex-direction: column;
-
   flex: 0 0 auto;
   width: var(--slide-width);
   height: var(--slide-height);
   box-sizing: border-box;
-  /*border: 1px dotted darkblue;*/
+  border: 1px solid var(--gainsboro);
+  margin: 1rem;
+  border-radius: 1rem;
 }
 
-.carousel__image {
-  background-size: cover;
-  background-repeat: no-repeat;
-
-  height: 50%;
-  /* width: 100px; */
-  margin: 15px 20px;
-}
-
-/* just for analysis remove this 3 rules later*/
 .carousel__slide {
-  position: relative;
-  background-color: var(--blue-ryb_80);
+
+  padding: 1rem;
+}
+
+.carousel__slide h2 {
+  text-align: center;
+}
+
+.carousel_team_container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
@@ -2129,6 +2129,6 @@ hr {
   counter-reset: slideNo;
 }
 
-.carousel:hover .carousel__slide {
+.carouselContainer:hover .carousel__slide {
   animation-play-state: paused;
 }
