@@ -2059,16 +2059,16 @@ hr {
 
 :root {
   --no-of-slides: 5; 
-  --slides-in-view: 3; /* Number of visible slides at once */
+  --slides-in-view: 3; 
   --slide-width: 500px;
   --slide-height: 600px;
-  --iteration-time: 15s; /* Adjusted animation duration */
+  --iteration-time: 15s; 
 }
 
 
 @keyframes scroll {
   0% {
-    transform: translateX(0); /* Start at the initial position (first slide) */
+    transform: translateX(0); 
   }
   100% {
     transform: translateX(calc(-1 * var(--slide-width) * var(--no-of-slides) + var(--slide-width))); /* End at the position after the last slide */
@@ -2129,6 +2129,6 @@ hr {
   counter-reset: slideNo;
 }
 
-.carouselContainer:hover .carousel__slide {
+.slideParent:hover .carousel__slide {
   animation-play-state: paused;
 }

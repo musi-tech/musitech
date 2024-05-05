@@ -68,7 +68,7 @@ const headerActive = function () {
 
 addEventOnElem(window, "scroll", headerActive);
 
-const carousel = document.querySelector('.carousel');
+const carousel = document.querySelector(".slideParent");
 
 carousel.addEventListener('mouseleave', () => {
   carousel.classList.remove('hover');
