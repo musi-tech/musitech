@@ -182,24 +182,22 @@ body {
   background-color: hsl(0, 0%, 70%);
 }
 
-
 /* CCCCCALLLLLLLLLLLOUUUUUUUUUUUT */
 .maintenance-callout {
   padding: 20px;
   border: 2px solid #e74c3c;
   border-radius: 5px;
-  background-color:var(--bittersweet);
+  background-color: var(--bittersweet);
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   text-align: center;
-
 }
 
 .maintenance-callout p {
   margin: 0;
-  color:white;
+  color: white;
   font-weight: bold;
   font-size: 18px;
-} 
+}
 
 /*-----------------------------------*\
   #REUSED STYLE
@@ -1964,27 +1962,8 @@ hr {
    * SERVICE
    */
 
-  .service {
-    background-color: var(--ghost-white);
-  }
-
   .service .section-title {
     margin-block: 30px 60px;
-  }
-
-  .service-card,
-  .service .link-card {
-    padding: 45px;
-    border-radius: var(--radius-20);
-  }
-
-  .service-card {
-    height: 100%;
-    background-color: var(--white);
-    padding-block-end: 40px;
-    border-block-end: 3px solid transparent;
-    box-shadow: var(--shadow-3);
-    transition: var(--transition-1);
   }
 
   .service-card:is(:hover, :focus-within) {
@@ -2040,10 +2019,7 @@ hr {
   .service .link-card:is(:hover, :focus) ion-icon {
     color: hsl(var(--color));
   }
-
-  .service-card .card-title {
-    color: #000;
-  }
+  
 
   /**
    * PROJECT
