@@ -699,7 +699,6 @@ body {
 .feature-content {
   background: white;
   opacity: 90%;
-  width: 60%;
   padding: 1rem 4rem;
   border-radius: 2rem;
 }
@@ -2019,7 +2018,7 @@ hr {
   .service .link-card:is(:hover, :focus) ion-icon {
     color: hsl(var(--color));
   }
-  
+
 
   /**
    * PROJECT
