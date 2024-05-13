@@ -41,60 +41,38 @@
   -->
 
     <header class="header" data-header>
+      <nav class="navbar" data-navbar>
+        <div class="logo " data-logo-img>
+          <img src="assets/images/logo black.svg" alt="">
+        </div>
+        <span data-text-logo class="logoText">MusiTech</span>
+        
+        <div class="navlinks">
+            <a href="#home">Home</a>
+            <a href="#service">Services</a>
+            <a href="#feature">Features</a>
+            <a href="#project">Portfolio</a>
+            <a href="#blog">Blog</a>
+            <a href="https://wa.me/7822857872" target="_blank" class="btn btn-primary has-before has-after">Let’s Talk
+              👋</a>
+        </div>
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" data-nav-toggler>&times;</a>
+            <div class="overlay-content">
+                <a href="#home">Home</a>
+                <a href="#service">Services</a>
+                <a href="#feature">Features</a>
+                <a href="#project">Portfolio</a>
+                <a href="#blog">Blog</a>
+                <a href="https://wa.me/7822857872" target="_blank" >Let’s Talk
+                  👋</a>
+            </div>
+        </div>
+        <span class="openbtn" onclick="openNav()" data-nav-toggler>&#9776;</span>
+    </nav>
+
+
       <div class="container">
-
-        <a href="#" class="logo">
-          <p data-text-logo>MusiTech</p>
-          <img data-logo-img src="./assets/images/logo black.svg" alt="logo" width="200" class="logo-img">
-        </a>
-
-        <nav class="navbar" data-navbar>
-
-          <div class="wrapper">
-            <a href="#" class="logo">
-              <img src="./assets/images/logo.svg" width="50">
-            </a>
-
-            <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
-              <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
-            </button>
-          </div>
-
-          <ul class="navbar-list">
-
-            <li class="navbar-item">
-              <a href="#home" class="navbar-link" data-nav-link>Home</a>
-            </li>
-
-            <li class="navbar-item">
-              <a href="#service" class="navbar-link" data-nav-link>Services</a>
-            </li>
-
-            <li class="navbar-item">
-              <a href="#feature" class="navbar-link" data-nav-link>Features</a>
-            </li>
-
-            <li class="navbar-item">
-              <a href="#project" class="navbar-link" data-nav-link>Portfolio</a>
-            </li>
-
-            <li class="navbar-item">
-              <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
-            </li>
-
-          </ul>
-
-        </nav>
-
-
-        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
-          <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
-        </button>
-
-        <a href="https://wa.me/7822857872" target="_blank" class="btn btn-primary has-before has-after">Let’s Talk
-          👋</a>
-
-        <div class="overlay" data-nav-toggler data-overlay></div>
 
       </div>
     </header>
@@ -919,7 +897,7 @@
 
     <footer>
       <div class="row">
-        <div class="col">
+        <div class="col col1">
           <img src="./assets/images/logo white.svg" class="logo">
           <p> Musitech empowers your music to thrive online. <br>
             We provide a comprehensive range of digital solutions,<br>
