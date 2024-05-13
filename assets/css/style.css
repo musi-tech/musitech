@@ -160,6 +160,7 @@ body {
   color: var(--slate-gray);
   font-size: 1.6rem;
   line-height: 1.75;
+  overflow-x: hidden;
 }
 
 :focus-visible {
