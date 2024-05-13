@@ -2105,7 +2105,7 @@ hr {
   display: flex;
   justify-content: start;
   align-items: center;
-  width: calc(var(--slides-in-view) * var(--slide-width));
+  /* width: calc(var(--slides-in-view) * var(--slide-width)); */
   overflow: hidden;
   margin: 0 auto;
 }
