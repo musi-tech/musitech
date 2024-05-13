@@ -478,6 +478,14 @@ body {
   margin-block-end: 60px;
 }
 
+.navbar.active li{
+  padding: 8px;
+  text-decoration: none;
+  font-size: 4rem;
+  display: block;
+  transition: 0.3s; 
+}
+
 .navbar .logo {
   color: var(--white);
 }
@@ -1784,6 +1792,8 @@ hr {
   .header .btn:is(:hover, :focus) {
     color: var(--white);
   }
+
+  
 
   /**
    * HERO
