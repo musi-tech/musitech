@@ -77,3 +77,8 @@ carousel.addEventListener('mouseleave', () => {
 carousel.addEventListener('mouseenter', () => {
   carousel.classList.add('hover');
 });
+
+function openInNewTab(url) {
+  var newTab = window.open(url, '_blank');
+  newTab.focus();
+}
