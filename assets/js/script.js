@@ -77,3 +77,4 @@ carousel.addEventListener('mouseleave', () => {
 carousel.addEventListener('mouseenter', () => {
   carousel.classList.add('hover');
 });
+
