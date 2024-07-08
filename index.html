@@ -45,7 +45,6 @@
     <div class="container">
 
       <a href="#" class="logo">
-        <p data-text-logo>MusiTech</p>
         <img data-logo-img src="./assets/images/logo black.jpg" alt="logo" width="200" class="logo-img">
       </a>
 
@@ -116,74 +115,30 @@
       -->
 
       <section class="section hero" id="home" aria-label="hero">
-        <div class="box" style="background: url(assets/images/background.jpg) no-repeat;">
-
-          <div class="container">
-            <!--<div class="maintenance-callout">
-              <p>This website is in development/maintenance.</p>
-            </div>-->
-            <div class="hero-content">
-
-
-              <h1 class="h1 hero-title"><br />
-                Your Digital Partner for Growth and Success
-              </h1>
-
-              <p class="hero-text">
-                Let's accelerate your business growth together
-                Your one-stop shop for all your digital needs.
-              </p>
-
-              <ul class="social-list">
-
-                <li>
-                  <a target="_blank"
-                    href="https://www.linkedin.com/company/102433655/admin/feed/posts/?feedType=following"
-                    class="social-link" style="--color: hsl(241, 77%, 63%);">
-                    <ion-icon name="logo-linkedin"></ion-icon>
-
-                    <span class="span">Linkedin</span>
-                  </a>
-                </li>
-
-                <li>
-                  <a target="_blank" href="https://www.instagram.com/musitech_in/" class="social-link"
-                    style="--color: hsl(0, 100%, 50%);">
-                    <ion-icon name="logo-instagram"></ion-icon>
-
-                    <span class="span">INSTAGRAM</span>
-                  </a>
-                </li>
-
-                <li>
-                  <a target="_blank" href="https://twitter.com/musitech_" class="social-link"
-                    style="--color: hsl(0, 0%, 0%);">
-                    <i class="fa-brands fa-x-twitter"></i>
-
-                    <span class="span">Twitter</span>
-                  </a>
-                </li>
-
-                <li>
-                  <a target="_blank" href="mailto:contact@musitech.in" class="social-link"
-                    style="--color: hsl(0, 0%, 0%);">
-                    <i class="fa-regular fa-envelope"></i>
-
-                    <span class="span">GMAIL</span>
-                  </a>
-                </li>
-
-              </ul>
-
-            </div>
-
-            <!-- TODO: ADD HERO BANNER -->
-            <!-- <figure class="hero-banner"> -->
-
-            <!-- </figure> -->
-
-
-
+        <div class="slide-container">
+	
+          <div class="slides">
+            <img src="assets/images/wall1.jpg" class="active">
+            <img src="assets/images/wall2.jpg">
+            <img src="assets/images/wall3.jpg">
+            <img src="assets/images/wall4.jpg">
+            <img src="assets/images/wall5.jpg">
+          </div>
+        
+          <div class="buttons">
+            <span class="next">&#10095;</span>
+            <span class="prev">&#10094;</span>
+          </div>
+        
+          <div class="dotsContainer">
+            <div class="dot active" attr='0' onclick="switchImage(this)"></div>
+            <div class="dot" attr='1' onclick="switchImage(this)"></div>
+            <div class="dot" attr='2' onclick="switchImage(this)"></div>
+            <div class="dot" attr='3' onclick="switchImage(this)"></div>
+            <div class="dot" attr='4' onclick="switchImage(this)"></div>
+          </div>
+        
+        </div>
       </section>
 
 
@@ -220,7 +175,7 @@
 
               </div>
             </li>
-
+            
             <li>
               <div class="service-card" style="--color: 157, 89%, 44%">
 
@@ -235,22 +190,7 @@
 
               </div>
             </li>
-
-            <li>
-              <div class="service-card" style="--color: 52, 98%, 50%">
-
-                <div class="card-icon">
-                  <img src="./assets/images/photography-01.svg" width="30" height="30" loading="lazy"
-                    alt="service icon">
-                </div>
-
-                <h3 class="h3">
-                  <a href="#" class="card-title">Photography and Videography</a>
-                </h3>
-
-              </div>
-            </li>
-
+            
             <li>
               <div class="service-card" style="--color: 343, 98%, 60%">
 
@@ -265,19 +205,6 @@
               </div>
             </li>
 
-            <li>
-              <div class="service-card" style="--color: 210, 100%, 53%">
-
-                <div class="card-icon">
-                  <img src="./assets/images/one to one-01.svg" width="30" height="30" loading="lazy" alt="service icon">
-                </div>
-
-                <h3 class="h3">
-                  <a href="#" class="card-title">Mentorship in Tech</a>
-                </h3>
-
-              </div>
-            </li>
 
             <li>
               <div class="service-card" style="--color: 174, 77%, 50%">
@@ -293,49 +220,33 @@
 
               </div>
             </li>
-
             <li>
-              <div class="service-card" style="--color: 17, 100%, 68%">
+              <div class="service-card" style="--color: 210, 100%, 53%">
 
                 <div class="card-icon">
-                  <img src="./assets/images/service-icon-3.png" width="30" height="30" loading="lazy"
-                    alt="service icon">
+                  <img src="./assets/images/one to one-01.svg" width="30" height="30" loading="lazy" alt="service icon">
                 </div>
 
                 <h3 class="h3">
-                  <a href="#" class="card-title">Music</a>
+                  <a href="#" class="card-title">Mentorship & Internship</a>
                 </h3>
 
               </div>
             </li>
-
-
             <li>
-              <div class="service-card" style="--color: 52, 98%, 50%">
+              <div class="service-card" style="--color: 17, 100%, 68%">
 
                 <div class="card-icon">
-                  <img src="./assets/images/graphics design-01.svg" width="30" height="30" loading="lazy"
-                    alt="service icon">
+                  <img src="./assets/images/service-icon-3.png" width="30" height="30" loading="lazy" alt="service icon">
                 </div>
-                <h3 class="h3">
-                  <a href="#" class="card-title">Graphics Design</a>
-                </h3>
-              </div>
-            <li>
-              <div class="service-card" style="--color: 52, 98%, 50%">
 
-                <div class="card-icon">
-                  <img src="./assets/images/video editing-01.svg  " width="30" height="30" loading="lazy"
-                    alt="service icon">
-                </div>
                 <h3 class="h3">
-                  <a href="#" class="card-title">Video Editing</a>
+                  <a href="#" class="card-title">Work With Us</a>
                 </h3>
 
               </div>
-
+            </li>
           </ul>
-
         </div>
       </section>
 
@@ -346,17 +257,21 @@
       <section class="section about" id="about" aria-label="about">
         
         <div class="about">
-          <img class="pic" src="assets/images/aditya.JPG" />
+          <img class="pic" src="assets/images/adi1.jpg" />
           <div class="text">
 
             <h2 class="h2 section-title text-center">About <span class="has-before">Us</span></h2>
-            <h5>Front-end Developer & <span>Designer</span></h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita natus ad sed harum itaque ullam enim
-              quas, veniam accusantium, quia animi id eos adipisci iusto molestias asperiores explicabo cum vero atque
-              amet corporis! Soluta illum facere consequuntur magni. Ullam dolorem repudiandae cumque voluptate
-              consequatur consectetur, eos provident necessitatibus reiciendis corrupti!</p>
+            
             <div class="data">
-              <a href="#" class="hire">Read More</a>
+              <h5>Welcome to  <span>MusiTech!</span></h5>
+              <p>At MusiTech, we're dedicated to propelling our clients' businesses forward. As a leading firm based in Pune, Maharashtra, India, we specialize in Development, DevOps, Digital Production, and Marketing. Our team is passionate about creating innovative solutions that amplify your brand's presence and drive extensive results.</p>
+              <br>
+              <h5>Our <span>Mission</span></h5>
+              <p>To deliver customized digital solutions that enhance our clients' online presence and achieve their business goals. We strive to build long-lasting partnerships by providing exceptional services and support.</p>
+              <br>
+              <h5>Meet Our Founder & <span>CEO</span></h5>
+              <p>Aditya Jadhav</p>
+              <p>As the Founder & CEO of MusiTech, Aditya leads a dynamic team of experts who are committed to driving digital success for our clients. With a deep understanding of the industry and a passion for innovation, Aditya ensures that MusiTech remains at the forefront of digital trends and technologies.</p>
             </div>
           </div>
         </div>
@@ -730,7 +645,7 @@
                     <div class="member-photo">
                       <img src="./assets/images/blog-3.png" alt="Team Member 3">
                     </div>
-                    <h3>Prathmesh pichkate</h3>
+                    <h3>Abhishek katale</h3>
                     <p>Frontend Dev</p>
                   </div>
                   <div class="team-member">
