@@ -185,7 +185,7 @@ body {
 
 /* CCCCCALLLLLLLLLLLOUUUUUUUUUUUT */
 .maintenance-callout {
-  padding: 20px;
+  padding: 10px;
   border: 2px solid #e74c3c;
   border-radius: 5px;
   background-color: var(--bittersweet);
