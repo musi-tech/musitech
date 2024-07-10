@@ -22,8 +22,6 @@
 
 ## 💡 About Us
 
-## 💡 About Us
-
 MusiTech is a dynamic, forward-thinking technology company founded by a group of passionate tech enthusiasts, MusiTech has quickly evolved into a comprehensive digital solutions provider. We blend academic rigor with real-world practicality to deliver innovative tech solutions that drive business growth and efficiency.
 
 Our team comprises skilled developers, designers, data scientists, and digital strategists, each bringing their unique expertise to the table. We pride ourselves on staying ahead of the technology curve, constantly exploring and implementing emerging technologies to give our clients a competitive edge.
