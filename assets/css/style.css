@@ -433,17 +433,12 @@ body {
   font-weight: var(--fw-700);
 }
 
-.logo-img {
-  display: none;
-}
+
 
 .logo-img.active {
   display: block;
 }
 
-.text-logo-hidden {
-  display: none;
-}
 
 .nav-open-btn {
   background-color: var(--white);
@@ -793,7 +788,6 @@ body {
   opacity: 90%;
   padding: 1rem 4rem;
   border-radius: 2rem;
-  max-width: 80%;
 }
 
 .feature-card .card-icon {
@@ -1827,7 +1821,7 @@ hr {
     position: relative;
     color: var(--cool-gray);
     text-transform: capitalize;
-    font-size: unset;
+    font-size: 20px;
     font-weight: var(--fw-500);
   }
 
