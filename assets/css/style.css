@@ -617,43 +617,42 @@ body {
 .container1 {
   position: relative;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap:20px;
-
+  gap: 20px;
 }
 
 .container1 .glass {
   position: relative;
-  width: 400px;
+  width: 90%;
+  max-width: 400px;
   height: 450px;
   background: linear-gradient(#00fff33b, #ffef004f);
   border: 1px solid rgba(255, 255, 255, 0.1);
   box-shadow: 0 25px 25px rgba(0, 0, 0, 0.25);
-  display: flow;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
   transition: 0.5s;
   border-radius: 10px;
-  margin: 0 -45px;
   backdrop-filter: blur(10px);
   transform: rotate(calc(var(--r) * 1deg));
 }
-.container1 .glass-title{
-    text-align: center;
-    
+
+.container1 .glass-title {
+  text-align: center;
 }
 
 .container1:hover .glass {
   transform: rotate(0deg);
-  margin: 0 10px;
 }
 
 .container1 .glass::before {
   content: attr(data-text);
   position: absolute;
-  gap:50px;
   bottom: 0;
   width: 100%;
   height: 100%;
@@ -663,13 +662,27 @@ body {
   align-items: center;
   color: #fff;
 }
+
 .container1 .glass svg {
   font-size: 2.5em;
   margin-top: 30px;
   fill: #4b0333;
 }
 
+@media (min-width: 768px) {
+  .container1 {
+    flex-direction: row;
+    gap: 20px;
+  }
 
+  .container1 .glass {
+    margin: 0 -45px;
+  }
+
+  .container1:hover .glass {
+    margin: 0 10px;
+  }
+}
 
 
 
