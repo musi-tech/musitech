@@ -367,7 +367,7 @@ body {
 }
 
 .section-title {
-  margin-block: 30px 50px;
+  margin-block: 28px 35px;
 }
 
 .grid-list {
@@ -1768,7 +1768,7 @@ hr {
   }
 
   .feature-list {
-    gap: 30px;
+    gap: 15px;
   }
 
   .feature-card {
