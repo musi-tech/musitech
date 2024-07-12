@@ -800,6 +800,7 @@ body {
   opacity: 90%;
   padding: 1rem 4rem;
   border-radius: 2rem;
+  max-width: 90%;
 }
 
 .feature-card .card-icon {
@@ -1198,6 +1199,76 @@ project-card .project-card .card-banner img {
     visibility: hidden;
   }
 }
+
+/*-----------------------------------*\
+  #Team
+\*-----------------------------------*/
+
+
+.team-container h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.team-container h1 span {
+  color: #ff6600;
+}
+
+.categories {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.categories span {
+  margin: 0 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.team-members {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.team-member {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  margin: 10px;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+}
+
+.team-member img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.team-member h2 {
+  font-size: 1.2em;
+  margin: 10px 0 5px 0;
+}
+
+.team-member p {
+  color: #666;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*-----------------------------------*\
   #BLOG
