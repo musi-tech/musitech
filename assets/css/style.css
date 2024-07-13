@@ -1249,13 +1249,35 @@ project-card .project-card .card-banner img {
   margin-bottom: 10px;
 }
 
-.team-member h2 {
-  font-size: 1.2em;
+.team-member h4 {
+  font-size: 1.0em;
   margin: 10px 0 5px 0;
 }
 
 .team-member p {
   color: #666;
+}
+
+#view-less {
+  display: none;
+  background-color: #5a58E9;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 20px auto;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .team-member:nth-of-type(n+7) {
+    display: none;
+  }
+
+  #view-less {
+    display: block;
+  }
 }
 
 
