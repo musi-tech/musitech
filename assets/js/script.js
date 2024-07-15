@@ -151,14 +151,3 @@ function switchImage(currentImage) {
   indicators();
 }
 
-function toggleTeamMembers() {
-  const teamMembers = document.querySelectorAll('.team-member');
-  teamMembers.forEach((member, index) => {
-    if (index >= 6) {
-      member.style.display = member.style.display === 'none' ? 'block' : 'none';
-    }
-  });
-
-  const button = document.getElementById('view-less');
-  button.textContent = button.textContent === 'View More' ? 'View Less' : 'View More';
-}
