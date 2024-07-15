@@ -150,3 +150,4 @@ function switchImage(currentImage) {
   }
   indicators();
 }
+
