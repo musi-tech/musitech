@@ -3,16 +3,16 @@ import { motion } from 'framer-motion';
 
 const testimonials = [
   {
-    text: "MusiTech transformed our online presence with their innovative solutions. Their dedication and expertise made a significant impact on our business.",
-    author: "Client Name",
+    text: "MusiTech redefined our digital strategy, boosting engagement and ROI. Their innovative and strategic approach has made them indispensable partners in our growth.",
+    author: "Mayuri gavhane, Director, Cadence Academy",
   },
   {
-    text: "The team at MusiTech exceeded our expectations. Their creative strategies and commitment to excellence are unmatched.",
-    author: "Another Client",
+    text: "Partnering with MusiTech doubled our web traffic and expanded our customer base. Their targeted campaigns don’t just draw crowds; they draw customers.",
+    author: "Dr. R. V. Patil, Principle, PDEACOEM",
   },
   {
-    text: "The team at MusiTech exceeded our expectations. Their creative strategies and commitment to excellence are unmatched.",
-    author: "Another Client",
+    text: "MusiTech's content has transformed our brand story, captivating our audience with innovative designs and compelling visuals that resonate and engage",
+    author: "Sanket Tilekar, Founder, Aspire sports club",
   },
   // Add more testimonials as needed
 ];
