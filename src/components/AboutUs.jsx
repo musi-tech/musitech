@@ -18,7 +18,7 @@ const AboutUs = () => (
               className="w-72 object-cover rounded-full shadow-lg"
             />
             <div className="mb-8 text-center lg:text-left">
-              <h3 className="text-2xl font-semibold text-accent mb-2">Meet Our Founder & CEO</h3>
+              <h3 className="text-2xl font-semibold text-accent mb-2">Meet Our Founder</h3>
               <p className="text-lg mb-4 text-center">
                 Aditya Jadhav
               </p>
