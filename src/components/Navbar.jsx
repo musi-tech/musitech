@@ -31,7 +31,7 @@ const Navbar = () => {
             <Link to="/work-with-us" className="block py-2 px-4 lg:py-0 lg:px-4 hover:text-accent" onClick={() => setIsOpen(false)}>Work With Us</Link>
           </li>
           <li className={`${isOpen ? 'text-center mb-6' : ''}`}>
-            <Link to="https://wa.me/7822857872" className="bg-green-500 text-primary block py-2 px-4 rounded hover:bg-opacity-80 lg:py-2 lg:px-4" onClick={() => setIsOpen(false)}>Let’s Talk 👋</Link>
+            <Link to="https://wa.me/7822827875" className="bg-green-500 text-primary block py-2 px-4 rounded hover:bg-opacity-80 lg:py-2 lg:px-4" onClick={() => setIsOpen(false)}>Let’s Talk 👋</Link>
           </li>
         </ul>
       </nav>
