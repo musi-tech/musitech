@@ -10,7 +10,7 @@ const CompanyHistorySection = () => (
   >
     <h2 className="text-3xl font-bold text-gray-900 mb-4 text-center">Company History</h2>
     <p className="text-lg text-gray-700 mx-auto max-w-3xl text-center">
-      Founded in 2010, MusiTech started with a mission to transform digital experiences. Over the years, we have evolved into a leading digital solutions provider, handling projects of all sizes and complexities. From our humble beginnings to becoming a key player in the digital space, our journey has been marked by innovation, excellence, and client satisfaction.
+    MusiTech was founded by a group of tech enthusiasts with a vision to bridge the gap between academic rigor and real-world technology solutions. Since its inception, MusiTech has grown into a comprehensive digital solutions provider, delivering innovative and customized tech solutions that drive business growth. Our journey has been marked by our commitment to staying ahead of the technology curve and our unwavering dedication to client success.
     </p>
   </motion.div>
 );
