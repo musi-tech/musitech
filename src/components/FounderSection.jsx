@@ -12,7 +12,7 @@ const FounderSection = () => (
     transition={{ duration: 0.8 }}
   >
     <div className="lg:w-1/2 lg:pr-8">
-      <h2 className="text-4xl font-bold text-gray-900 mb-4">Meet Our Founder & CEO</h2>
+      <h2 className="text-4xl font-bold text-gray-900 mb-4">Meet Our Founder</h2>
       <p className="text-xl font-semibold text-gray-800 mb-2">Aditya Jadhav</p>
       <p className="text-lg text-gray-700 mb-4">
         As the Founder & CEO of MusiTech, Aditya leads a dynamic team of experts who are committed to driving digital success for our clients. With a deep understanding of the industry and a passion for innovation, Aditya ensures that MusiTech remains at the forefront of digital trends and technologies.

@@ -4,15 +4,15 @@ import { motion } from 'framer-motion';
 const testimonials = [
   {
     text: "MusiTech transformed our online presence with their innovative solutions. Their dedication and expertise made a significant impact on our business.",
-    author: "Client Name",
+    author: "Mayuri Gavhane",
   },
   {
     text: "The team at MusiTech exceeded our expectations. Their creative strategies and commitment to excellence are unmatched.",
-    author: "Another Client",
+    author: "Dr. R. V. Patil sir",
   },
   {
     text: "The team at MusiTech exceeded our expectations. Their creative strategies and commitment to excellence are unmatched.",
-    author: "Another Client",
+    author: "Sanket Tilekar",
   },
   // Add more testimonials as needed
 ];
