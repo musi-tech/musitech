@@ -29,7 +29,7 @@ const AboutUs = () => (
         <div className="w-full lg:w-1/2 text-center lg:text-right lg:order-1">
           <div className="mb-8">
             <p className="text-lg">
-              Our mission is to provide innovative and tailored <strong>digital solutions</strong> that enhance your online presence and drive business success. We focus on building long-term relationships by delivering exceptional services and support.
+            "At MusiTech, our journey began with a shared passion for technology and innovation. We envisioned a company that not only delivers cutting-edge <strong>digital solutions</strong> but also empowers businesses to achieve their full potential in the digital age. Every project we undertake is a step toward fulfilling this vision, and we are proud of the impact we have made in the technology landscape. Join us, as we continue to harmonize technology with business success."
             </p>
           </div>
         </div>

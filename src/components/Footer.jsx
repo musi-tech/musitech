@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="container mx-auto text-center">
         <div className="mb-6">
           <h2 className="text-2xl font-bold text-accent mb-4">MusiTech</h2>
-          <p className="text-lg mb-4">Providing top-notch services to elevate your business.</p>
+          <p className="text-lg mb-4">Your comprehensive digital partner for growth and success.</p>
         </div>
         <div className="mb-6">
           <ul className="flex justify-center space-x-6">
