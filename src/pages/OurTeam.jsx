@@ -16,9 +16,9 @@ const teamData = {
     // Add more team members
   ],
   'Digital Marketing Team': [
-    { image: 'https://via.placeholder.com/150', name: 'Alice Doe', position: 'Marketing Manager', linkedin: 'https://linkedin.com/in/alicedoe' },
-    { image: 'https://via.placeholder.com/150', name: 'Bob Smith', position: 'SEO Specialist', linkedin: 'https://linkedin.com/in/bobsmith' },
-    { image: 'https://via.placeholder.com/150', name: 'Alice Doe', position: 'Marketing Manager', linkedin: 'https://linkedin.com/in/alicedoe' },
+    { image: 'https://shorturl.at/rs65i', name: 'Saurabh Thakur', position: 'Digital Engagement Director', linkedin: 'https://linkedin.com/in/alicedoe' },
+    { image: 'https://shorturl.at/2v9Xh', name: 'Ghanashyam Kadam', position: 'Digital Creative Strategist', linkedin: 'https://www.linkedin.com/in/ghanashyamkadam/' },
+    { image: 'https://via.placeholder.com/150', name: 'Alice Doe', position: 'Marketing Manager', linkedin: 'https://www.linkedin.com/in/saurabh36/' },
     { image: 'https://via.placeholder.com/150', name: 'Alice Doe', position: 'Marketing Manager', linkedin: 'https://linkedin.com/in/alicedoe' },
     { image: 'https://via.placeholder.com/150', name: 'Charlie Brown', position: 'Music Director', linkedin: 'https://linkedin.com/in/charliebrown' },
     { image: 'https://via.placeholder.com/150', name: 'David Wilson', position: 'Audio Engineer', linkedin: 'https://linkedin.com/in/davidwilson' },
