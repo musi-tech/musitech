@@ -22,7 +22,7 @@ const WorkWithUsPage = () => {
               We are always looking for talented and passionate individuals to join our team. If you're interested in working with us, please fill out the form linked below. We look forward to hearing from you!
             </p>
             <a
-              href="https://forms.gle/YOUR_GOOGLE_FORM_LINK" // Replace with your Google Form link
+              href="https://docs.google.com/forms/d/e/1FAIpQLSfN1-3j4KLiE0PwYkYfbkhSgfv0WtKxnWKdjly8FdJdJPVzwA/viewform?usp=sf_link" // Replace with your Google Form link
               className="inline-flex items-center justify-center px-8 py-3 bg-green-500 text-white text-lg font-semibold rounded-full hover:bg-green-600 transition-colors duration-300"
               target="_blank"
               rel="noopener noreferrer"

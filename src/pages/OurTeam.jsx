@@ -8,7 +8,7 @@ const teamData = {
   'Web Development Team': [
     { image: 'https://shorturl.at/ZVe38', name: 'Atharva Ralegankar', position: 'Full Stack Developer', linkedin: 'https://www.linkedin.com/in/atharvaralegankar/' },
     { image: 'https://shorturl.at/NnlIB', name: 'Sayuri Kamble', position: 'Project Manager', linkedin: 'https://www.linkedin.com/in/sayurikamble/' },
-    { image: 'https://via.placeholder.com/150', name: 'Alice Doe', position: 'Marketing Manager', linkedin: 'https://linkedin.com/in/alicedoe' },
+    { image: 'https://shorturl.at/LCzr4', name: 'Abhishek Katale', position: 'Web Developer', linkedin: 'https://www.linkedin.com/in/abhishek-katale/' },
     { image: 'https://via.placeholder.com/150', name: 'Alice Doe', position: 'Marketing Manager', linkedin: 'https://linkedin.com/in/alicedoe' },
     { image: 'https://via.placeholder.com/150', name: 'Charlie Brown', position: 'Music Director', linkedin: 'https://linkedin.com/in/charliebrown' },
     { image: 'https://via.placeholder.com/150', name: 'David Wilson', position: 'Audio Engineer', linkedin: 'https://linkedin.com/in/davidwilson' },

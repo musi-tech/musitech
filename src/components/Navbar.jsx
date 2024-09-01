@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
+import Logo from './../assets/images/logo.png'; // Use ES6 import syntax
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -10,7 +11,9 @@ const Navbar = () => {
   return (
     <header className="p-6 bg-secondary shadow-md sticky top-0 z-50">
       <nav className="container mx-auto flex items-center justify-between">
-        <h1 className="text-3xl font-bold text-accent">MusiTech</h1>
+        <Link to="/" className="flex items-center">
+          <img src={Logo} alt="MusiTech Logo" className="h-12" />
+        </Link>
         <button onClick={toggleMenu} className="lg:hidden text-accent z-50">
           {isOpen ? <FaTimes className="text-2xl" /> : <FaBars className="text-2xl" />}
         </button>

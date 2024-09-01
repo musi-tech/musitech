@@ -1,11 +1,12 @@
 import { FaFacebookF, FaTwitter, FaLinkedinIn, FaInstagram } from 'react-icons/fa';
+import Logo from './../assets/images/logo.png'; // Ensure the path is correct
 
 const Footer = () => {
   return (
     <footer className="bg-secondary text-text py-6">
       <div className="container mx-auto text-center">
         <div className="mb-6">
-          <h2 className="text-2xl font-bold text-accent mb-4">MusiTech</h2>
+          <img src={Logo} alt="MusiTech Logo" className="h-12 mx-auto mb-4" />
           <p className="text-lg mb-4">Your comprehensive digital partner for growth and success.</p>
         </div>
         <div className="mb-6">
