@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="bg-secondary text-text py-6">
       <div className="container mx-auto text-center">
         <div className="mb-6">
-          <img src={Logo} alt="MusiTech Logo" className="h-12 mx-auto mb-4" />
+          <img src={Logo} alt="MusiTech Logo" className="h-[1.5rem] mx-auto mb-4" />
           <p className="text-lg mb-4">Your comprehensive digital partner for growth and success.</p>
         </div>
         <div className="mb-6">
