@@ -12,7 +12,7 @@ const Navbar = () => {
     <header className="p-6 bg-secondary shadow-md sticky top-0 z-50">
       <nav className="container mx-auto flex items-center justify-between">
         <Link to="/" className="flex items-center">
-          <img src={Logo} alt="MusiTech Logo" className="h-12" />
+            <img src={Logo} alt="MusiTech Logo" className="h-[1.5rem]" />
         </Link>
         <button onClick={toggleMenu} className="lg:hidden text-accent z-50">
           {isOpen ? <FaTimes className="text-2xl" /> : <FaBars className="text-2xl" />}
