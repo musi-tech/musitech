@@ -95,7 +95,7 @@ const MentorshipAndInternshipPage = () => {
                   <div className="text-2xl font-bold text-green-600 mb-4">₹ 999/-</div>
 
                   {/* Call-to-Action Button */}
-                  <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAO__UbCCkBUMkg0UDRJMlVFQUJRWVNUODNFUlU0QjhFRy4u" target="_blank" rel="noopener noreferrer">
+                  <a href="https://docs.google.com/forms/d/e/1FAIpQLScD7CFY07Pk9bEdLihm6Xh2tLn3g4fus3KrjIyEic6qm_8H9Q/viewform" target="_blank" rel="noopener noreferrer">
                       <button className="bg-green-600 text-white px-4 py-2 rounded-lg w-full">
                             Register
                         </button>
@@ -138,7 +138,7 @@ const MentorshipAndInternshipPage = () => {
                   <div className="text-2xl font-bold text-green-600 mb-4">₹ 999/-</div>
 
                   {/* Call-to-Action Button */}
-                  <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAO__UbCCkBUMkg0UDRJMlVFQUJRWVNUODNFUlU0QjhFRy4u" target="_blank" rel="noopener noreferrer">
+                  <a href="https://docs.google.com/forms/d/e/1FAIpQLScD7CFY07Pk9bEdLihm6Xh2tLn3g4fus3KrjIyEic6qm_8H9Q/viewform" target="_blank" rel="noopener noreferrer">
                       <button className="bg-green-600 text-white px-4 py-2 rounded-lg w-full">
                             Register
                         </button>
