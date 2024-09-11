@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { FaArrowUp, FaArrowDown } from 'react-icons/fa';
-import { FaUserTie, FaBookOpen, FaHandshake } from 'react-icons/fa';
+import { FaUserTie, FaBookOpen, FaHandshake, FaCalendarAlt, FaClock, FaLaptop } from 'react-icons/fa';
 import Navbar from '../../components/Navbar';
 import Footer from '../../components/Footer';
 import Slider from 'react-slick';
@@ -35,7 +35,7 @@ const MentorshipAndInternshipPage = () => {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 2000,
-    
+
   };
 
   return (
@@ -60,27 +60,92 @@ const MentorshipAndInternshipPage = () => {
           <section className="py-16 px-6 lg:px-12">
             <div className="container mx-auto">
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <div className="bg-white p-6 rounded-lg shadow-lg">
-                  <FaUserTie className="text-green-500 text-4xl mb-4" />
-                  <h2 className="text-2xl font-semibold mb-4">Mentorship Programs</h2>
-                  <p>
-                    Our mentorship programs offer personalized guidance from industry experts to help you navigate your career path and achieve your goals.
-                  </p>
+              <div className="bg-white p-6 rounded-lg shadow-lg max-w-sm mx-auto">
+                  <div className="mb-4">
+                    <FaBookOpen className="text-green-500 text-4xl mb-2" />
+                    <h2 className="text-2xl font-semibold mb-2">Cloud Computing (AWS)</h2>
+                    <p className="text-gray-600">
+                    Learn AWS and DevOps from Scratch and Kickstart your career in and DevOps                    </p>
+                  </div>
+
+                  <div className="flex items-center mb-2">
+                    <FaCalendarAlt className="text-gray-500 mr-2" />
+                    <p className="text-gray-600">Starting from 2nd September 2024</p>
+                  </div>
+
+                  <div className="flex items-center mb-2">
+                    <FaClock className="text-gray-500 mr-2" />
+                    <p className="text-gray-600">6:00 PM - 7:00 PM</p>
+                  </div>
+
+                  <div className="flex items-center mb-6">
+                    <FaLaptop className="text-gray-500 mr-2" />
+                    <p className="text-gray-600">Online</p>
+                  </div>
+
+                  <div className="flex items-center mb-6">
+                    <img src="https://shorturl.at/nUAUs" alt="Instructor" className="w-12 h-12 rounded-full mr-4" />
+                    <div>
+                      <p className="text-gray-900 font-semibold">Raj Raut</p>
+                      <p className="text-gray-500 text-sm">Instructor</p>
+                    </div>
+                  </div>
+
+                  {/* Price */}
+                  <div className="text-2xl font-bold text-green-600 mb-4">₹ 999/-</div>
+
+                  {/* Call-to-Action Button */}
+                  <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAO__UbCCkBUMkg0UDRJMlVFQUJRWVNUODNFUlU0QjhFRy4u" target="_blank" rel="noopener noreferrer">
+                      <button className="bg-green-600 text-white px-4 py-2 rounded-lg w-full">
+                            Register
+                        </button>
+                  </a>
                 </div>
-                <div className="bg-white p-6 rounded-lg shadow-lg">
-                  <FaBookOpen className="text-green-500 text-4xl mb-4" />
-                  <h2 className="text-2xl font-semibold mb-4">Internship Opportunities</h2>
-                  <p>
-                    Gain valuable hands-on experience through our internship programs. Work on real projects and learn from experienced professionals.
-                  </p>
+
+                <div className="bg-white p-6 rounded-lg shadow-lg max-w-sm mx-auto">
+                  <div className="mb-4">
+                    <FaBookOpen className="text-green-500 text-4xl mb-2" />
+                    <h2 className="text-2xl font-semibold mb-2">Frontend Development</h2>
+                    <p className="text-gray-600">
+                      Learn Frontend Development and Become Internship Ready in Just 2 Months
+                    </p>
+                  </div>
+
+                  <div className="flex items-center mb-2">
+                    <FaCalendarAlt className="text-gray-500 mr-2" />
+                    <p className="text-gray-600">Starting from 2nd September 2024</p>
+                  </div>
+
+                  <div className="flex items-center mb-2">
+                    <FaClock className="text-gray-500 mr-2" />
+                    <p className="text-gray-600">6:00 PM - 7:00 PM</p>
+                  </div>
+
+                  <div className="flex items-center mb-6">
+                    <FaLaptop className="text-gray-500 mr-2" />
+                    <p className="text-gray-600">Online</p>
+                  </div>
+
+                  <div className="flex items-center mb-6">
+                    <img src="https://shorturl.at/S9eXm" alt="Instructor" className="w-12 h-12 rounded-full mr-4" />
+                    <div>
+                      <p className="text-gray-900 font-semibold">Sayuri Kamble</p>
+                      <p className="text-gray-500 text-sm">Instructor</p>
+                    </div>
+                  </div>
+
+                  {/* Price */}
+                  <div className="text-2xl font-bold text-green-600 mb-4">₹ 999/-</div>
+
+                  {/* Call-to-Action Button */}
+                  <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAO__UbCCkBUMkg0UDRJMlVFQUJRWVNUODNFUlU0QjhFRy4u" target="_blank" rel="noopener noreferrer">
+                      <button className="bg-green-600 text-white px-4 py-2 rounded-lg w-full">
+                            Register
+                        </button>
+                  </a>
                 </div>
-                <div className="bg-white p-6 rounded-lg shadow-lg">
-                  <FaHandshake className="text-green-500 text-4xl mb-4" />
-                  <h2 className="text-2xl font-semibold mb-4">Career Development</h2>
-                  <p>
-                    Benefit from career development workshops and resources to enhance your skills and improve your employability.
-                  </p>
-                </div>
+
+                
               </div>
             </div>
           </section>
