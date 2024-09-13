@@ -16,6 +16,10 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import InternshipProgram from './pages/InternshipProgram.jsx';
 import WorkWithUs from './pages/WorkWithUs.jsx';
+import TermsAndConditions from './pages/TermsAndConditions.jsx';
+import ShippingDeliveryPolicy from './pages/ShippingDeliveryPolicy.jsx';
+import CancellationRefundPolicy from './pages/CancellationRefundPolicy.jsx';
+import PolicyPages from './pages/PolicyPages.jsx';
 
 
 function App() {
@@ -35,6 +39,10 @@ function App() {
         <Route path="/letstalk" element={<LetsTalk />} />
         <Route path="/internship-program" element={<InternshipProgram />} />
         <Route path="/work-with-us" element={<WorkWithUs />} />
+        <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
+        <Route path="/shipping-delivery" element={<ShippingDeliveryPolicy />} />
+        <Route path='/cancellation-refund' element={<CancellationRefundPolicy />} />
+        <Route path="/privacy-policy" element={<PolicyPages />} />
       </Routes>
     </Router>
   );
