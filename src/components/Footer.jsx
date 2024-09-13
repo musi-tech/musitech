@@ -17,6 +17,15 @@ const Footer = () => {
             <li><a href="https://instagram.com" aria-label="Instagram" className="text-accent hover:text-green-500"><FaInstagram size={24} /></a></li>
           </ul>
         </div>
+        <div className="mb-6">
+          <ul className="flex justify-center space-x-4">
+            <li><a href="/terms-and-conditions" className="hover:text-green-500">Terms and Conditions</a></li>
+            <li><a href="/privacy-policy" className="hover:text-green-500">Privacy Policy</a></li>
+            <li><a href="/cancellation-refund" className="hover:text-green-500">Cancellation and Refund</a></li>
+            <li><a href="/shipping-delivery" className="hover:text-green-500">Shipping and Delivery</a></li>
+            <li><a href="/contact-us" className="hover:text-green-500">Contact Us</a></li>
+          </ul>
+        </div>
         <div>
           <p>&copy; 2024 MusiTech. All rights reserved.</p>
         </div>
