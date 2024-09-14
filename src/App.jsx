@@ -20,6 +20,8 @@ import TermsAndConditions from './pages/TermsAndConditions.jsx';
 import ShippingDeliveryPolicy from './pages/ShippingDeliveryPolicy.jsx';
 import CancellationRefundPolicy from './pages/CancellationRefundPolicy.jsx';
 import PolicyPages from './pages/PolicyPages.jsx';
+import ContactUs from './pages/ContactUs.jsx';
+
 
 
 function App() {
@@ -43,6 +45,7 @@ function App() {
         <Route path="/shipping-delivery" element={<ShippingDeliveryPolicy />} />
         <Route path='/cancellation-refund' element={<CancellationRefundPolicy />} />
         <Route path="/privacy-policy" element={<PolicyPages />} />
+        <Route path="/contact-us" element={<ContactUs />} />
       </Routes>
     </Router>
   );

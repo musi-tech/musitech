@@ -14,10 +14,10 @@ const faqs = [
 ];
 
 const testimonials = [
-  { name: 'Jane Doe', role: 'Software Engineer', testimonial: 'The mentorship program at MusiTech was an invaluable experience. I gained insights and guidance that greatly contributed to my career development.' },
-  { name: 'John Smith', role: 'Marketing Specialist', testimonial: 'The internship program was incredibly well-organized and provided real-world experience that helped me secure a full-time position.' },
-  { name: 'Emily Johnson', role: 'Content Creator', testimonial: 'MusiTech’s programs are top-notch. The mentorship I received helped me refine my skills and the internship gave me hands-on experience in my field.' },
-  { name: 'Michael Brown', role: 'Project Manager', testimonial: 'Participating in MusiTech’s internship program was a game-changer for my career. The experience and networking opportunities were exceptional.' },
+  { name: 'Jane Doe', image: 'https://shorturl.at/SxOOi', role: 'Software Engineer', testimonial: 'The mentorship program at MusiTech was an invaluable experience. I gained insights and guidance that greatly contributed to my career development.' },
+  { name: 'John Smith', image: 'https://shorturl.at/SxOOi', role: 'Marketing Specialist', testimonial: 'The internship program was incredibly well-organized and provided real-world experience that helped me secure a full-time position.' },
+  { name: 'Emily Johnson', image: 'https://shorturl.at/SxOOi', role: 'Content Creator', testimonial: 'MusiTech’s programs are top-notch. The mentorship I received helped me refine my skills and the internship gave me hands-on experience in my field.' },
+  { name: 'Michael Brown', image: 'https://shorturl.at/SxOOi', role: 'Project Manager', testimonial: 'Participating in MusiTech’s internship program was a game-changer for my career. The experience and networking opportunities were exceptional.' },
 ];
 
 const MentorshipAndInternshipPage = () => {
@@ -60,12 +60,12 @@ const MentorshipAndInternshipPage = () => {
           <section className="py-16 px-6 lg:px-12">
             <div className="container mx-auto">
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              <div className="bg-white p-6 rounded-lg shadow-lg max-w-sm mx-auto">
+                <div className="bg-white p-6 rounded-lg shadow-lg max-w-sm mx-auto">
                   <div className="mb-4">
                     <FaBookOpen className="text-green-500 text-4xl mb-2" />
                     <h2 className="text-2xl font-semibold mb-2">Cloud Computing (AWS)</h2>
                     <p className="text-gray-600">
-                    Learn AWS and DevOps from Scratch and Kickstart your career in and DevOps                    </p>
+                      Learn AWS and DevOps from Scratch and Kickstart your career in and DevOps                    </p>
                   </div>
 
                   <div className="flex items-center mb-2">
@@ -84,7 +84,7 @@ const MentorshipAndInternshipPage = () => {
                   </div>
 
                   <div className="flex items-center mb-6">
-                    <img src="https://shorturl.at/nUAUs" alt="Instructor" className="w-12 h-12 rounded-full mr-4" />
+                    <img src="https://shorturl.at/SxOOi" alt="Instructor" className="w-12 h-12 rounded-full mr-4" />
                     <div>
                       <p className="text-gray-900 font-semibold">Raj Raut</p>
                       <p className="text-gray-500 text-sm">Instructor</p>
@@ -96,9 +96,9 @@ const MentorshipAndInternshipPage = () => {
 
                   {/* Call-to-Action Button */}
                   <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAO__UbCCkBUMkg0UDRJMlVFQUJRWVNUODNFUlU0QjhFRy4u" target="_blank" rel="noopener noreferrer">
-                      <button className="bg-green-600 text-white px-4 py-2 rounded-lg w-full">
-                            Register
-                        </button>
+                    <button className="bg-green-600 text-white px-4 py-2 rounded-lg w-full">
+                      Enroll Now
+                    </button>
                   </a>
                 </div>
 
@@ -139,13 +139,13 @@ const MentorshipAndInternshipPage = () => {
 
                   {/* Call-to-Action Button */}
                   <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAO__UbCCkBUMkg0UDRJMlVFQUJRWVNUODNFUlU0QjhFRy4u" target="_blank" rel="noopener noreferrer">
-                      <button className="bg-green-600 text-white px-4 py-2 rounded-lg w-full">
-                            Register
-                        </button>
+                    <button className="bg-green-600 text-white px-4 py-2 rounded-lg w-full">
+                      Enroll Now
+                    </button>
                   </a>
                 </div>
 
-                
+
               </div>
             </div>
           </section>
@@ -180,22 +180,43 @@ const MentorshipAndInternshipPage = () => {
             </div>
           </section>
 
+
           <section className="py-16 px-6 lg:px-12">
             <div className="container mx-auto text-center">
               <h2 className="text-3xl font-bold mb-6">Testimonials</h2>
               <div className="max-w-2xl mx-auto">
                 <Slider {...slickSettings} className="py-4">
                   {testimonials.map((testimonial, index) => (
-                    <div key={index} className="p-4  rounded-lg mx-2"> {/* Added mx-2 */}
-                      <p className="text-lg italic">"{testimonial.testimonial}"</p>
-                      <p className="mt-4 font-semibold">{testimonial.name}</p>
-                      <p>{testimonial.role}</p>
+                    <div key={index} className="p-4 rounded-lg mx-2 bg-white shadow-lg"> {/* Card with shadow */}
+                      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 items-center">
+
+                        {/* Left Side: Image, Name, and Role */}
+                        <div className="flex items-center md:flex-col md:items-start text-left">
+                          <img
+                            src={testimonial.image} // Now using the correct image from the array
+                            alt={testimonial.name}
+                            className="w-16 h-16 rounded-full mr-4 md:mr-0"
+                          />
+                          <div className="ml-4 md:ml-0 md:mt-4">
+                            <p className="font-semibold text-gray-900">{testimonial.name}</p>
+                            <p className="text-gray-500">{testimonial.role}</p>
+                          </div>
+                        </div>
+
+                        {/* Right Side: Testimonial */}
+                        <div className="col-span-2">
+                          <p className="text-lg italic text-left md:text-center">"{testimonial.testimonial}"</p>
+                        </div>
+                      </div>
                     </div>
                   ))}
                 </Slider>
               </div>
             </div>
           </section>
+
+
+
 
           <section className="py-12 px-6 lg:px-12 text-center">
             <h2 className="text-4xl font-bold text-gray-900 mb-8">Check Out Internship Program</h2>

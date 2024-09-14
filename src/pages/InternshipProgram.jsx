@@ -8,14 +8,20 @@ import { GiArtificialIntelligence } from 'react-icons/gi';
 
 const internshipTopics = [
   { title: 'Cloud Internship', icon: <FaCloud className="text-green-500 text-6xl" />, syllabusLink: 'https://drive.google.com/uc?export=download&id=YOUR_FILE_ID_CLOUD', brochureLink: 'https://drive.google.com/uc?export=download&id=YOUR_FILE_ID_CLOUD' },
-  { title: 'Cybersecurity Internship', icon: <SiCyberdefenders className="text-green-500 text-6xl" />, syllabusLink: 'https://drive.google.com/uc?export=download&id=YOUR_FILE_ID_CYBERSECURITY', brochureLink: 'https://drive.google.com/uc?export=download&id=YOUR_FILE_ID_CYBERSECURITY' },
-  { title: 'DevOps', icon: <FaCloud className="text-green-500 text-6xl" />, syllabusLink: 'https://drive.google.com/uc?export=download&id=YOUR_FILE_ID_DEVOPS', brochureLink: 'https://drive.google.com/uc?export=download&id=YOUR_FILE_ID_DEVOPS' },
-  { title: 'Backend Internship', icon: <FaDatabase className="text-green-500 text-6xl" />, syllabusLink: 'https://drive.google.com/uc?export=download&id=YOUR_FILE_ID_BACKEND', brochureLink: 'https://drive.google.com/uc?export=download&id=YOUR_FILE_ID_BACKEND' },
-  { title: 'Data Science Internship', icon: <GiArtificialIntelligence className="text-green-500 text-6xl" />, syllabusLink: 'https://drive.google.com/uc?export=download&id=YOUR_FILE_ID_DATA_SCIENCE', brochureLink: 'https://drive.google.com/uc?export=download&id=YOUR_FILE_ID_DATA_SCIENCE' },
   { title: 'Frontend Internship', icon: <FaCode className="text-green-500 text-6xl" />, syllabusLink: 'https://drive.google.com/uc?export=download&id=YOUR_FILE_ID_FRONTEND', brochureLink: 'https://drive.google.com/uc?export=download&id=YOUR_FILE_ID_FRONTEND' },
-  { title: 'Full Stack Internship', icon: <FaCode className="text-green-500 text-6xl" />, syllabusLink: 'https://drive.google.com/uc?export=download&id=YOUR_FILE_ID_FULL_STACK', brochureLink: 'https://drive.google.com/uc?export=download&id=YOUR_FILE_ID_FULL_STACK' },
-  { title: 'Graphics Internship', icon: <FaPencilAlt className="text-green-500 text-6xl" />, syllabusLink: 'https://drive.google.com/uc?export=download&id=YOUR_FILE_ID_GRAPHICS', brochureLink: 'https://drive.google.com/uc?export=download&id=YOUR_FILE_ID_GRAPHICS' },
+  { title: 'Cybersecurity Internship', icon: <SiCyberdefenders className="text-green-500 text-6xl" />, syllabusLink: 'https://drive.google.com/uc?export=download&id=YOUR_FILE_ID_CYBERSECURITY', brochureLink: 'https://drive.google.com/uc?export=download&id=YOUR_FILE_ID_CYBERSECURITY', comingSoon: true },
+  { title: 'DevOps', icon: <FaCloud className="text-green-500 text-6xl" />, syllabusLink: 'https://drive.google.com/uc?export=download&id=YOUR_FILE_ID_DEVOPS', brochureLink: 'https://drive.google.com/uc?export=download&id=YOUR_FILE_ID_DEVOPS', comingSoon: true },
+  { title: 'Backend Internship', icon: <FaDatabase className="text-green-500 text-6xl" />, syllabusLink: 'https://drive.google.com/uc?export=download&id=YOUR_FILE_ID_BACKEND', brochureLink: 'https://drive.google.com/uc?export=download&id=YOUR_FILE_ID_BACKEND', comingSoon: true },
+  { title: 'Data Science Internship', icon: <GiArtificialIntelligence className="text-green-500 text-6xl" />, syllabusLink: 'https://drive.google.com/uc?export=download&id=YOUR_FILE_ID_DATA_SCIENCE', brochureLink: 'https://drive.google.com/uc?export=download&id=YOUR_FILE_ID_DATA_SCIENCE', comingSoon: true },
+  { title: 'Full Stack Internship', icon: <FaCode className="text-green-500 text-6xl" />, syllabusLink: 'https://drive.google.com/uc?export=download&id=YOUR_FILE_ID_FULL_STACK', brochureLink: 'https://drive.google.com/uc?export=download&id=YOUR_FILE_ID_FULL_STACK', comingSoon: true },
+  { title: 'Graphics Internship', icon: <FaPencilAlt className="text-green-500 text-6xl" />, syllabusLink: 'https://drive.google.com/uc?export=download&id=YOUR_FILE_ID_GRAPHICS', brochureLink: 'https://drive.google.com/uc?export=download&id=YOUR_FILE_ID_GRAPHICS', comingSoon: true },
+ // New Internships
+ { title: 'Data Structures & Algorithms', icon: <FaCode className="text-green-500 text-6xl" />, syllabusLink: 'https://drive.google.com/uc?export=download&id=YOUR_FILE_ID_DSA', brochureLink: 'https://drive.google.com/uc?export=download&id=YOUR_FILE_ID_DSA', comingSoon: true },
+ { title: 'AI & ML Internship', icon: <GiArtificialIntelligence className="text-green-500 text-6xl" />, syllabusLink: 'https://drive.google.com/uc?export=download&id=YOUR_FILE_ID_AI_ML', brochureLink: 'https://drive.google.com/uc?export=download&id=YOUR_FILE_ID_AI_ML', comingSoon: true },
+ { title: 'Data Engineer Internship', icon: <FaDatabase className="text-green-500 text-6xl" />, syllabusLink: 'https://drive.google.com/uc?export=download&id=YOUR_FILE_ID_DATA_ENGINEER', brochureLink: 'https://drive.google.com/uc?export=download&id=YOUR_FILE_ID_DATA_ENGINEER' , comingSoon: true},
 ];
+
+
 
 const InternshipProgramPage = () => {
   return (
@@ -46,6 +52,13 @@ const InternshipProgramPage = () => {
                     className="bg-white p-8 rounded-lg shadow-xl border border-gray-200 hover:border-green-500 transition-all duration-300 relative"
                     whileHover={{ scale: 1.05 }}
                   >
+                    {/* Coming Soon Badge */}
+                    {topic.comingSoon && (
+                      <span className="absolute top-4 right-4 bg-red-500 text-white text-xs font-semibold px-2 py-1 rounded">
+                        Coming Soon
+                      </span>
+                    )}
+
                     <div className="flex items-center justify-center mb-6">
                       {topic.icon}
                     </div>
