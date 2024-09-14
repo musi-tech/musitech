@@ -50,7 +50,7 @@ const MentorshipAndInternshipPage = () => {
             transition={{ duration: 0.8 }}
           >
             <h1 className="text-5xl font-extrabold text-gray-900 mb-6">
-              Empower Your Career with Our Mentorship & Internship Programs
+              Empower Your Career with Our Training & Internship Programs
             </h1>
             <p className="text-lg text-gray-700">
               At MusiTech, we provide exceptional mentorship and internship opportunities to help you grow professionally and achieve your career goals. Whether you're looking for guidance or hands-on experience, our programs are designed to support your success.
@@ -149,38 +149,19 @@ const MentorshipAndInternshipPage = () => {
               </div>
             </div>
           </section>
+          <section className="py-12 px-6 lg:px-12 text-center">
+            <a
+              href="/internship-program" // Replace with the actual link to your internship program page
+              className="relative inline-flex items-center justify-center w-auto min-w-[200px] h-12 p-7 bg-black text-white text-lg font-bold rounded-full overflow-hidden group"
+            >
+              <span className="absolute inset-0 bg-gradient-to-r from-green-500 to-green-300 transform -translate-x-full group-hover:translate-x-0 transition-transform duration-500 ease-in-out"></span>
+              <span className="absolute inset-0 bg-gradient-to-r from-green-400 to-green-200 transform -translate-x-full group-hover:translate-x-0 transition-transform duration-400 ease-in-out delay-200"></span>
+              <span className="absolute inset-0 bg-gradient-to-r from-green-600 to-green-400 transform -translate-x-full group-hover:translate-x-0 transition-transform duration-300 ease-in-out delay-400"></span>
+              <span className="relative z-10">Explore Internship Opportunities</span>
+            </a>
 
-          <section className="py-16 px-6 lg:px-12">
-            <div className="container mx-auto text-center">
-              <h2 className="text-3xl font-bold mb-6">Frequently Asked Questions</h2>
-              <div className="max-w-2xl mx-auto">
-                {faqs.map((faq, index) => (
-                  <div key={index} className="mb-4">
-                    <div
-                      className="flex items-center justify-between p-4 bg-white border border-gray-300 rounded-lg shadow-md cursor-pointer"
-                      onClick={() => toggleFAQ(index)}
-                    >
-                      <h3 className="text-xl font-semibold">{faq.question}</h3>
-                      <div>
-                        {activeIndex === index ? (
-                          <FaArrowUp className="text-green-500 text-xl" />
-                        ) : (
-                          <FaArrowDown className="text-green-500 text-xl" />
-                        )}
-                      </div>
-                    </div>
-                    {activeIndex === index && (
-                      <div className="p-4 bg-gray-50 border border-gray-300 rounded-lg">
-                        <p>{faq.answer}</p>
-                      </div>
-                    )}
-                  </div>
-                ))}
-              </div>
-            </div>
+
           </section>
-
-
           <section className="py-16 px-6 lg:px-12">
             <div className="container mx-auto text-center">
               <h2 className="text-3xl font-bold mb-6">Testimonials</h2>
@@ -217,21 +198,41 @@ const MentorshipAndInternshipPage = () => {
 
 
 
-
-          <section className="py-12 px-6 lg:px-12 text-center">
-            <h2 className="text-4xl font-bold text-gray-900 mb-8">Check Out Internship Program</h2>
-            <a
-              href="/internship-program" // Replace with the actual link to your internship program page
-              className="relative inline-flex items-center justify-center w-auto min-w-[200px] h-12 p-7 bg-black text-white text-lg font-bold rounded-full overflow-hidden group"
-            >
-              <span className="absolute inset-0 bg-gradient-to-r from-green-500 to-green-300 transform -translate-x-full group-hover:translate-x-0 transition-transform duration-500 ease-in-out"></span>
-              <span className="absolute inset-0 bg-gradient-to-r from-green-400 to-green-200 transform -translate-x-full group-hover:translate-x-0 transition-transform duration-400 ease-in-out delay-200"></span>
-              <span className="absolute inset-0 bg-gradient-to-r from-green-600 to-green-400 transform -translate-x-full group-hover:translate-x-0 transition-transform duration-300 ease-in-out delay-400"></span>
-              <span className="relative z-10">Explore Internship Opportunities</span>
-            </a>
-
-
+          <section className="py-16 px-6 lg:px-12">
+            <div className="container mx-auto text-center">
+              <h2 className="text-3xl font-bold mb-6">Frequently Asked Questions</h2>
+              <div className="max-w-2xl mx-auto">
+                {faqs.map((faq, index) => (
+                  <div key={index} className="mb-4">
+                    <div
+                      className="flex items-center justify-between p-4 bg-white border border-gray-300 rounded-lg shadow-md cursor-pointer"
+                      onClick={() => toggleFAQ(index)}
+                    >
+                      <h3 className="text-xl font-semibold">{faq.question}</h3>
+                      <div>
+                        {activeIndex === index ? (
+                          <FaArrowUp className="text-green-500 text-xl" />
+                        ) : (
+                          <FaArrowDown className="text-green-500 text-xl" />
+                        )}
+                      </div>
+                    </div>
+                    {activeIndex === index && (
+                      <div className="p-4 bg-gray-50 border border-gray-300 rounded-lg">
+                        <p>{faq.answer}</p>
+                      </div>
+                    )}
+                  </div>
+                ))}
+              </div>
+            </div>
           </section>
+
+
+          
+
+
+        
         </div>
       </section>
       <Footer />

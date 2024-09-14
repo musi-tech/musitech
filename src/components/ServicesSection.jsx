@@ -7,7 +7,7 @@ const services = [
   { icon: <FaBullhorn />, title: 'Digital Marketing', description: 'Strategic marketing to elevate your online presence.', link: '/services/digital-marketing', color: '#F26C4F', hoverColor: '#C8ACD6' },
   { icon: <FaPenNib />, title: 'Content Creation', description: 'Engaging content that captivates and converts.', link: '/services/content-creation', color: '#F8D03F', hoverColor: '#433D8B' },
   { icon: <FaUsers />, title: 'Social Media Management', description: 'Effective social media strategies to grow your brand.', link: '/services/social-media-management', color: '#3D8EFC', hoverColor: '#2E236C' },
-  { icon: <FaHandshake />, title: 'Mentorship & Internship', description: 'Guidance and opportunities to nurture your talent.', link: '/services/mentorship-internship', color: '#8D5B9D', hoverColor: '#17153B' }
+  { icon: <FaHandshake />, title: 'Training & Internship', description: 'Guidance and opportunities to nurture your talent.', link: '/services/mentorship-internship', color: '#8D5B9D', hoverColor: '#17153B' }
 ];
 
 const cardVariants = {
