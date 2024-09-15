@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 const testimonials = [
   {
     text: "MusiTech redefined our digital strategy, boosting engagement and ROI. Their innovative and strategic approach has made them indispensable partners in our growth.",
-    author: "Mayuri gavhane, Director, Cadence Academy",
+    author: "Mayuri Gavhane, Director, Cadence Academy",
   },
   {
     text: "Partnering with MusiTech doubled our web traffic and expanded our customer base. Their targeted campaigns don’t just draw crowds; they draw customers.",

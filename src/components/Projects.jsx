@@ -6,31 +6,31 @@ const projects = [
     title: 'Web Development',
     description: 'Book art design, Web Development, Graphic Design',
     image: 'https://ideogram.ai/assets/progressive-image/balanced/response/ZsKybphBTdC91mDqh59VEg',
-    link: '/projects/web-development'
+    link: 'https://notevid.vercel.app/'
   },
   {
     title: 'Digital Marketing',
     description: 'Digital Marketing, Videography',
     image: 'https://ideogram.ai/assets/progressive-image/balanced/response/3KJduscSQriZyzk6gQd7Zw',
-    link: '/projects/digital-marketing'
+    link: 'https://www.dropbox.com/scl/fo/72qzlsxjbh18ihdb4zbx7/AJKXPzYxGmpNVvrxgr0LUBQ?rlkey=a0g8x3xwlo59m0zq3ujtutxdv&dl=0'
   },
   {
     title: 'Content Creation',
     description: 'Graphic Design, 3D Digital Art',
     image: 'https://ideogram.ai/assets/progressive-image/balanced/response/Dp3uvAmcR1OkXVLne3DHmw',
-    link: '/projects/content-creation'
+    link: 'https://drive.google.com/file/d/1Y-4tW0iy8VRnDbnlNzFNeSZ7jYOvoB0E/view?usp=sharing'
   },
   {
     title: 'Social Media Management',
     description: 'Web Design, Mobile App Design',
     image: 'https://ideogram.ai/assets/progressive-image/balanced/response/A06-6ZIiRpylGpU_K0fLIA',
-    link: '/projects/social-media-management'
+    link: 'https://www.dropbox.com/scl/fo/72qzlsxjbh18ihdb4zbx7/AJKXPzYxGmpNVvrxgr0LUBQ?rlkey=a0g8x3xwlo59m0zq3ujtutxdv&dl=0'
   },
   {
     title: 'Mentorship & Internship',
     description: '3D Design, Digital Marketing',
     image: 'https://ideogram.ai/assets/progressive-image/balanced/response/09LcPG7PRxGeZcvjVrMTNQ',
-    link: '/projects/mentorship-internship'
+    link: '/services/mentorship-internship'
   }
 ];
 
