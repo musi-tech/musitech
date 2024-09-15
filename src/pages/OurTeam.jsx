@@ -2,19 +2,20 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
-// Sample data for team members
+// Sample data for team member
 const teamMembers = [
-  { name: 'Shubham Kshetre', title: 'Cloud Engineer', image: 'https://shorturl.at/N7yqC' },
+  { name: 'Aditya Jadhav', title: 'Managing Director', image: require('../assets/images/Adi.PNG') },
+  { name: 'Shubham Kshetre', title: 'Cloud Engineer', image: require('../assets/images/Shubham.JPG') },
   { name: 'Raj Raut', title: 'Devops Engineer', image: 'https://shorturl.at/SxOOi' },
-  { name: 'Sayuri Kamble', title: 'Full-Stack Developer', image: 'https://shorturl.at/mGawO' },
+  { name: 'Sayuri Kamble', title: 'Web Solution Architech', image: require('../assets/images/sayuri.JPG') },
   { name: 'Athrava Ralegankar', title: 'Full-Stack Developer', image: 'https://shorturl.at/3IrTo' },
-  { name: 'Abhishek Katale', title: 'Frontend Developer', image: 'https://shorturl.at/WjwY0' },
-  { name: 'Saurabh Thakur', title: 'Product Designer', image: 'https://rb.gy/qeqc7j' },
-  { name: 'Ghanshyam Kadam', title: 'Graphic Designer', image: 'https://rb.gy/4fht3q' },
+  { name: 'Abhishek Katale', title: ' UI/UX Frontend Developer', image: 'https://shorturl.at/WjwY0' },
+  { name: 'Saurabh Thakur', title: 'Creative Analyst', image: 'https://rb.gy/qeqc7j' },
+  { name: 'Ghanshyam Kadam', title: 'Visual Designer', image: 'https://rb.gy/4fht3q' },
   { name: 'Pratik Mahalle', title: 'System Administrator', image: 'https://rb.gy/1zur1v' },
-  { name: 'Prathamesh Pichkate', title: 'Frontend Developer', image: 'https://rb.gy/wwdbvl' },
   { name: 'Varun Nigde', title: 'Content Producer', image: 'https://rb.gy/m2kcmv' },
 ];
+
 
 const MeetourTeam = () => {
   return (

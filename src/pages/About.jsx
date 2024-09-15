@@ -6,7 +6,6 @@ import CompanyHistorySection from '../components/CompanyHistorySection.jsx';
 import OurValuesSection from '../components/OurValuesSection.jsx';
 import MissionSection from '../components/MissionSection.jsx';
 import { motion } from 'framer-motion';
-import SocialLinks from '../components/SocialLinks.jsx';
 
 const AboutUs = () => (
   <>
@@ -30,7 +29,6 @@ const AboutUs = () => (
 
 
         <FounderSection />
-        <SocialLinks />
         <CompanyHistorySection />
         <OurValuesSection />
         <MissionSection />

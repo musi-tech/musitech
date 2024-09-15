@@ -9,16 +9,10 @@ import { GiArtificialIntelligence } from 'react-icons/gi';
 const internshipTopics = [
   { title: 'Cloud Internship', icon: <FaCloud className="text-green-500 text-6xl" />, syllabusLink: 'https://drive.google.com/uc?export=download&id=YOUR_FILE_ID_CLOUD', brochureLink: 'https://drive.google.com/uc?export=download&id=YOUR_FILE_ID_CLOUD' },
   { title: 'Frontend Internship', icon: <FaCode className="text-green-500 text-6xl" />, syllabusLink: 'https://drive.google.com/uc?export=download&id=YOUR_FILE_ID_FRONTEND', brochureLink: 'https://drive.google.com/uc?export=download&id=YOUR_FILE_ID_FRONTEND' },
-  { title: 'Cybersecurity Internship', icon: <SiCyberdefenders className="text-green-500 text-6xl" />, syllabusLink: 'https://drive.google.com/uc?export=download&id=YOUR_FILE_ID_CYBERSECURITY', brochureLink: 'https://drive.google.com/uc?export=download&id=YOUR_FILE_ID_CYBERSECURITY', comingSoon: true },
   { title: 'DevOps', icon: <FaCloud className="text-green-500 text-6xl" />, syllabusLink: 'https://drive.google.com/uc?export=download&id=YOUR_FILE_ID_DEVOPS', brochureLink: 'https://drive.google.com/uc?export=download&id=YOUR_FILE_ID_DEVOPS', comingSoon: true },
-  { title: 'Backend Internship', icon: <FaDatabase className="text-green-500 text-6xl" />, syllabusLink: 'https://drive.google.com/uc?export=download&id=YOUR_FILE_ID_BACKEND', brochureLink: 'https://drive.google.com/uc?export=download&id=YOUR_FILE_ID_BACKEND', comingSoon: true },
-  { title: 'Data Science Internship', icon: <GiArtificialIntelligence className="text-green-500 text-6xl" />, syllabusLink: 'https://drive.google.com/uc?export=download&id=YOUR_FILE_ID_DATA_SCIENCE', brochureLink: 'https://drive.google.com/uc?export=download&id=YOUR_FILE_ID_DATA_SCIENCE', comingSoon: true },
   { title: 'Full Stack Internship', icon: <FaCode className="text-green-500 text-6xl" />, syllabusLink: 'https://drive.google.com/uc?export=download&id=YOUR_FILE_ID_FULL_STACK', brochureLink: 'https://drive.google.com/uc?export=download&id=YOUR_FILE_ID_FULL_STACK', comingSoon: true },
-  { title: 'Graphics Internship', icon: <FaPencilAlt className="text-green-500 text-6xl" />, syllabusLink: 'https://drive.google.com/uc?export=download&id=YOUR_FILE_ID_GRAPHICS', brochureLink: 'https://drive.google.com/uc?export=download&id=YOUR_FILE_ID_GRAPHICS', comingSoon: true },
- // New Internships
- { title: 'Data Structures & Algorithms', icon: <FaCode className="text-green-500 text-6xl" />, syllabusLink: 'https://drive.google.com/uc?export=download&id=YOUR_FILE_ID_DSA', brochureLink: 'https://drive.google.com/uc?export=download&id=YOUR_FILE_ID_DSA', comingSoon: true },
- { title: 'AI & ML Internship', icon: <GiArtificialIntelligence className="text-green-500 text-6xl" />, syllabusLink: 'https://drive.google.com/uc?export=download&id=YOUR_FILE_ID_AI_ML', brochureLink: 'https://drive.google.com/uc?export=download&id=YOUR_FILE_ID_AI_ML', comingSoon: true },
- { title: 'Data Engineer Internship', icon: <FaDatabase className="text-green-500 text-6xl" />, syllabusLink: 'https://drive.google.com/uc?export=download&id=YOUR_FILE_ID_DATA_ENGINEER', brochureLink: 'https://drive.google.com/uc?export=download&id=YOUR_FILE_ID_DATA_ENGINEER' , comingSoon: true},
+  { title: 'Video Editing & Graphic Design', icon: <FaPencilAlt className="text-green-500 text-6xl" />, syllabusLink: 'https://drive.google.com/uc?export=download&id=YOUR_FILE_ID_GRAPHICS', brochureLink: 'https://drive.google.com/uc?export=download&id=YOUR_FILE_ID_GRAPHICS', comingSoon: true },
+  { title: 'Data Structures & Algorithms', icon: <FaCode className="text-green-500 text-6xl" />, syllabusLink: 'https://drive.google.com/uc?export=download&id=YOUR_FILE_ID_DSA', brochureLink: 'https://drive.google.com/uc?export=download&id=YOUR_FILE_ID_DSA', comingSoon: true },
 ];
 
 
@@ -64,7 +58,7 @@ const InternshipProgramPage = () => {
                     </div>
                     <h3 className="text-2xl font-semibold text-gray-900 mb-2">{topic.title}</h3>
                     <p className="text-gray-700 mb-4">
-                      Learn and grow in the field of {topic.title}. Gain valuable experience and enhance your skills with our comprehensive internship program.
+                      Learn and grow in the field of {topic.title}. valuable experience & enhance your skills with our comprehensive internship program.
                     </p>
                     <div className="flex flex-col gap-4">
                       <a
