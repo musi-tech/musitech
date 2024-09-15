@@ -21,6 +21,8 @@ import ShippingDeliveryPolicy from './pages/ShippingDeliveryPolicy.jsx';
 import CancellationRefundPolicy from './pages/CancellationRefundPolicy.jsx';
 import PolicyPages from './pages/PolicyPages.jsx';
 import ContactUs from './pages/ContactUs.jsx';
+import Razorpay from './pages/Razorpay.jsx';
+
 
 
 
@@ -46,6 +48,7 @@ function App() {
         <Route path='/cancellation-refund' element={<CancellationRefundPolicy />} />
         <Route path="/privacy-policy" element={<PolicyPages />} />
         <Route path="/contact-us" element={<ContactUs />} />
+        <Route path="/razorpay" element={<Razorpay />} />
       </Routes>
     </Router>
   );
