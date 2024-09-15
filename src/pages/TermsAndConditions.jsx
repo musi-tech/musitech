@@ -119,23 +119,7 @@ const TermsOfUse = () => {
                             <li>No Guarantee: MusiTech provides the website and Services on an "as is" and "as available" basis without any warranty or guarantee of any kind, either express or implied.</li>
                             <li>Indemnification: You agree to indemnify, defend, and hold harmless MusiTech and its officers, directors, employees, and agents from any claims, liabilities, damages, or expenses arising out of your use of the website or Services.</li>
                         </ul>
-                        <h3 className="text-xl font-semibold text-gray-800 mb-4">9. Indemnification</h3>
-                        <p className="text-gray-700 mb-4">
-                            You agree to indemnify, defend, and hold harmless MusiTech, its officers, directors, employees, and agents, from and against any claims, liabilities, damages, losses, and expenses, including but not limited to legal fees, arising out of or in any way connected with your access to or use of the website and Services.
-                        </p>
-                        <ul className="list-disc list-inside text-gray-700 mb-6">
-                            <li>Third-Party Claims: This indemnification obligation includes any claims made by third parties arising from your use of the website or Services, your violation of these Terms, or your infringement of any intellectual property or other rights of any person or entity.</li>
-                            <li>Cooperation: You agree to cooperate fully with MusiTech in the defense of any claim that is the subject of your indemnification obligations.</li>
-                        </ul>
-
-                        <h3 className="text-xl font-semibold text-gray-800 mb-4">10. Governing Law and Jurisdiction</h3>
-                        <p className="text-gray-700 mb-4">
-                            These Terms shall be governed by and construed in accordance with the laws of the jurisdiction in which MusiTech is registered, without regard to its conflict of law principles.
-                        </p>
-                        <ul className="list-disc list-inside text-gray-700 mb-6">
-                            <li>Jurisdiction: You agree to submit to the exclusive jurisdiction of the courts in the jurisdiction where MusiTech is registered.</li>
-                        </ul>
-
+                        
 
 
                         {/* Add other sections similarly... */}
