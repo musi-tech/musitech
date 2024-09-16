@@ -1,6 +1,6 @@
 import { FaLinkedinIn, FaInstagram, FaFacebookF } from 'react-icons/fa';
 import { FaX } from 'react-icons/fa6'; // Example placeholder for Twitter's "X" logo
-import Logo from './../assets/images/logo.png'; // Ensure the path is correct
+import Logo from './../assets/images/logo.svg'; // Ensure the path is correct
 
 const Footer = () => {
   return (

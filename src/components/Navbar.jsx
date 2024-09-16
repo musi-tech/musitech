@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { FaBars, FaTimes, FaHome, FaInfoCircle, FaServicestack, FaUsers, FaBriefcase } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
-import Logo from './../assets/images/logo.png'; // Use ES6 import syntax
+import Logo from './../assets/images/logo.svg'; // Use ES6 import syntax
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
