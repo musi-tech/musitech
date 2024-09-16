@@ -104,6 +104,7 @@ const ContentCreationPage = () => {
               </div>
             </div>
           </section>
+          
 
           <section className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-8">Trusted By</h2>
