@@ -13,13 +13,13 @@ import Slider from 'react-slick';
 import logo1 from '../assets/images/AAgamingg.png';
 import logo2 from '../assets/images/Aspire.png';
 import logo3 from '../assets/images/pdea2.svg';
-import logo4 from '../assets/images/hespro.svg';
+import logo4 from '../assets/images/hespro1.jpg';
 import logo5 from '../assets/images/hotel.jpg';
 import logo6 from '../assets/images/pdea3.svg';
 import logo7 from '../assets/images/cade.png';
 import logo8 from '../assets/images/puneridd.png';
 import logo9 from '../assets/images/pdea3.svg';
-import logo10 from '../assets/images/hespro.svg';
+import logo10 from '../assets/images/hespro1.jpg';
 
 const slickSettings = {
   dots: true,
@@ -77,7 +77,7 @@ const Home = () => {
                     <img
                       src={logo}
                       alt={`Logo ${index + 1}`}
-                      className="object-contain w-48 h-28"  // Increased size of logos
+                      className="object-contain w-64 h-36"  // Increased size of logos
                     />
                   </div>
                 </div>
