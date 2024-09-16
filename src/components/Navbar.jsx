@@ -73,11 +73,11 @@ const Navbar = () => {
           {/* Call-to-Action Button */}
           <li className={`${isOpen ? 'text-center mb-6' : ''}`}>
             <Link
-              to="https://wa.me/7822827875"
+              to='/Services/Mentorship-Internship'
               className="bg-green-500 text-primary block py-2 px-4 rounded hover:bg-opacity-80 transition-opacity duration-300 ease-in-out lg:py-2 lg:px-4"
               onClick={() => setIsOpen(false)}
             >
-              Let’s Talk 👋
+              MusiMatrix 1.0 👋
             </Link>
           </li>
         </ul>

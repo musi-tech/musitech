@@ -4,31 +4,31 @@ import { Link } from 'react-router-dom';
 const projects = [
   {
     title: 'Web Development',
-    description: 'Book art design, Web Development, Graphic Design',
+    description: 'Building innovative websites that inspire and engage.',
     image: 'https://ideogram.ai/assets/progressive-image/balanced/response/ZsKybphBTdC91mDqh59VEg',
     link: 'https://notevid.vercel.app/'
   },
   {
     title: 'Digital Marketing',
-    description: 'Digital Marketing, Videography',
+    description: 'Empowering brands with creative digital strategies.',
     image: 'https://ideogram.ai/assets/progressive-image/balanced/response/3KJduscSQriZyzk6gQd7Zw',
     link: 'https://www.dropbox.com/scl/fo/72qzlsxjbh18ihdb4zbx7/AJKXPzYxGmpNVvrxgr0LUBQ?rlkey=a0g8x3xwlo59m0zq3ujtutxdv&dl=0'
   },
   {
     title: 'Content Creation',
-    description: 'Graphic Design, 3D Digital Art',
+    description: 'Transforming ideas into captivating visual stories.',
     image: 'https://ideogram.ai/assets/progressive-image/balanced/response/Dp3uvAmcR1OkXVLne3DHmw',
     link: 'https://drive.google.com/file/d/1Y-4tW0iy8VRnDbnlNzFNeSZ7jYOvoB0E/view?usp=sharing'
   },
   {
     title: 'Social Media Management',
-    description: 'Web Design, Mobile App Design',
+    description: 'Enhancing online presence through smart design and strategy.',
     image: 'https://ideogram.ai/assets/progressive-image/balanced/response/A06-6ZIiRpylGpU_K0fLIA',
     link: 'https://www.dropbox.com/scl/fo/72qzlsxjbh18ihdb4zbx7/AJKXPzYxGmpNVvrxgr0LUBQ?rlkey=a0g8x3xwlo59m0zq3ujtutxdv&dl=0'
   },
   {
-    title: 'Mentorship & Internship',
-    description: '3D Design, Digital Marketing',
+    title: 'Training & Internship',
+    description: 'Empowering future leaders with practical skills and hands-on industry experience.',
     image: 'https://ideogram.ai/assets/progressive-image/balanced/response/09LcPG7PRxGeZcvjVrMTNQ',
     link: '/services/mentorship-internship'
   }
