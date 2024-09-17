@@ -11,19 +11,19 @@ const ContactUs = () => {
             <div className="min-h-screen flex items-center justify-center bg-white-900">
                 <div className="container mx-auto p-4">
                     <motion.div
-                        className="bg-gray-500 text-white rounded-lg shadow-lg flex"
+                        className="bg-gray-500 text-white rounded-lg shadow-lg flex flex-col md:flex-row"
                         initial={{ opacity: 0, y: 50 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.8, ease: 'easeInOut' }}
                     >
                         {/* Left Section - Form */}
                         <motion.div
-                            className="w-1/2 p-8"
+                            className="w-full md:w-1/2 p-4 sm:p-6 md:p-8"
                             initial={{ x: -100, opacity: 0 }}
                             animate={{ x: 0, opacity: 1 }}
                             transition={{ duration: 0.8, ease: 'easeOut' }}
                         >
-                            <h2 className="text-3xl font-semibold mb-6">Send us a message</h2>
+                            <h2 className="text-2xl sm:text-3xl font-semibold mb-6">Send us a message</h2>
                             <form>
                                 <div className="mb-4">
                                     <label className="block text-gray-400 mb-2" htmlFor="name">
@@ -99,15 +99,15 @@ const ContactUs = () => {
                         </motion.div>
                         {/* Right Section - Contact Info */}
                         <motion.div
-                            className="w-1/2 p-8 bg-green-500 flex flex-col items-center justify-center"
+                            className="w-full md:w-1/2 p-4 sm:p-6 md:p-8 bg-green-500 flex flex-col items-center justify-center"
                             initial={{ x: 100, opacity: 0 }}
                             animate={{ x: 0, opacity: 1 }}
                             transition={{ duration: 0.8, ease: 'easeOut' }}
                         >
-                            <h3 className="text-2xl font-semibold mb-6">Contact Information</h3>
+                            <h3 className="text-xl sm:text-2xl font-semibold mb-6">Contact Information</h3>
                             <div className="text-center">
                                 <span className="text-4xl">📧</span>
-                                <p className="text-xl mt-2">contact@musitech.in</p>
+                                <p className="text-lg sm:text-xl mt-2">contact@musitech.in</p>
                             </div>
                             <div className="flex mt-4 space-x-4">
                                 <a href="#" className="text-white hover:text-gray-200">🎥</a>
