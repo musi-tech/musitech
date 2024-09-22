@@ -14,10 +14,10 @@ const faqs = [
 ];
 
 const testimonials = [
-  { name: 'Jane Doe', image: 'https://shorturl.at/SxOOi', role: 'Software Engineer', testimonial: 'The mentorship program at MusiTech was an invaluable experience. I gained insights and guidance that greatly contributed to my career development.' },
-  { name: 'John Smith', image: 'https://shorturl.at/SxOOi', role: 'Marketing Specialist', testimonial: 'The internship program was incredibly well-organized and provided real-world experience that helped me secure a full-time position.' },
-  { name: 'Emily Johnson', image: 'https://shorturl.at/SxOOi', role: 'Content Creator', testimonial: 'MusiTech’s programs are top-notch. The mentorship I received helped me refine my skills and the internship gave me hands-on experience in my field.' },
-  { name: 'Michael Brown', image: 'https://shorturl.at/SxOOi', role: 'Project Manager', testimonial: 'Participating in MusiTech’s internship program was a game-changer for my career. The experience and networking opportunities were exceptional.' },
+  { name: 'Arnav Kulkarni', image: 'https://shorturl.at/5HOM0', role: 'AWS Intern', testimonial: 'The mentorship program at MusiTech was an invaluable experience. I gained insights and guidance that greatly contributed to my career development.' },
+  { name: 'Abhishek Kaware', image: 'https://shorturl.at/1zAc4', role: 'Web Developer Intern', testimonial: 'The internship program was incredibly well-organized and provided real-world experience that helped me secure a full-time position.' },
+  { name: 'Pradip Girhe', image: 'https://shorturl.at/Ukc0I', role: 'AWS Intern', testimonial: 'MusiTech’s programs are top-notch. The mentorship I received helped me refine my skills and the internship gave me hands-on experience in my field.' },
+  { name: ' Bhushan Sawarkar', image: 'https://shorturl.at/uqeQ8', role: 'Web Developer Intern', testimonial: 'Participating in MusiTech’s internship program was a game-changer for my career. The experience and networking opportunities were exceptional.' },
 ];
 
 const MentorshipAndInternshipPage = () => {
