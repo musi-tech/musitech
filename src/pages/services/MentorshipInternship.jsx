@@ -92,7 +92,7 @@ const MentorshipAndInternshipPage = () => {
                   </div>
 
                   {/* Price */}
-                  <div className="text-2xl font-bold text-green-600 mb-4">₹ 999/-</div>
+                  <div className="text-2xl font-bold text-green-600 mb-4">FREE</div>
 
                   {/* Call-to-Action Button */}
                   <a href="/Razorpay" target="_blank" rel="noopener noreferrer">
@@ -135,7 +135,7 @@ const MentorshipAndInternshipPage = () => {
                   </div>
 
                   {/* Price */}
-                  <div className="text-2xl font-bold text-green-600 mb-4">₹ 999/-</div>
+                  <div className="text-2xl font-bold text-green-600 mb-4">FREE</div>
 
                   {/* Call-to-Action Button */}
                   <a href="/Razorpay" target="_blank" rel="noopener noreferrer">
