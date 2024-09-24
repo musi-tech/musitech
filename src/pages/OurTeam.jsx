@@ -10,9 +10,9 @@ const teamMembers = [
   { name: 'Shubham Kshetre', title: 'Cloud Engineer', image: require('../assets/images/Shubham.jpg'), linkedin: 'https://www.linkedin.com/in/shubhamkshetre/' },
   { name: 'Raj Raut', title: 'DevOps Engineer', image: 'https://shorturl.at/SxOOi', linkedin: 'https://www.linkedin.com/in/raj-raut-devops/' },
   { name: 'Athrava Ralegankar', title: 'Full-Stack Developer', image: 'https://shorturl.at/3IrTo', linkedin: 'https://www.linkedin.com/in/atharvaralegankar/' },
-  { name: 'Abhishek Katale', title: 'UI/UX Frontend Developer', image: require('../assets/images/abhii.JPG'), linkedin: 'https://www.linkedin.com/in/abhishek-katale/' },
+  { name: 'Abhishek Katale', title: 'UI/UX Developer', image: require('../assets/images/abhii.JPG'), linkedin: 'https://www.linkedin.com/in/abhishek-katale/' },
   { name: 'Saurabh Thakur', title: 'Creative Analyst', image: 'https://rb.gy/qeqc7j', linkedin: 'https://www.linkedin.com/in/saurabh36/' },
-  { name: 'Ghanshyam Kadam', title: 'Visual Designer', image: 'https://rb.gy/4fht3q', linkedin: 'https://www.linkedin.com/in/ghanashyamkadam/' },
+  { name: 'Ghanshyam Kadam', title: 'Visual Designer', image: require('../assets/images/shyam.JPG'), linkedin: 'https://www.linkedin.com/in/ghanashyamkadam/' },
   { name: 'Pratik Mahalle', title: 'DevRel', image: require('../assets/images/pratik.JPG'), linkedin: 'https://www.linkedin.com/in/mahalle-pratik/' },
   { name: 'Varun Nigde', title: 'Content Producer', image: 'https://rb.gy/m2kcmv', linkedin: 'https://www.linkedin.com/in/varunnigade18/' },
 ];
