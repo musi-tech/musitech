@@ -30,8 +30,8 @@ const RazorpayPayment = () => {
         }
 
         const options = {
-            key: "YOUR_RAZORPAY_KEY_ID", // Replace with your actual Razorpay Key ID
-            amount: 1000 * 100, // Amount is in paise (example: 1000 paise = 10 INR)
+            key: process.env.REACT_APP_RAZORPAY_KEY, // Replace with your actual Razorpay Key ID
+            amount: 100 * 1, // Amount is in paise (example: 1000 paise = 10 INR)
             currency: "INR",
             name: "Test Payment",
             description: "This is a test payment",
