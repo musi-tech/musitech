@@ -66,7 +66,7 @@ const Navbar = () => {
               className="py-2 px-4 lg:py-0 lg:px-4 text-black hover:text-green-500 transition-colors duration-300 ease-in-out flex items-center"
               onClick={() => setIsOpen(false)}
             >
-              <FaBriefcase className="mr-2" /> Work With Us
+              <FaBriefcase className="mr-2" /> Contact Us
             </Link>
           </li>
 
@@ -77,7 +77,7 @@ const Navbar = () => {
               className="bg-green-500 text-primary block py-2 px-4 rounded hover:bg-opacity-80 transition-opacity duration-300 ease-in-out lg:py-2 lg:px-4"
               onClick={() => setIsOpen(false)}
             >
-              MusiMatrix 1.0
+              MusiTrix 1.0
             </Link>
           </li>
         </ul>
