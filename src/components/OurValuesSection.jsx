@@ -8,7 +8,7 @@ const cardVariants = {
 
 const OurValuesSection = () => (
   <motion.div
-    className="mb-12 px-6 py-8 bg-gray-50 shadow-md rounded-lg"
+    className="mb-12 px-6 py-8 bg-gray-100 shadow-md rounded-lg"
     initial={{ opacity: 0 }}
     animate={{ opacity: 1 }}
     transition={{ duration: 0.8 }}

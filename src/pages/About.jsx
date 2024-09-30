@@ -23,7 +23,7 @@ const AboutUs = () => (
             Welcome to MusiTech!
           </h1>
           <p className="text-lg text-gray-700">
-            At MusiTech, we're dedicated to propelling our clients' businesses forward. As a leading firm based in Pune, Maharashtra, India, we specialize in Development, DevOps, Digital Production, and Marketing. Our team is passionate about creating innovative solutions that amplify your brand's presence and drive extensive results.
+            At MusiTech, we're dedicated to propelling our clients' businesses forward. As a leading firm based in Pune, Maharashtra, India, we specialize in Development, Digital Production, and Marketing. Our team is passionate about creating innovative solutions that amplify your brand's presence and drive extensive results.
           </p>
         </motion.div>
 

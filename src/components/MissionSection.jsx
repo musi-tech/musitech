@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 const MissionSection = () => (
   <motion.div
-    className="text-center mb-12 px-6 py-8 bg-gray-50 shadow-lg rounded-lg"
+    className="text-center mb-12 px-6 py-8 bg-gray-100 shadow-lg rounded-lg"
     initial={{ opacity: 0, y: 50 }}
     animate={{ opacity: 1, y: 0 }}
     transition={{ duration: 0.8 }}
