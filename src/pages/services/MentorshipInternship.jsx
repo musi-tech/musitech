@@ -14,10 +14,10 @@ const faqs = [
 ];
 
 const testimonials = [
-  { name: 'Arnav Kulkarni', image: 'https://shorturl.at/5HOM0', role: 'AWS Intern', testimonial: 'The mentorship program at MusiTech was an invaluable experience. I gained insights and guidance that greatly contributed to my career development.' },
-  { name: 'Abhishek Kaware', image: 'https://shorturl.at/1zAc4', role: 'Web Developer Intern', testimonial: 'The internship program was incredibly well-organized and provided real-world experience that helped me secure a full-time position.' },
-  { name: 'Pradip Girhe', image: 'https://shorturl.at/Ukc0I', role: 'AWS Intern', testimonial: 'MusiTech’s programs are top-notch. The mentorship I received helped me refine my skills and the internship gave me hands-on experience in my field.' },
-  { name: ' Bhushan Sawarkar', image: 'https://shorturl.at/uqeQ8', role: 'Web Developer Intern', testimonial: 'Participating in MusiTech’s internship program was a game-changer for my career. The experience and networking opportunities were exceptional.' },
+  { name: 'Arnav Kulkarni', image: require('../../assets/images/arnav.jpeg'), role: 'AWS Intern', testimonial: 'The mentorship program at MusiTech was an invaluable experience. I gained insights and guidance that greatly contributed to my career development.' },
+  { name: 'Abhishek Kaware', image: require('../../assets/images/abhishek.jpeg'), role: 'Web Developer Intern', testimonial: 'The internship program was incredibly well-organized and provided real-world experience that helped me secure a full-time position.' },
+  { name: 'Pradip Girhe', image: require('../../assets/images/pradip.jpeg'), role: 'AWS Intern', testimonial: 'MusiTech’s programs are top-notch. The mentorship I received helped me refine my skills and the internship gave me hands-on experience in my field.' },
+  { name: ' Bhushan Sawarkar', image: require('../../assets/images/bhushan.jpeg'), role: 'Web Developer Intern', testimonial: 'Participating in MusiTech’s internship program was a game-changer for my career. The experience and networking opportunities were exceptional.' },
 ];
 
 const MentorshipAndInternshipPage = () => {
@@ -84,7 +84,7 @@ const MentorshipAndInternshipPage = () => {
                   </div>
 
                   <div className="flex items-center mb-6">
-                    <img src="https://shorturl.at/SxOOi" alt="Instructor" className="w-12 h-12 rounded-full mr-4" />
+                    <img src={require('./../../assets/images/raj.jpeg')}  alt="Instructor" className="w-12 h-12 rounded-full mr-4" />
                     <div>
                       <p className="text-gray-900 font-semibold">Raj Raut</p>
                       <p className="text-gray-500 text-sm">Instructor</p>

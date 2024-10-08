@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 // Sample image URL for the founder
-const founderImage = 'https://shorturl.at/WF67M';
+const founderImage = require('../assets/images/Adi.PNG');
 
 const FounderSection = () => (
   <motion.div
