@@ -18,7 +18,7 @@ const projects = [
     title: 'Content Creation',
     description: 'Transforming ideas into captivating visual stories.',
     image: 'https://ideogram.ai/assets/progressive-image/balanced/response/Dp3uvAmcR1OkXVLne3DHmw',
-    link: 'https://drive.google.com/file/d/1Y-4tW0iy8VRnDbnlNzFNeSZ7jYOvoB0E/view?usp=sharing'
+    link: 'https://www.dropbox.com/scl/fo/uhbrneo9tefgsrf7n65tq/AGHDtkJ_UfS2UoM4zWVIjXA?rlkey=sup1qus9dg4c2ptny7jl66vwz&st=bukblvkk&dl=0'
   },
   {
     title: 'Social Media Management',
