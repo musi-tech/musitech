@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import ScrollToTop from './ScrollToTop';
 import Home from './pages/Home';
 import Services from './pages/Services';
 import About from './pages/About';
@@ -29,6 +30,7 @@ import Razorpay from './pages/Razorpay.jsx';
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/services" element={<Services />} />
