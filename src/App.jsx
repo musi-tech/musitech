@@ -29,7 +29,7 @@ import Razorpay from './pages/Razorpay.jsx';
 
 function App() {
   return (
-    <Router>
+    <>
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -52,7 +52,8 @@ function App() {
         <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/razorpay" element={<Razorpay />} />
       </Routes>
-    </Router>
+
+      </>
   );
 }
 
