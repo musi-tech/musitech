@@ -7,6 +7,16 @@ import Navbar from '../../components/Navbar';
 import Footer from '../../components/Footer';
 import Slider from 'react-slick';
 
+import logo1 from '../../assets/images/AAgamingg.png';
+import logo2 from '../../assets/images/Aspire.png';
+import logo3 from '../../assets/images/pdea2.svg';
+import logo4 from '../../assets/images/hespro1.jpg';
+import logo5 from '../../assets/images/hotel.jpg';
+import logo6 from '../../assets/images/pdea3.svg';
+import logo7 from '../../assets/images/cade.png';
+import logo8 from '../../assets/images/puneridd.png';
+import logo9 from '../../assets/images/shree.jpg';
+
 const faqs = [
   { question: 'What is included in your content creation services?', answer: 'Our content creation services cover a range of formats including blog posts, videos, infographics, and social media content. We aim to create engaging content that resonates with your audience.' },
   { question: 'How do you ensure content quality?', answer: 'We follow a thorough process that includes research, planning, creation, and review. Our team of experienced writers, designers, and videographers ensures high-quality content tailored to your brand.' },
@@ -107,26 +117,23 @@ const ContentCreationPage = () => {
           
 
           <section className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-8">Trusted By</h2>
-            <div className="relative">
-              <Slider {...slickSettings} className="py-4">
-                {[...Array(10)].map((_, index) => (
-                  <div
-                    key={index}
-                    className="flex-shrink-0 p-4"
-                  >
-                    <div className="bg-gray-200 rounded-lg flex items-center justify-center p-2">
-                      <img
-                        src="https://via.placeholder.com/150x50?text=Logo"
-                        alt={`Logo ${index}`}
-                        className="object-cover w-full h-full rounded-lg"
-                      />
-                    </div>
-                  </div>
-                ))}
-              </Slider>
-            </div>
-          </section>
+  <h2 className="text-4xl font-bold text-gray-900 mb-8">Trusted By</h2>
+  <div className="relative">
+    <Slider {...slickSettings} className="py-4">
+      {[logo1, logo2, logo3, logo4, logo5, logo6, logo7, logo8, logo9].map((logo, index) => (
+        <div key={index} className="flex-shrink-0 px-4">
+          <div className="flex items-center justify-center p-4 bg-white shadow-md rounded-lg">
+            <img
+              src={logo}
+              alt={`Logo ${index + 1}`}
+              className="object-contain w-48 h-32" /* Adjusted width and height for proper scaling */
+            />
+          </div>
+        </div>
+      ))}
+    </Slider>
+  </div>
+</section>
 
           <section className="py-16 px-6 lg:px-12">
             <div className="container mx-auto text-center">
