@@ -1,11 +1,21 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { FaArrowUp, FaArrowDown } from 'react-icons/fa';
-import { FaCode, FaRocket, FaLaptopCode, FaRegLightbulb } from 'react-icons/fa';
+import { FaArrowUp, FaArrowDown, FaCode, FaRocket, FaLaptopCode, FaRegLightbulb } from 'react-icons/fa';
 import { IoLogoWhatsapp } from 'react-icons/io';
 import Navbar from '../../components/Navbar';
 import Footer from '../../components/Footer';
 import Slider from 'react-slick';
+
+// Move all imports to the top of the file
+import logo1 from '../../assets/images/AAgamingg.png';
+import logo2 from '../../assets/images/Aspire.png';
+import logo3 from '../../assets/images/pdea2.svg';
+import logo4 from '../../assets/images/hespro1.jpg';
+import logo5 from '../../assets/images/hotel.jpg';
+import logo6 from '../../assets/images/pdea3.svg';
+import logo7 from '../../assets/images/cade.png';
+import logo8 from '../../assets/images/puneridd.png';
+import logo9 from '../../assets/images/shree.jpg';
 
 const faqs = [
   { question: 'What is included in your web development services?', answer: 'Our web development services include everything from initial consultation to the final launch of your website. We cover UI/UX design, front-end and back-end development, and ongoing maintenance.' },
@@ -30,24 +40,9 @@ const WebDevelopmentPage = () => {
     autoplay: true,
     autoplaySpeed: 2000,
     responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 3,
-        },
-      },
-      {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 2,
-        },
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-        },
-      },
+      { breakpoint: 1024, settings: { slidesToShow: 3 } },
+      { breakpoint: 768, settings: { slidesToShow: 2 } },
+      { breakpoint: 480, settings: { slidesToShow: 1 } },
     ],
   };
 
@@ -106,26 +101,25 @@ const WebDevelopmentPage = () => {
           </section>
 
           <section className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-8">Trusted By</h2>
-            <div className="relative">
-              <Slider {...slickSettings} className="py-4">
-                {[...Array(10)].map((_, index) => (
-                  <div
-                    key={index}
-                    className="flex-shrink-0 p-4"
-                  >
-                    <div className="bg-gray-200 rounded-lg flex items-center justify-center p-2">
-                      <img
-                        src="https://via.placeholder.com/150x50?text=Logo"
-                        alt={`Logo ${index}`}
-                        className="object-cover w-full h-full rounded-lg"
-                      />
-                    </div>
-                  </div>
-                ))}
-              </Slider>
-            </div>
-          </section>
+  <h2 className="text-4xl font-bold text-gray-900 mb-8">Trusted By</h2>
+  <div className="relative">
+    <Slider {...slickSettings} className="py-4">
+      {[logo1, logo2, logo3, logo4, logo5, logo6, logo7, logo8, logo9].map((logo, index) => (
+        <div key={index} className="flex-shrink-0 px-4">
+          <div className="flex items-center justify-center p-4 bg-white shadow-md rounded-lg">
+            <img
+              src={logo}
+              alt={`Logo ${index + 1}`}
+              className="object-contain w-48 h-32" /* Adjusted width and height for proper scaling */
+            />
+          </div>
+        </div>
+      ))}
+    </Slider>
+  </div>
+</section>
+
+          {/* Other sections */}
 
           <section className="py-16 px-6 lg:px-12">
             <div className="container mx-auto text-center">
@@ -156,7 +150,6 @@ const WebDevelopmentPage = () => {
               </div>
             </div>
           </section>
-
           <section className="py-12 px-6 lg:px-12 text-center">
             <h2 className="text-4xl font-bold text-gray-900 mb-8">Get in Touch</h2>
             <a
@@ -177,3 +170,6 @@ const WebDevelopmentPage = () => {
 };
 
 export default WebDevelopmentPage;
+
+
+          
