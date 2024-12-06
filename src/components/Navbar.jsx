@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { FaBars, FaTimes, FaHome, FaInfoCircle, FaServicestack, FaUsers, FaBriefcase } from 'react-icons/fa';
+import { FaBars, FaTimes, FaHome, FaInfoCircle, FaServicestack, FaUsers, FaBriefcase, FaBookOpen } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import Logo from './../assets/images/logo.svg'; // Use ES6 import syntax
 
@@ -49,6 +49,15 @@ const Navbar = () => {
               onClick={() => setIsOpen(false)}
             >
               <FaServicestack className="mr-2" /> Services
+            </Link>
+          </li>
+          <li className={`${isOpen ? 'text-center mb-4' : ''}`}>
+            <Link
+              to="/Blog"
+              className="py-2 px-4 lg:py-0 lg:px-4 text-black hover:text-green-500 transition-colors duration-300 ease-in-out flex items-center"
+              onClick={() => setIsOpen(false)}
+            >
+              <FaBookOpen className="mr-2" /> Blog
             </Link>
           </li>
           <li className={`${isOpen ? 'text-center mb-4' : ''}`}>

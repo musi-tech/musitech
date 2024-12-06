@@ -1,9 +1,72 @@
-import React from 'react'
+import React from 'react';
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 
-function Blog() {
+import adImage from '../assets/images/tech.webp';
+
+
+const Blog = () => {
+  const blogPosts = [
+    {
+      id: 1,
+      title: 'Unlock Hidden Tech Skills in 2024-25: Your Path to High-Paying Jobs!',
+      description:
+        'Discover the top hidden tech skills for 2024 that can transform your career. From AI and Data Analytics to Cybersecurity and Blockchain, learn how these in-demand skills can land you salaries of ₹6 LPA to ₹1 Cr+. Start building your dream career today!',
+      author: 'Abhishek Katale',
+      date: 'December 6, 2024',
+      image: adImage,
+      link: 'https://abhishekkatale.hashnode.dev/1192-hidden-tech-skills-that-can-skyrocket-your-earnings',
+    },
+    
+  ];
+
   return (
-    <div>Blog</div>
-  )
-}
+    <>
+      <Navbar />
+      <div className="bg-gray-100 min-h-screen py-10">
+        <div className="container mx-auto px-6">
+          <h1 className="text-4xl font-bold text-gray-800 text-center mb-8">
+            MusiTech Blog
+          </h1>
+          <p className="text-center text-lg text-gray-600 mb-10">
+            Stay updated with the latest trends and insights in the music industry.
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {blogPosts.map((post) => (
+              <div
+                key={post.id}
+                className="bg-white shadow-lg rounded-lg overflow-hidden hover:shadow-xl transition-shadow duration-300"
+              >
+                <img
+                  src={post.image}
+                  alt={post.title}
+                  className="w-full h-48 object-cover"
+                />
+                <div className="p-6">
+                  <h2 className="text-xl font-semibold text-gray-800 mb-3">
+                    {post.title}
+                  </h2>
+                  <p className="text-gray-600 text-sm mb-4">{post.description}</p>
+                  <div className="flex items-center justify-between text-gray-500 text-sm">
+                    <span>By {post.author}</span>
+                    <span>{post.date}</span>
+                  </div>
+                  <a
+                    href={post.link}
+                    target="_blank"
+                    className="mt-4 inline-block w-full py-2 px-4 bg-green-500 text-white text-center rounded-md hover:bg-green-600 transition-colors"
+                  >
+                    Read More
+                  </a>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+      <Footer />
+    </>
+  );
+};
 
-export default Blog
+export default Blog;
