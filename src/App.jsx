@@ -7,6 +7,8 @@ import Features from './pages/Features';
 import OurTeam from './pages/OurTeam.jsx';
 import LetsTalk from './pages/LetsTalk';
 
+
+
 import WebDevelopment from './pages/services/WebDevelopment';
 import DigitalMarketing from './pages/services/DigitalMarketing';
 import ContentCreation from './pages/services/ContentCreation';
@@ -23,6 +25,8 @@ import CancellationRefundPolicy from './pages/CancellationRefundPolicy.jsx';
 import PolicyPages from './pages/PolicyPages.jsx';
 import ContactUs from './pages/ContactUs.jsx';
 import Razorpay from './pages/Razorpay.jsx';
+import Blog from './pages/Blog.jsx';
+
 
 
 
@@ -51,6 +55,7 @@ function App() {
         <Route path="/privacy-policy" element={<PolicyPages />} />
         <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/razorpay" element={<Razorpay />} />
+        <Route path="/blog" element={<Blog />} />
       </Routes>
 
       </>
