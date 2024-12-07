@@ -17,6 +17,16 @@ const Blog = () => {
       image: adImage,
       link: '/blogs/unlock-hidden-techskills-2024',
     },
+    {
+      id: 2,
+      title: 'Elon Musk’s Grok AI Goes Free: A Bold Challenge to ChatGPT and Google’s Gemini',
+      description:
+        'Discover how Elon Musk’s Grok AI is revolutionizing the AI industry! Learn about its groundbreaking features, free access for all, and how it challenges OpenAI’s ChatGPT and Google’s Gemini. Dive into the future of AI innovation with insights into Grok’s unique offerings and the bold vision reshaping technology worldwide.',
+      author: 'Abhishek Katale',
+      date: 'December 7, 2024',
+      image: 'https://assets-news-bcdn.dailyhunt.in/cmd/resize/1060x596_90/fetchdata20/images/3d/4c/c8/3d4cc88a27cfce29dab98a63058bc734e914d225dd6df17879903d2192c19e00.jpg',
+      link: '/blogs/elon-musks-grok-ai-goes-free',
+    },
     
   ];
 

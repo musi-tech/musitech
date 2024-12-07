@@ -1,3 +1,8 @@
+
+
+
+
+
 import React from "react";
 import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
@@ -51,7 +56,7 @@ const BlogArticle = () => {
                         alt="In-demand tech skills for 2024"
                         className="mx-auto w-full max-w-3xl mb-6 rounded-lg shadow-lg"
                     />
-                    <h1 className="text-4xl md:text-5xl font-bold text-blue-600">
+                    <h1 className="text-4xl md:text-5xl font-bold text-green-600">
                         Unlock Hidden Tech Skills in 2024: Your Path to High-Paying Jobs!
                     </h1>
                     <p className="text-lg md:text-xl text-gray-700 mt-4">
@@ -71,7 +76,7 @@ const BlogArticle = () => {
                 </header>
                 <nav className="mb-10">
                     <h2 className="text-2xl font-bold text-gray-800 mb-4">Table of Contents</h2>
-                    <ul className="list-disc list-inside text-blue-600">
+                    <ul className="list-disc list-inside text-green-600">
                         {blogData.map((item) => (
                             <li key={item.id}>
                                 <a href={`#skill-${item.id}`} className="hover:underline">
@@ -89,7 +94,7 @@ const BlogArticle = () => {
                             key={skill.id}
                             className="mb-8 p-4 bg-white shadow-md rounded-md border border-gray-200"
                         >
-                            <h2 className="text-2xl font-semibold text-blue-600 mb-2">
+                            <h2 className="text-2xl font-semibold text-green-600 mb-2">
                                 {skill.title}
                             </h2>
                             <p className="text-gray-700 mb-2">{skill.description}</p>
@@ -102,14 +107,14 @@ const BlogArticle = () => {
                                     href="https://www.udemy.com/"
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="text-blue-500 hover:underline"
+                                    className="text-green-500 hover:underline"
                                 >
                                     Udemy
                                 </a>{" "}
                                 or explore our{" "}
                                 <a
                                     href="https://www.geeksforgeeks.org/"
-                                    className="text-blue-500 hover:underline"
+                                    className="text-green-500 hover:underline"
                                 >
                                     Resources page
                                 </a>{" "}
@@ -121,7 +126,7 @@ const BlogArticle = () => {
                                     href="https://youtu.be/Z0fZ_GIT7vo?si=_mreknm_ThtzUQQP"
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="text-blue-500 hover:underline"
+                                    className="text-green-500 hover:underline"
                                 >
                                     In-Demand Tech Skills for 2024
                                 </a>.
