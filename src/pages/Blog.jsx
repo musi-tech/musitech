@@ -11,11 +11,11 @@ const Blog = () => {
       id: 1,
       title: 'Unlock Hidden Tech Skills in 2024-25: Your Path to High-Paying Jobs!',
       description:
-        'Discover the top hidden tech skills for 2024 that can transform your career. From AI and Data Analytics to Cybersecurity and Blockchain, learn how these in-demand skills can land you salaries of ₹6 LPA to ₹1 Cr+. Start building your dream career today!',
+        'Discover the top 5 in-demand tech skills for 2024 that can unlock high-paying jobs! From AI to Blockchain, explore actionable insights, expert tips, and salary trends. Start building your future today!',
       author: 'Abhishek Katale',
       date: 'December 6, 2024',
       image: adImage,
-      link: 'https://abhishekkatale.hashnode.dev/1192-hidden-tech-skills-that-can-skyrocket-your-earnings',
+      link: '/blogs/unlock-hidden-techskills-2024',
     },
     
   ];
