@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
 import adImage from '../assets/images/tech.webp';
+import adImage1 from '../assets/images/money.webp';
 
 
 const Blog = () => {
@@ -26,6 +27,16 @@ const Blog = () => {
       date: 'December 7, 2024',
       image: 'https://assets-news-bcdn.dailyhunt.in/cmd/resize/1060x596_90/fetchdata20/images/3d/4c/c8/3d4cc88a27cfce29dab98a63058bc734e914d225dd6df17879903d2192c19e00.jpg',
       link: '/blogs/elon-musks-grok-ai-goes-free',
+    },
+    {
+      id: 2,
+      title: 'How to Make Money with AI (on the Side) in 2025: 10 Real Ways',
+      description:
+        'Alright so you’ve played around with ChatGPT… you’ve tried some other AI tools and you’re wondering about how to make money with AI. ',
+      author: 'Abhishek Katale',
+      date: 'December 8, 2024',
+      image: adImage1,
+      link: '/blogs/make-money-ai',
     },
     
   ];
