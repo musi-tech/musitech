@@ -181,8 +181,15 @@ const BlogArticle = () => {
                     Discover how Elon Musk’s Grok AI is revolutionizing the AI industry! Learn about its groundbreaking features, free access for all, and how it challenges OpenAI’s ChatGPT and Google’s Gemini. Dive into the future of AI innovation with insights into Grok’s unique offerings and the bold vision reshaping technology worldwide.
                     </p>
                    
-                    <iframe                     className="mx-auto mt-6 rounded-lg shadow-lg"
- width="560" height="315" src="https://www.youtube.com/embed/GXm4BCyNgm4?si=78io6ptNCqvepWHo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <iframe
+                            className="mx-auto mt-6 rounded-lg shadow-lg"
+                            width="350" height="215" 
+                            src="https://www.youtube.com/embed/GXm4BCyNgm4?si=78io6ptNCqvepWHo" 
+                            title="YouTube video player" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" 
+                            allowfullscreen
+                    ></iframe>
 
                 </header>
                 <nav className="mb-10">
