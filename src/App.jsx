@@ -9,6 +9,8 @@ import LetsTalk from './pages/LetsTalk';
 
 import UnlockHiddenTechSkills2024 from './pages/blogs/UnlockHiddenTechSkills2024';
 import ElonMusksGrokAIGoesFree from './pages/blogs/ElonMusksGrokAIGoesFree';
+import MakeMoneyAi from './pages/blogs/MakeMoneyAi';
+
 
 import WebDevelopment from './pages/services/WebDevelopment';
 import DigitalMarketing from './pages/services/DigitalMarketing';
@@ -39,6 +41,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/services" element={<Services />} />
+        <Route path="/blogs/make-money-ai" element={<MakeMoneyAi />} />
         <Route path="/blogs/elon-musks-grok-ai-goes-free" element={<ElonMusksGrokAIGoesFree />} />
         <Route path="/blogs/unlock-hidden-techskills-2024" element={<UnlockHiddenTechSkills2024 />} />
         <Route path="/services/web-development" element={<WebDevelopment />} />
