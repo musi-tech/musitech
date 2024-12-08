@@ -65,8 +65,8 @@ const BlogArticle = () => {
                    
                     <iframe 
                     className="mx-auto mt-6 rounded-lg shadow-lg"
-                    width="560" 
-                    height="315" 
+                    width="350" 
+                    height="215" 
                     src="https://www.youtube.com/embed/Z0fZ_GIT7vo?si=fm7lzAwOivtu6DNU" 
                     title="In-Demand Tech Skills for 2024" 
                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
