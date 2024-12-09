@@ -7,7 +7,7 @@ import Features from './pages/Features';
 import OurTeam from './pages/OurTeam.jsx';
 import LetsTalk from './pages/LetsTalk';
 
-import UnlockHiddenTechSkills2024 from './pages/blogs/UnlockHiddenTechSkills2024';
+import UnlockHiddenTechSkills2025 from './pages/blogs/UnlockHiddenTechSkills2025';
 import ElonMusksGrokAIGoesFree from './pages/blogs/ElonMusksGrokAIGoesFree';
 import MakeMoneyAi from './pages/blogs/MakeMoneyAi';
 
@@ -43,7 +43,7 @@ function App() {
         <Route path="/services" element={<Services />} />
         <Route path="/blogs/make-money-ai" element={<MakeMoneyAi />} />
         <Route path="/blogs/elon-musks-grok-ai-goes-free" element={<ElonMusksGrokAIGoesFree />} />
-        <Route path="/blogs/unlock-hidden-techskills-2024" element={<UnlockHiddenTechSkills2024 />} />
+        <Route path="/blogs/unlock-hidden-techskills-2025" element={<UnlockHiddenTechSkills2025 />} />
         <Route path="/services/web-development" element={<WebDevelopment />} />
         <Route path="/services/digital-marketing" element={<DigitalMarketing />} />
         <Route path="/services/content-creation" element={<ContentCreation />} />
