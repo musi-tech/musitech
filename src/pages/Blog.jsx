@@ -29,7 +29,17 @@ const Blog = () => {
       link: '/blogs/elon-musks-grok-ai-goes-free',
     },
     {
-      id: 2,
+      id: 3,
+      title: 'How to Make Money with AI (on the Side) in 2025: 10 Real Ways',
+      description:
+        'Alright so you’ve played around with ChatGPT… you’ve tried some other AI tools and you’re wondering about how to make money with AI. ',
+      author: 'Abhishek Katale',
+      date: 'December 8, 2024',
+      image: adImage1,
+      link: '/blogs/make-money-ai',
+    },
+    {
+      id: 4,
       title: 'How to Make Money with AI (on the Side) in 2025: 10 Real Ways',
       description:
         'Alright so you’ve played around with ChatGPT… you’ve tried some other AI tools and you’re wondering about how to make money with AI. ',
