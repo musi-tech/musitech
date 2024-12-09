@@ -10,6 +10,7 @@ import LetsTalk from './pages/LetsTalk';
 import UnlockHiddenTechSkills2025 from './pages/blogs/UnlockHiddenTechSkills2025';
 import ElonMusksGrokAIGoesFree from './pages/blogs/ElonMusksGrokAIGoesFree';
 import MakeMoneyAi from './pages/blogs/MakeMoneyAi';
+import HowMuchWorldRichestCompaniesSpendOnCEOSecurity from './pages/blogs/HowMuchWorldRichestCompaniesSpendOnCEOSecurity';
 
 
 import WebDevelopment from './pages/services/WebDevelopment';
@@ -41,6 +42,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/services" element={<Services />} />
+        <Route path="/blogs/how-much-world-richest-companies-spend-on-ceo-security" element={<HowMuchWorldRichestCompaniesSpendOnCEOSecurity />} />
         <Route path="/blogs/make-money-ai" element={<MakeMoneyAi />} />
         <Route path="/blogs/elon-musks-grok-ai-goes-free" element={<ElonMusksGrokAIGoesFree />} />
         <Route path="/blogs/unlock-hidden-techskills-2025" element={<UnlockHiddenTechSkills2025 />} />

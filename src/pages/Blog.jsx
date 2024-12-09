@@ -4,6 +4,7 @@ import Footer from '../components/Footer';
 
 import adImage from '../assets/images/tech.webp';
 import adImage1 from '../assets/images/money.webp';
+import adImage2 from '../assets/images/ceo.webp';
 
 
 const Blog = () => {
@@ -40,13 +41,13 @@ const Blog = () => {
     },
     {
       id: 4,
-      title: 'How to Make Money with AI (on the Side) in 2025: 10 Real Ways',
+      title: 'How much do companies of worlds richest people spend on their security?',
       description:
-        'Alright so you’ve played around with ChatGPT… you’ve tried some other AI tools and you’re wondering about how to make money with AI. ',
+        'Discover how much top companies like Meta, Alphabet, Tesla, and Amazon spend on security for their CEOs, including Mark Zuckerberg, Sundar Pichai, and Elon Musk, with expenses reaching millions annually. ',
       author: 'Abhishek Katale',
-      date: 'December 8, 2024',
-      image: adImage1,
-      link: '/blogs/make-money-ai',
+      date: 'December 9, 2024',
+      image: adImage2,
+      link: '/blogs/how-much-world-richest-companies-spend-on-ceo-security',
     },
     
   ];
