@@ -1,8 +1,3 @@
-
-
-
-
-
 import React from "react";
 import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
@@ -57,10 +52,10 @@ const BlogArticle = () => {
                         className="mx-auto w-full max-w-3xl mb-6 rounded-lg shadow-lg"
                     />
                     <h1 className="text-4xl md:text-5xl font-bold text-green-600">
-                        Unlock Hidden Tech Skills in 2024: Your Path to High-Paying Jobs!
+                        Unlock Hidden Tech Skills in 2025: Your Path to High-Paying Jobs!
                     </h1>
                     <p className="text-lg md:text-xl text-gray-700 mt-4">
-                        Discover cutting-edge, in-demand skills to land lucrative roles in 2024. From AI to product management, this guide empowers you with the knowledge to stay ahead.
+                        Discover cutting-edge, in-demand skills to land lucrative roles in 2025. From AI to product management, this guide empowers you with the knowledge to stay ahead.
                     </p>
                    
                     <iframe 
@@ -128,7 +123,7 @@ const BlogArticle = () => {
                                     rel="noopener noreferrer"
                                     className="text-green-500 hover:underline"
                                 >
-                                    In-Demand Tech Skills for 2024
+                                    In-Demand Tech Skills for 2025
                                 </a>.
                             </p>
                         </article>
