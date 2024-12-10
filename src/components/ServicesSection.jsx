@@ -9,7 +9,6 @@ const services = [
   { icon: <FaUsers />, title: 'Social Media Management', description: 'Effective social media strategies to grow your brand.', link: '/services/social-media-management', color: '#3D8EFC', hoverColor: '#2E236C' },
   { icon: <FaHandshake />, title: 'Training & Internship', description: 'Guidance and opportunities to nurture your talent.', link: '/services/mentorship-internship', color: '#8D5B9D', hoverColor: '#17153B' }
 ];
-
 const cardVariants = {
   hover: {
     scale: 1.05,

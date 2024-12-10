@@ -3,9 +3,9 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
 import adImage from '../assets/images/tech.webp';
-import adImage1 from '../assets/images/money.webp';
+import adImage1 from '../assets/images/art1.jpeg';
 import adImage2 from '../assets/images/ceo.webp';
-
+import adImage3 from '../assets/images/chip1.jpg';
 
 const Blog = () => {
   const blogPosts = [
@@ -13,7 +13,7 @@ const Blog = () => {
       id: 1,
       title: 'Unlock Hidden Tech Skills in 2024-25: Your Path to High-Paying Jobs!',
       description:
-        'Discover the top 5 in-demand tech skills for 2025 that can unlock high-paying jobs! From AI to Blockchain, explore actionable insights, expert tips, and salary trends. Start building your future today!',
+        'Discover the top 5 in-demand tech skills for 2025 that can unlock high-paying jobs! From AI to Blockchain, explore actionable insights, expert tips, & salary trends. Start building your future!',
       author: 'Abhishek Katale',
       date: 'December 6, 2024',
       image: adImage,
@@ -49,7 +49,16 @@ const Blog = () => {
       image: adImage2,
       link: '/blogs/how-much-world-richest-companies-spend-on-ceo-security',
     },
-    
+    {
+      id: 5,
+      title: 'Willow: Google’s Quantum Leap Towards the Future of Computing',
+      description:
+        'Discover Willow, Google’s latest breakthrough in quantum computing. With enhanced coherence time, smarter error correction, and unmatched computational power, Willow is shaping the future of technology and science. ',
+      author: 'Abhishek Katale',
+      date: 'December 10, 2024',
+      image: adImage3,
+      link: '/blogs/willow-googles-quantum-leap-towards-the-future-of-computing',
+    },
   ];
 
   return (
@@ -69,11 +78,13 @@ const Blog = () => {
                 key={post.id}
                 className="bg-white shadow-lg rounded-lg overflow-hidden hover:shadow-xl transition-shadow duration-300"
               >
-                <img
-                  src={post.image}
-                  alt={post.title}
-                  className="w-full h-48 object-cover"
-                />
+                <div className="aspect-w-16 aspect-h-9">
+                  <img
+                    src={post.image}
+                    alt={post.title}
+                    className="w-full h-full object-cover"
+                  />
+                </div>
                 <div className="p-6">
                   <h2 className="text-xl font-semibold text-gray-800 mb-3">
                     {post.title}
