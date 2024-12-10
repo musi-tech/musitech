@@ -7,6 +7,7 @@ import Features from './pages/Features';
 import OurTeam from './pages/OurTeam.jsx';
 import LetsTalk from './pages/LetsTalk';
 
+import WillowGooglesQuantumLeapTowardsTheFutureOfComputing from './pages/blogs/WillowGooglesQuantumLeapTowardsTheFutureOfComputing'
 import UnlockHiddenTechSkills2025 from './pages/blogs/UnlockHiddenTechSkills2025';
 import ElonMusksGrokAIGoesFree from './pages/blogs/ElonMusksGrokAIGoesFree';
 import MakeMoneyAi from './pages/blogs/MakeMoneyAi';
@@ -45,6 +46,7 @@ function App() {
         <Route path="/blogs/how-much-world-richest-companies-spend-on-ceo-security" element={<HowMuchWorldRichestCompaniesSpendOnCEOSecurity />} />
         <Route path="/blogs/make-money-ai" element={<MakeMoneyAi />} />
         <Route path="/blogs/elon-musks-grok-ai-goes-free" element={<ElonMusksGrokAIGoesFree />} />
+        <Route path="/blogs/willow-googles-quantum-leap-towards-the-future-of-computing" element={<WillowGooglesQuantumLeapTowardsTheFutureOfComputing />} />
         <Route path="/blogs/unlock-hidden-techskills-2025" element={<UnlockHiddenTechSkills2025 />} />
         <Route path="/services/web-development" element={<WebDevelopment />} />
         <Route path="/services/digital-marketing" element={<DigitalMarketing />} />
