@@ -6,6 +6,8 @@ import adImage from '../assets/images/tech.webp';
 import adImage1 from '../assets/images/art1.jpeg';
 import adImage2 from '../assets/images/ceo.webp';
 import adImage3 from '../assets/images/chip1.jpg';
+import adImage4 from '../assets/images/sora.webp';
+
 
 const Blog = () => {
   const blogPosts = [
@@ -58,6 +60,16 @@ const Blog = () => {
       date: 'December 10, 2024',
       image: adImage3,
       link: '/blogs/willow-googles-quantum-leap-towards-the-future-of-computing',
+    },
+    {
+      id: 6,
+      title: 'Transform Creativity with SORA AI: Revolutionary Text-to-Video Generator',
+      description:
+        'Discover SORA AI, the cutting-edge video generation tool that turns text prompts into stunning videos. Unleash your creativity with photorealistic visuals, dynamic animations, and seamless editing capabilities—all in an intuitive platform. ',
+      author: 'Abhishek Katale',
+      date: 'December 10, 2024',
+      image: adImage4,
+      link: '/blogs/sora-video-generator',
     },
   ];
 
