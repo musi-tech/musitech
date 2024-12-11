@@ -82,7 +82,7 @@ const Blog = () => {
             MusiTech Blog
           </h1>
           <p className="text-center text-lg text-gray-600 mb-10">
-            Stay updated with the latest trends and insights in the music industry.
+            Stay updated with the latest trends and insights in the Tech industry.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {blogPosts.map((post) => (
