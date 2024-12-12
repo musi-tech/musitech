@@ -13,6 +13,7 @@ import ElonMusksGrokAIGoesFree from './pages/blogs/ElonMusksGrokAIGoesFree';
 import MakeMoneyAi from './pages/blogs/MakeMoneyAi';
 import HowMuchWorldRichestCompaniesSpendOnCEOSecurity from './pages/blogs/HowMuchWorldRichestCompaniesSpendOnCEOSecurity';
 import SoraVideoGenerator from './pages/blogs/SoraVideoGenerator';
+import DGukeshVictory from './pages/blogs/DGukeshVictory';
 
 import WebDevelopment from './pages/services/WebDevelopment';
 import DigitalMarketing from './pages/services/DigitalMarketing';
@@ -49,6 +50,7 @@ function App() {
         <Route path="/blogs/willow-googles-quantum-leap-towards-the-future-of-computing" element={<WillowGooglesQuantumLeapTowardsTheFutureOfComputing />} />
         <Route path="/blogs/unlock-hidden-techskills-2025" element={<UnlockHiddenTechSkills2025 />} />
         <Route path="/blogs/sora-video-generator" element={<SoraVideoGenerator />} />
+        <Route path="/blogs/d-gukesh-victory" element={<DGukeshVictory />} />
         <Route path="/services/web-development" element={<WebDevelopment />} />
         <Route path="/services/digital-marketing" element={<DigitalMarketing />} />
         <Route path="/services/content-creation" element={<ContentCreation />} />
