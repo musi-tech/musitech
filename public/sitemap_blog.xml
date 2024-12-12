@@ -42,4 +42,11 @@
     <priority>0.9</priority>
     <changefreq>weekly</changefreq>
   </url>
+  <url>
+    <loc>https://www.musitech.in/blogs/d-gukesh-victory</loc>
+            <lastmod>2024-12-12</lastmod>
+
+    <priority>0.9</priority>
+    <changefreq>weekly</changefreq>
+  </url>
 </urlset>

@@ -7,6 +7,7 @@ import adImage1 from '../assets/images/art1.jpeg';
 import adImage2 from '../assets/images/ceo.webp';
 import adImage3 from '../assets/images/chip1.jpg';
 import adImage4 from '../assets/images/sora.webp';
+import adImage5 from '../assets/images/chess.jpg';
 
 
 const Blog = () => {
@@ -70,6 +71,16 @@ const Blog = () => {
       date: 'December 11, 2024',
       image: adImage4,
       link: '/blogs/sora-video-generator',
+    },
+    {
+      id: 7,
+      title: "D Gukesh Becomes Youngest World Chess Champion, Defeats Ding Liren in Thrilling Finale",
+      description:
+        "18-year-old D Gukesh makes history as the youngest-ever world chess champion, defeating Ding Liren 7.5-6.5 in a nail-biting 2024 FIDE World Championship finale in Singapore.",
+      author: 'Abhishek Katale',
+      date: 'December 12, 2024',
+      image: adImage5,
+      link: '/blogs/d-gukesh-victory',
     },
   ];
 
