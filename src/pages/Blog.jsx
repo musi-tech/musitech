@@ -67,7 +67,7 @@ const Blog = () => {
       description:
         'Discover SORA AI, the cutting-edge video generation tool that turns text prompts into stunning videos. Unleash your creativity with photorealistic visuals, dynamic animations, and seamless editing capabilities—all in an intuitive platform. ',
       author: 'Abhishek Katale',
-      date: 'December 10, 2024',
+      date: 'December 11, 2024',
       image: adImage4,
       link: '/blogs/sora-video-generator',
     },
