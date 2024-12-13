@@ -14,6 +14,7 @@ import MakeMoneyAi from './pages/blogs/MakeMoneyAi';
 import HowMuchWorldRichestCompaniesSpendOnCEOSecurity from './pages/blogs/HowMuchWorldRichestCompaniesSpendOnCEOSecurity';
 import SoraVideoGenerator from './pages/blogs/SoraVideoGenerator';
 import DGukeshVictory from './pages/blogs/DGukeshVictory';
+import AIvsHumanArt from './pages/blogs/AIvsHumanArt';
 
 import WebDevelopment from './pages/services/WebDevelopment';
 import DigitalMarketing from './pages/services/DigitalMarketing';
@@ -51,6 +52,7 @@ function App() {
         <Route path="/blogs/unlock-hidden-techskills-2025" element={<UnlockHiddenTechSkills2025 />} />
         <Route path="/blogs/sora-video-generator" element={<SoraVideoGenerator />} />
         <Route path="/blogs/d-gukesh-victory" element={<DGukeshVictory />} />
+        <Route path="/blogs/ai-vs-human-art" element={<AIvsHumanArt />} />
         <Route path="/services/web-development" element={<WebDevelopment />} />
         <Route path="/services/digital-marketing" element={<DigitalMarketing />} />
         <Route path="/services/content-creation" element={<ContentCreation />} />

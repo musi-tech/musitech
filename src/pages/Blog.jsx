@@ -8,6 +8,8 @@ import adImage2 from '../assets/images/ceo.webp';
 import adImage3 from '../assets/images/chip1.jpg';
 import adImage4 from '../assets/images/sora.webp';
 import adImage5 from '../assets/images/chess.jpg';
+import adImage6 from '../assets/images/art.webp';
+
 
 
 const Blog = () => {
@@ -81,6 +83,16 @@ const Blog = () => {
       date: 'December 12, 2024',
       image: adImage5,
       link: '/blogs/d-gukesh-victory',
+    },
+    {
+      id: 8,
+      title: "what do you think about AI Art Vs Human Made Art", 
+      description:
+        "Explore the fascinating debate between AI-generated art and human-made art. Dive into their differences, strengths, and how they shape the future of creativity. Learn how AI and human artists are shaping the future of art together. .",
+      author: 'Abhishek Katale',
+      date: 'December 13, 2024',
+      image: adImage6,
+      link: '/blogs/ai-vs-human-art',
     },
   ];
 
