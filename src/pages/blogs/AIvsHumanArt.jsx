@@ -29,18 +29,7 @@ const BlogArticle = () => {
                 title: "The Future of Art",
                 description: "The debate between AI art and human-made art isn’t about choosing sides but understanding their unique roles. AI can be a powerful tool for artists, enhancing their creativity and providing new mediums for expression. Meanwhile, human-made art continues to remind us of the depth of human experience and the irreplaceable value of personal touch.\n\nUltimately, art—whether created by humans or machines—is a reflection of its time. As technology advances, the coexistence of AI and human art will shape a new era of creativity, pushing boundaries and expanding our understanding of what art can be.\n\nSo, what do you think? Can AI ever rival the depth and authenticity of human-made art, or is it simply a complement to our creativity? Share your thoughts and join the conversation on the future of art.",
             },
-            {
-                id: 6,
-                title: "The Final Showdown",
-                description: "The decisive Game 14 was everything a chess fan could hope for—high-stakes, nerve-wracking, and full of drama. The score was tied going into the final game, making it a winner-takes-all situation. Ding Liren, playing with the white pieces, was the favorite to win. Even a draw would have led to tie-breakers the next day, where Ding’s renowned speed chess skills gave him a significant edge. But Gukesh had other plans. The game opened with the Reti system, eventually transitioning into the King’s Indian Attack with the French, Reversed Grunfeld Variation. Both players were laser-focused, delivering a showcase of brilliant strategy and precision. Early on, the match seemed evenly balanced. Ding took over 18 minutes for his 11th move, showing the intense deliberation at play. Gukesh, playing black, matched his opponent’s energy and kept his position solid. As the game progressed, pieces were exchanged, and the match evolved into a battle of rooks and bishops. With so few pieces left on the board, a draw seemed inevitable. But Gukesh wasn’t ready to settle. He continued searching for an opening, unwilling to let this chance slip away.",
-            },
-            {
-                id: 7,
-                title: "A Turning Point",
-                description: "The defining moment came on Ding’s 55th move. Under time pressure, Ding played 55...Rf2, an uncharacteristic blunder. Gukesh immediately recognized the error. After a brief pause, during which he calmly sipped water, he calculated the winning sequence of moves. Ding, visibly shaken, realized his mistake too late. The game transitioned into a decisive king-and-pawn endgame. Gukesh’s 58th move, Ke5, sealed the deal. Resigned to his fate, Ding offered a handshake and conceded the match. Overcome with emotion, Gukesh took a moment to compose himself, rearranging the pieces on the board as if reflecting on his journey to this historic victory.",
-            },
-        
-        
+                    
         
         
     ];
