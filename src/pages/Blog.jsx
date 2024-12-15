@@ -9,6 +9,7 @@ import adImage3 from '../assets/images/chip1.jpg';
 import adImage4 from '../assets/images/sora.webp';
 import adImage5 from '../assets/images/chess.jpg';
 import adImage6 from '../assets/images/art.webp';
+import adImage7 from '../assets/images/meta.webp';
 
 
 
@@ -93,6 +94,16 @@ const Blog = () => {
       date: 'December 13, 2024',
       image: adImage6,
       link: '/blogs/ai-vs-human-art',
+    },
+    {
+      id: 9,
+      title: "The Metaverse Explained: What It Is and What’s Next in This Digital Revolution", 
+      description:
+        "Discover the metaverse—a seamless blend of virtual and physical worlds powered by AI, AR, VR, and blockchain. Learn what it is, how it’s evolving, and what the future holds for this immersive digital universe.",
+      author: 'Abhishek Katale',
+      date: 'December 14, 2024',
+      image: adImage7,
+      link: '/blogs/metaverse-explained',
     },
   ];
 
