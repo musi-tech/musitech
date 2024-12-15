@@ -16,6 +16,7 @@ import SoraVideoGenerator from './pages/blogs/SoraVideoGenerator';
 import DGukeshVictory from './pages/blogs/DGukeshVictory';
 import AIvsHumanArt from './pages/blogs/AIvsHumanArt';
 import MetaverseExplained from './pages/blogs/MetaverseExplained';
+import CryptocurrencyHowItWorks from './pages/blogs/CryptocurrencyHowItWorks';
 
 
 import WebDevelopment from './pages/services/WebDevelopment';
@@ -56,6 +57,7 @@ function App() {
         <Route path="/blogs/d-gukesh-victory" element={<DGukeshVictory />} />
         <Route path="/blogs/ai-vs-human-art" element={<AIvsHumanArt />} />
         <Route path="/blogs/metaverse-explained" element={<MetaverseExplained />} />
+        <Route path="/blogs/cryptocurrency-how-it-works" element={<CryptocurrencyHowItWorks />} />
         <Route path="/services/web-development" element={<WebDevelopment />} />
         <Route path="/services/digital-marketing" element={<DigitalMarketing />} />
         <Route path="/services/content-creation" element={<ContentCreation />} />

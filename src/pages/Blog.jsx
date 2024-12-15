@@ -10,7 +10,7 @@ import adImage4 from '../assets/images/sora.webp';
 import adImage5 from '../assets/images/chess.jpg';
 import adImage6 from '../assets/images/art.webp';
 import adImage7 from '../assets/images/meta.webp';
-
+import adImage8 from '../assets/images/bitcoin.webp';
 
 
 const Blog = () => {
@@ -104,6 +104,16 @@ const Blog = () => {
       date: 'December 14, 2024',
       image: adImage7,
       link: '/blogs/metaverse-explained',
+    },
+    {
+      id: 10,
+      title: "How Cryptocurrency Works: Simplified Guide to the Future of Money", 
+      description:
+        "Discover how cryptocurrency works, its evolution, advantages, challenges, and future potential. Learn about blockchain, Bitcoin, Ethereum, and the impact on global finance.",
+      author: 'Abhishek Katale',
+      date: 'December 15, 2024',
+      image: adImage8,
+      link: '/blogs/cryptocurrency-how-it-works',
     },
   ];
 
