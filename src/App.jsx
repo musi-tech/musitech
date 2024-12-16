@@ -17,7 +17,8 @@ import DGukeshVictory from './pages/blogs/DGukeshVictory';
 import AIvsHumanArt from './pages/blogs/AIvsHumanArt';
 import MetaverseExplained from './pages/blogs/MetaverseExplained';
 import CryptocurrencyHowItWorks from './pages/blogs/CryptocurrencyHowItWorks';
-
+import AiVisionRestoration from './pages/blogs/AiVisionRestoration';
+import AiApplyingForJobs from './pages/blogs/AiApplyingForJobs';
 
 import WebDevelopment from './pages/services/WebDevelopment';
 import DigitalMarketing from './pages/services/DigitalMarketing';
@@ -58,6 +59,8 @@ function App() {
         <Route path="/blogs/ai-vs-human-art" element={<AIvsHumanArt />} />
         <Route path="/blogs/metaverse-explained" element={<MetaverseExplained />} />
         <Route path="/blogs/cryptocurrency-how-it-works" element={<CryptocurrencyHowItWorks />} />
+        <Route path="/blogs/ai-vision-restoration" element={<AiVisionRestoration />} />
+        <Route path="/blogs/ai-applying-for-jobs" element={<AiApplyingForJobs />} />
         <Route path="/services/web-development" element={<WebDevelopment />} />
         <Route path="/services/digital-marketing" element={<DigitalMarketing />} />
         <Route path="/services/content-creation" element={<ContentCreation />} />

@@ -11,6 +11,8 @@ import adImage5 from '../assets/images/chess.jpg';
 import adImage6 from '../assets/images/art.webp';
 import adImage7 from '../assets/images/meta.webp';
 import adImage8 from '../assets/images/bitcoin.webp';
+import adImage9 from '../assets/images/eye.webp';
+import adImage10 from '../assets/images/work.webp';
 
 
 const Blog = () => {
@@ -114,6 +116,26 @@ const Blog = () => {
       date: 'December 15, 2024',
       image: adImage8,
       link: '/blogs/cryptocurrency-how-it-works',
+    },
+    {
+      id: 11,
+      title: "AI Just Gave Vision To A Legally Blind Person", 
+      description:
+        "Discover how groundbreaking AI-assisted eye surgery restored a legally blind woman's vision to better than 20/20, setting new benchmarks in personalized vision care.",
+      author: 'Abhishek Katale',
+      date: 'December 16, 2024',
+      image: adImage9,
+      link: '/blogs/ai-vision-restoration',
+    },
+    {
+      id: 12,
+      title: "AI Agents Will Apply for Jobs And Make Money in 2025?", 
+      description:
+        "Discover how AI agents will revolutionize industries by 2025, performing tasks autonomously, applying for jobs, and generating income. Microsoft AI CEO Mustafa Suleyman unveils the future of AI-driven progress.",
+      author: 'Abhishek Katale',
+      date: 'December 17, 2024',
+      image: adImage10,
+      link: '/blogs/ai-applying-for-jobs',
     },
   ];
 
