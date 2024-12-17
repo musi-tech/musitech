@@ -19,6 +19,8 @@ import MetaverseExplained from './pages/blogs/MetaverseExplained';
 import CryptocurrencyHowItWorks from './pages/blogs/CryptocurrencyHowItWorks';
 import AiVisionRestoration from './pages/blogs/AiVisionRestoration';
 import AiApplyingForJobs from './pages/blogs/AiApplyingForJobs';
+import FiveGoldenSkills2025 from './pages/blogs/FiveGoldenSkills2025';
+
 
 import WebDevelopment from './pages/services/WebDevelopment';
 import DigitalMarketing from './pages/services/DigitalMarketing';
@@ -61,6 +63,7 @@ function App() {
         <Route path="/blogs/cryptocurrency-how-it-works" element={<CryptocurrencyHowItWorks />} />
         <Route path="/blogs/ai-vision-restoration" element={<AiVisionRestoration />} />
         <Route path="/blogs/ai-applying-for-jobs" element={<AiApplyingForJobs />} />
+        <Route path="/blogs/five-golden-skills-2025" element={<FiveGoldenSkills2025 />} />
         <Route path="/services/web-development" element={<WebDevelopment />} />
         <Route path="/services/digital-marketing" element={<DigitalMarketing />} />
         <Route path="/services/content-creation" element={<ContentCreation />} />

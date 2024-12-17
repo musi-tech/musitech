@@ -30,7 +30,7 @@ const BlogArticle = () => {
             "description": "The integration of AI agents into the workforce is becoming increasingly inevitable. By 2025, AI will not only assist humans but will actively participate in wealth creation and decision-making. This shift will reshape the job market, as AI begins to take over many tasks currently performed by humans. As AI agents autonomously generate content, solve problems, and make decisions, industries will change the way they operate.\n\nWhile this may sound like science fiction, it is quickly becoming a reality, thanks to companies like Microsoft and thought leaders like Mustafa Suleyman. As we approach 2025, we must be prepared for a world where AI agents perform roles traditionally held by humans, including applying for jobs and generating income."
         },
         {
-            "id": 1,
+            "id": 6,
             "title": "Embracing the Future of AI",
             "description": "The future is already unfolding, and the key to thriving in this AI-driven world lies in embracing these technological advancements. By leveraging AI for creativity, innovation, and problem-solving, individuals and businesses will be able to navigate this new frontier of AI-powered progress. Understanding AI's potential and limitations will be crucial as we move towards a future where AI is not just a tool, but an active participant in the workforce.\n\nAI agents applying for jobs and generating income independently is not a distant dream—it's a reality that’s rapidly approaching. It’s up to us to harness the power of AI and adapt to the changes it brings, unlocking new possibilities for wealth, creativity, and productivity."
         }

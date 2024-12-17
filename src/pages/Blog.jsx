@@ -13,6 +13,7 @@ import adImage7 from '../assets/images/meta.webp';
 import adImage8 from '../assets/images/bitcoin.webp';
 import adImage9 from '../assets/images/eye.webp';
 import adImage10 from '../assets/images/work.webp';
+import adImage11 from '../assets/images/fiveskill.webp';
 
 
 const Blog = () => {
@@ -136,6 +137,16 @@ const Blog = () => {
       date: 'December 17, 2024',
       image: adImage10,
       link: '/blogs/ai-applying-for-jobs',
+    },
+    {
+      id: 13,
+      title: "One Month Can Change Your Life: Learn These 5 Skills to Earn $5,000+ in 2025", 
+      description:
+        "One month can change your life! Learn these 5 in-demand skills to earn $5,000 to $10,000 monthly in 2025. Take action today and transform your future.",
+      author: 'Abhishek Katale',
+      date: 'December 18, 2024',
+      image: adImage11,
+      link: '/blogs/five-golden-skills-2025',
     },
   ];
 
