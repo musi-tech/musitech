@@ -14,6 +14,7 @@ import adImage8 from '../assets/images/bitcoin.webp';
 import adImage9 from '../assets/images/eye.webp';
 import adImage10 from '../assets/images/work.webp';
 import adImage11 from '../assets/images/fiveskill.webp';
+import adImage12 from '../assets/images/veo.webp';
 
 
 const Blog = () => {
@@ -148,12 +149,22 @@ const Blog = () => {
       image: adImage11,
       link: '/blogs/five-golden-skills-2025',
     },
+    {
+      id: 14,
+      title: "Google’s New Veo 2 Outshines OpenAI’s Sora: Unreal AI Video Quality in 4K", 
+      description:
+        "Discover Google’s Veo 2, the next-gen AI video generation tool surpassing OpenAI’s Sora. With 4K resolution, lifelike physics, and cinematic quality, it’s revolutionizing video production for creators worldwide.",
+      author: 'Abhishek Katale',
+      date: 'December 19, 2024',
+      image: adImage12,
+      link: '/blogs/google-veo2-vs-openai-sora-comparison',
+    },
   ];
 
   return (
     <>
       <Navbar />
-      <div className="bg-gray-100 min-h-screen py-10">
+      <div className="bg-white min-h-screen py-10">
         <div className="container mx-auto px-6">
           <h1 className="text-4xl font-bold text-gray-800 text-center mb-8">
             MusiTech Blog
