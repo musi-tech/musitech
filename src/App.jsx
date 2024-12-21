@@ -21,6 +21,7 @@ import AiVisionRestoration from './pages/blogs/AiVisionRestoration';
 import AiApplyingForJobs from './pages/blogs/AiApplyingForJobs';
 import FiveGoldenSkills2025 from './pages/blogs/FiveGoldenSkills2025';
 import GoogleVeo2VsOpenAISoraComparison from './pages/blogs/GoogleVeo2VsOpenAISoraComparison';
+import ChatGPTOnWhatsApp from './pages/blogs/ChatGPTOnWhatsApp';
 
 
 import WebDevelopment from './pages/services/WebDevelopment';
@@ -66,6 +67,7 @@ function App() {
         <Route path="/blogs/ai-applying-for-jobs" element={<AiApplyingForJobs />} />
         <Route path="/blogs/five-golden-skills-2025" element={<FiveGoldenSkills2025 />} />
         <Route path="/blogs/google-veo2-vs-openai-sora-comparison" element={<GoogleVeo2VsOpenAISoraComparison />} />
+        <Route path="/blogs/chatgpt-on-whatsapp" element={<ChatGPTOnWhatsApp />} />
         <Route path="/services/web-development" element={<WebDevelopment />} />
         <Route path="/services/digital-marketing" element={<DigitalMarketing />} />
         <Route path="/services/content-creation" element={<ContentCreation />} />

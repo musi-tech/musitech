@@ -15,6 +15,7 @@ import adImage9 from '../assets/images/eye.webp';
 import adImage10 from '../assets/images/work.webp';
 import adImage11 from '../assets/images/fiveskill.webp';
 import adImage12 from '../assets/images/veo.webp';
+import adImage13 from '../assets/images/chat.webp';
 
 
 const Blog = () => {
@@ -158,6 +159,16 @@ const Blog = () => {
       date: 'December 19, 2024',
       image: adImage12,
       link: '/blogs/google-veo2-vs-openai-sora-comparison',
+    },
+    {
+      id: 15,
+      title: "ChatGPT Now on WhatsApp: Transform Your AI Experience with Simple Text or Calls", 
+      description:
+        "Discover how ChatGPT's integration with WhatsApp makes AI more accessible than ever. Learn how to text or call ChatGPT for instant assistance, learning, and creative ideas—no account or extra app required!",
+      author: 'Abhishek Katale',
+      date: 'December 20, 2024',
+      image: adImage13,
+      link: '/blogs/chatgpt-on-whatsapp',
     },
   ];
 
