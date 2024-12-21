@@ -16,6 +16,8 @@ import adImage10 from '../assets/images/work.webp';
 import adImage11 from '../assets/images/fiveskill.webp';
 import adImage12 from '../assets/images/veo.webp';
 import adImage13 from '../assets/images/chat.webp';
+import adImage14 from '../assets/images/os.webp';
+
 
 
 const Blog = () => {
@@ -169,6 +171,16 @@ const Blog = () => {
       date: 'December 20, 2024',
       image: adImage13,
       link: '/blogs/chatgpt-on-whatsapp',
+    },
+    {
+      id: 16,
+      title: "The OS From Movie Her Just Became a Reality: Explore Google’s Gemini Stream", 
+      description:
+        "Discover how Google’s Gemini Stream brings us closer to the futuristic OS from the movie Her. With real-time AI assistance for screen sharing, coding, gaming, and more, the future of AI is here!",
+      author: 'Abhishek Katale',
+      date: 'December 21, 2024',
+      image: adImage14,
+      link: '/blogs/gemini-stream',
     },
   ];
 
