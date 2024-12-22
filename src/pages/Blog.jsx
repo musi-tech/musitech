@@ -17,6 +17,7 @@ import adImage11 from '../assets/images/fiveskill.webp';
 import adImage12 from '../assets/images/veo.webp';
 import adImage13 from '../assets/images/chat.webp';
 import adImage14 from '../assets/images/os.webp';
+import adImage15 from '../assets/images/game.webp';
 
 
 
@@ -181,6 +182,16 @@ const Blog = () => {
       date: 'December 21, 2024',
       image: adImage14,
       link: '/blogs/gemini-stream',
+    },
+    {
+      id: 17,
+      title: "How AAA Games Are Destroying the Gaming Industry in 2025", 
+      description:
+        "Explore how AAA games are impacting the gaming industry with rising costs, job losses, and a lack of innovation. Discover why AA games could be the key to saving gaming in 2025.",
+      author: 'Abhishek Katale',
+      date: 'December 22, 2024',
+      image: adImage15,
+      link: '/blogs/aaa-impact-gaming-2025',
     },
   ];
 
