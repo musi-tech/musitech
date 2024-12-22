@@ -31,27 +31,27 @@ const BlogArticle = () => {
             "description": "This feature is a significant step forward for AI. It’s no longer just about answering questions or performing simple tasks. Gemini Stream shows that AI can become a more active participant in our digital lives. It’s like having a personal assistant who’s always watching your screen and ready to help.\n\nThis could be especially useful for:\n\nBeginners: People new to certain software or tasks can get instant guidance.\n\nProfessionals: Skilled users can save time by letting the AI handle repetitive tasks.\n\nAccessibility: Users with disabilities can navigate software more easily with AI’s assistance."
         },
         {
-            "id": 1,
+            "id": 6,
             "title": "Comparing It to Her",
             "description": "In Her, the OS wasn’t just a tool; it was a companion. It could learn from its user, adapt to their preferences, and even hold meaningful conversations. While Gemini Stream isn’t quite there yet, it’s laying the groundwork for such technology.\n\nImagine combining Gemini Stream with voice interfaces or virtual agents. The AI could manage your apps, schedule your tasks, and make decisions based on your habits. This is the future Google seems to be hinting at."
         },
         {
-            "id": 2,
+            "id": 7,
             "title": "The Best Part: It’s Free",
             "description": "One of the most surprising aspects of Gemini Stream is that it’s free. Many advanced AI tools require expensive subscriptions or specialized hardware. But with Gemini Stream, all you need is a Google account. This democratizes access to cutting-edge technology and allows more people to experiment with AI."
         },
         {
-            "id": 3,
+            "id": 8,
             "title": "Limitations and Challenges",
             "description": "While Gemini Stream is impressive, it’s not perfect. Some limitations include:\n\nAccuracy: The AI might misinterpret what’s on your screen, especially if it’s cluttered or poorly designed.\n\nSpeed: Real-time assistance might lag depending on your internet connection.\n\nPrivacy: Sharing your screen with AI raises questions about data security. Google needs to ensure that users’ data is protected.\n\nThese challenges need to be addressed as the technology evolves. However, they don’t overshadow the potential of Gemini Stream."
         },
         {
-            "id": 4,
+            "id": 9,
             "title": "What’s Next for AI?",
             "description": "Gemini Stream is just the beginning. As AI becomes more advanced, we can expect features like:\n\nFull OS Integration: AI managing your entire operating system, from opening apps to troubleshooting errors.\n\nPersonalization: AI adapting to your preferences and becoming more intuitive over time.\n\nVoice Interaction: Combining screen sharing with voice commands for a hands-free experience.\n\nThese advancements could bring us closer to the kind of AI seen in Her. The line between a tool and a companion will blur as AI becomes more intelligent and capable."
         },
         {
-            "id": 5,
+            "id": 10,
             "title": "Conclusion",
             "description": "The idea of an OS like the one in Her becoming a reality might have seemed far-fetched a few years ago. But with features like Gemini Stream, we’re taking steps in that direction. This technology has the potential to transform how we interact with our devices.\n\nWhile there are challenges to overcome, the possibilities are endless. Gemini Stream shows us a glimpse of a future where AI doesn’t just assist us but becomes an integral part of our lives. For now, it’s exciting to experiment with this new feature and imagine where it might lead us. Who knows? The OS from Her might not be science fiction for much longer."
         }

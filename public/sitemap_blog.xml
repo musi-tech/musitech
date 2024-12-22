@@ -112,4 +112,11 @@
     <priority>0.9</priority>
     <changefreq>weekly</changefreq>
   </url>
+  <url>
+    <loc>https://www.musitech.in/blogs/aaa-impact-gaming-2025</loc>
+            <lastmod>2024-12-22</lastmod>
+
+    <priority>0.9</priority>
+    <changefreq>weekly</changefreq>
+  </url>
 </urlset>
