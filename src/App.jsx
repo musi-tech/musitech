@@ -24,6 +24,7 @@ import GoogleVeo2VsOpenAISoraComparison from './pages/blogs/GoogleVeo2VsOpenAISo
 import ChatGPTOnWhatsApp from './pages/blogs/ChatGPTOnWhatsApp';
 import GeminiStream from './pages/blogs/GeminiStream';
 import AAAImpactGaming2025 from './pages/blogs/AAAImpactGaming2025'
+import OpenAIAchievedAGI from './pages/blogs/OpenAIAchievedAGI'
 
 import WebDevelopment from './pages/services/WebDevelopment';
 import DigitalMarketing from './pages/services/DigitalMarketing';
@@ -70,6 +71,7 @@ function App() {
         <Route path="/blogs/google-veo2-vs-openai-sora-comparison" element={<GoogleVeo2VsOpenAISoraComparison />} />
         <Route path="/blogs/chatgpt-on-whatsapp" element={<ChatGPTOnWhatsApp />} />
         <Route path="/blogs/gemini-stream" element={<GeminiStream />} />
+        <Route path="/blogs/openai-achieved-agi" element={<OpenAIAchievedAGI />} />
         <Route path="/blogs/aaa-impact-gaming-2025" element={<AAAImpactGaming2025 />} />
         <Route path="/services/web-development" element={<WebDevelopment />} />
         <Route path="/services/digital-marketing" element={<DigitalMarketing />} />
