@@ -18,7 +18,7 @@ import adImage12 from '../assets/images/veo.webp';
 import adImage13 from '../assets/images/chat.webp';
 import adImage14 from '../assets/images/os.webp';
 import adImage15 from '../assets/images/game.webp';
-
+import adImage16 from '../assets/images/agi.webp';
 
 
 const Blog = () => {
@@ -192,6 +192,16 @@ const Blog = () => {
       date: 'December 22, 2024',
       image: adImage15,
       link: '/blogs/aaa-impact-gaming-2025',
+    },
+    {
+      id: 18,
+      title: "Breaking News: OpenAI O3 Brings Us Closer to AGI – A Giant Leap in AI Evolution", 
+      description:
+        "OpenAI unveils O3, its most advanced AI model yet, showcasing unmatched skills in coding, math, and sci. With groundbreaking Arc AGI benchmark scores, O3 is a step closer to AGI",
+      author: 'Abhishek Katale',
+      date: 'December 23, 2024',
+      image: adImage16,
+      link: '/blogs/openai-achieved-agi',
     },
   ];
 
