@@ -25,6 +25,9 @@ import ChatGPTOnWhatsApp from './pages/blogs/ChatGPTOnWhatsApp';
 import GeminiStream from './pages/blogs/GeminiStream';
 import AAAImpactGaming2025 from './pages/blogs/AAAImpactGaming2025'
 import OpenAIAchievedAGI from './pages/blogs/OpenAIAchievedAGI'
+import ThriveInAIWorld from './pages/blogs/ThriveInAIWorld'
+import SingaporeRiseToProsperity from './pages/blogs/SingaporeRiseToProsperity'
+
 
 import WebDevelopment from './pages/services/WebDevelopment';
 import DigitalMarketing from './pages/services/DigitalMarketing';
@@ -73,6 +76,8 @@ function App() {
         <Route path="/blogs/gemini-stream" element={<GeminiStream />} />
         <Route path="/blogs/openai-achieved-agi" element={<OpenAIAchievedAGI />} />
         <Route path="/blogs/aaa-impact-gaming-2025" element={<AAAImpactGaming2025 />} />
+        <Route path="/blogs/singapore-rise-to-prosperity" element={<SingaporeRiseToProsperity />} />
+        <Route path="/blogs/thrive-in-ai-world" element={<ThriveInAIWorld />} />
         <Route path="/services/web-development" element={<WebDevelopment />} />
         <Route path="/services/digital-marketing" element={<DigitalMarketing />} />
         <Route path="/services/content-creation" element={<ContentCreation />} />
