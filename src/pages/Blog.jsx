@@ -19,6 +19,8 @@ import adImage13 from '../assets/images/chat.webp';
 import adImage14 from '../assets/images/os.webp';
 import adImage15 from '../assets/images/game.webp';
 import adImage16 from '../assets/images/agi.webp';
+import adImage17 from '../assets/images/sing.webp';
+import adImage18 from '../assets/images/brain.webp';
 
 
 const Blog = () => {
@@ -202,6 +204,26 @@ const Blog = () => {
       date: 'December 23, 2024',
       image: adImage16,
       link: '/blogs/openai-achieved-agi',
+    },
+    {
+      id: 19,
+      title: "Singapore’s Rise to Prosperity: A Blueprint for Developing Nations", 
+      description:
+        "Discover how Singapore transformed from a resource-poor island to a thriving global economic powerhouse through visionary leadership and strategic decision-making.",
+      author: 'Abhishek Katale',
+      date: 'December 24, 2024',
+      image: adImage17,
+      link: '/blogs/singapore-rise-to-prosperity',
+    },
+    {
+      id: 20,
+      title: "Don’t Follow the Crowd: Thrive in the AI-Powered Era with These Proven Strategies", 
+      description:
+        "Discover how to thrive in an AI-powered world! Learn actionable strategies like critical thinking, leveraging AI tools, and adopting an mindset to stand out in the rapidly evolving job market.",
+      author: 'Abhishek Katale',
+      date: 'December 25, 2024',
+      image: adImage18,
+      link: '/blogs/thrive-in-ai-world',
     },
   ];
 
