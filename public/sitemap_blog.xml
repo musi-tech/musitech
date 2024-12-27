@@ -126,7 +126,6 @@
     <priority>0.9</priority>
     <changefreq>weekly</changefreq>
   </url>
-   </url>
     <url>
     <loc>https://www.musitech.in/blogs/singapore-rise-to-prosperity</loc>
             <lastmod>2024-12-22</lastmod>
@@ -134,10 +133,16 @@
     <priority>0.9</priority>
     <changefreq>weekly</changefreq>
   </url>
-   </url>
     <url>
     <loc>https://www.musitech.in/blogs/thrivel-in-ai-world</loc>
             <lastmod>2024-12-22</lastmod>
+
+    <priority>0.9</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+   <url>
+    <loc>https://www.musitech.in/blogs/math-predicts-netflix</loc>
+            <lastmod>2024-12-27</lastmod>
 
     <priority>0.9</priority>
     <changefreq>weekly</changefreq>
