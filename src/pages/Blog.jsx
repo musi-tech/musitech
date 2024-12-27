@@ -22,7 +22,7 @@ import adImage16 from '../assets/images/agi.webp';
 import adImage17 from '../assets/images/sing.webp';
 import adImage18 from '../assets/images/brain.webp';
 import adImage19 from '../assets/images/netflix.webp';
-import adImage20 from '../assets/images/brain.webp';
+import adImage20 from '../assets/images/gap.webp';
 
 
 const Blog = () => {
@@ -236,6 +236,16 @@ const Blog = () => {
       date: 'December 26, 2024',
       image: adImage19,
       link: '/blogs/math-predicts-netflix',
+    },
+    {
+      id: 22,
+      title: "160% vs 4%: Unveiling the Tech Pay Gap in India", 
+      description:
+        "Explore the stark pay gap in India's tech industry. CEOs enjoy a 160% salary hike, while freshers see just a 4% increase. Discover the causes and solutions for a more equitable future.",
+      author: 'Abhishek Katale',
+      date: 'December 27, 2024',
+      image: adImage20,
+      link: '/blogs/tech-pay-gap-india',
     },
     
   ];

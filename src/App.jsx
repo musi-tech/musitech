@@ -28,6 +28,7 @@ import OpenAIAchievedAGI from './pages/blogs/OpenAIAchievedAGI'
 import ThriveInAIWorld from './pages/blogs/ThriveInAIWorld'
 import SingaporeRiseToProsperity from './pages/blogs/SingaporeRiseToProsperity'
 import MathPredictsNetflix from './pages/blogs/MathPredictsNetflix'
+import TechPayGapIndia from './pages/blogs/TechPayGapIndia'
 
 
 import WebDevelopment from './pages/services/WebDevelopment';
@@ -80,6 +81,7 @@ function App() {
         <Route path="/blogs/singapore-rise-to-prosperity" element={<SingaporeRiseToProsperity />} />
         <Route path="/blogs/thrive-in-ai-world" element={<ThriveInAIWorld />} />
         <Route path="/blogs/math-predicts-netflix" element={<MathPredictsNetflix />} />
+        <Route path="/blogs/tech-pay-gap-india" element={<TechPayGapIndia />} />
         
         <Route path="/services/web-development" element={<WebDevelopment />} />
         <Route path="/services/digital-marketing" element={<DigitalMarketing />} />
