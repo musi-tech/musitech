@@ -147,4 +147,11 @@
     <priority>0.9</priority>
     <changefreq>weekly</changefreq>
   </url>
+     <url>
+    <loc>https://www.musitech.in/blogs/tech-pay-gap-india</loc>
+            <lastmod>2024-12-27</lastmod>
+
+    <priority>0.9</priority>
+    <changefreq>weekly</changefreq>
+  </url>
 </urlset>
