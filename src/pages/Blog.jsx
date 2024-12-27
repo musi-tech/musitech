@@ -21,6 +21,8 @@ import adImage15 from '../assets/images/game.webp';
 import adImage16 from '../assets/images/agi.webp';
 import adImage17 from '../assets/images/sing.webp';
 import adImage18 from '../assets/images/brain.webp';
+import adImage19 from '../assets/images/netflix.webp';
+import adImage20 from '../assets/images/brain.webp';
 
 
 const Blog = () => {
@@ -225,6 +227,17 @@ const Blog = () => {
       image: adImage18,
       link: '/blogs/thrive-in-ai-world',
     },
+    {
+      id: 21,
+      title: "Math Predicts Your Next Netflix Show: Discover the 37% Rule", 
+      description:
+        "Learn how the 37% Rule, a math strategy, can help you make smarter decisions—from picking your next Netflix show to landing the perfect job. Explore the secret to efficient decision-making!",
+      author: 'Abhishek Katale',
+      date: 'December 26, 2024',
+      image: adImage19,
+      link: '/blogs/math-predicts-netflix',
+    },
+    
   ];
 
   return (

@@ -27,6 +27,7 @@ import AAAImpactGaming2025 from './pages/blogs/AAAImpactGaming2025'
 import OpenAIAchievedAGI from './pages/blogs/OpenAIAchievedAGI'
 import ThriveInAIWorld from './pages/blogs/ThriveInAIWorld'
 import SingaporeRiseToProsperity from './pages/blogs/SingaporeRiseToProsperity'
+import MathPredictsNetflix from './pages/blogs/MathPredictsNetflix'
 
 
 import WebDevelopment from './pages/services/WebDevelopment';
@@ -78,6 +79,8 @@ function App() {
         <Route path="/blogs/aaa-impact-gaming-2025" element={<AAAImpactGaming2025 />} />
         <Route path="/blogs/singapore-rise-to-prosperity" element={<SingaporeRiseToProsperity />} />
         <Route path="/blogs/thrive-in-ai-world" element={<ThriveInAIWorld />} />
+        <Route path="/blogs/math-predicts-netflix" element={<MathPredictsNetflix />} />
+        
         <Route path="/services/web-development" element={<WebDevelopment />} />
         <Route path="/services/digital-marketing" element={<DigitalMarketing />} />
         <Route path="/services/content-creation" element={<ContentCreation />} />
