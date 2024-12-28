@@ -23,6 +23,8 @@ import adImage17 from '../assets/images/sing.webp';
 import adImage18 from '../assets/images/brain.webp';
 import adImage19 from '../assets/images/netflix.webp';
 import adImage20 from '../assets/images/gap.webp';
+import adImage21 from '../assets/images/china.webp';
+
 
 
 const Blog = () => {
@@ -246,6 +248,16 @@ const Blog = () => {
       date: 'December 27, 2024',
       image: adImage20,
       link: '/blogs/tech-pay-gap-india',
+    },
+    {
+      id: 23,
+      title: "How Short Form Dramas Are Revolutionizing Entertainment in China", 
+      description:
+        "Discover how short form dramas with 1-2 minute episodes are taking over China, reshaping entertainment trends, and surpassing traditional formats like movies and TV shows.",
+      author: 'Abhishek Katale',
+      date: 'December 28, 2024',
+      image: adImage21,
+      link: '/blogs/short-form-dramas-china',
     },
     
   ];
