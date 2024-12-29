@@ -30,7 +30,7 @@ import SingaporeRiseToProsperity from './pages/blogs/SingaporeRiseToProsperity'
 import MathPredictsNetflix from './pages/blogs/MathPredictsNetflix'
 import TechPayGapIndia from './pages/blogs/TechPayGapIndia'
 import ShortFormDramasChina from './pages/blogs/ShortFormDramasChina'
-
+import RevolutionaryFanlessLaptopCooling from './pages/blogs/RevolutionaryFanlessLaptopCooling.jsx'
 
 import WebDevelopment from './pages/services/WebDevelopment';
 import DigitalMarketing from './pages/services/DigitalMarketing';
@@ -84,7 +84,7 @@ function App() {
         <Route path="/blogs/math-predicts-netflix" element={<MathPredictsNetflix />} />
         <Route path="/blogs/tech-pay-gap-india" element={<TechPayGapIndia />} />
         <Route path="/blogs/short-form-dramas-china" element={<ShortFormDramasChina />} />
-
+        <Route path="/blogs/revolutionary-fanless-laptop-cooling" element={<RevolutionaryFanlessLaptopCooling />} />
         
         <Route path="/services/web-development" element={<WebDevelopment />} />
         <Route path="/services/digital-marketing" element={<DigitalMarketing />} />
