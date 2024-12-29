@@ -24,6 +24,7 @@ import adImage18 from '../assets/images/brain.webp';
 import adImage19 from '../assets/images/netflix.webp';
 import adImage20 from '../assets/images/gap.webp';
 import adImage21 from '../assets/images/china.webp';
+import adImage22 from '../assets/images/cool.webp';
 
 
 
@@ -258,6 +259,16 @@ const Blog = () => {
       date: 'December 28, 2024',
       image: adImage21,
       link: '/blogs/short-form-dramas-china',
+    },
+    {
+      id: 24,
+      title: "Revolutionary Fanless Laptop Cooling: Silent, Durable, and Ultra-Thin Innovation",
+      description:
+        "Discover the groundbreaking fanless cooling technology that uses ionized air for silent, efficient performance. Learn how this coin-thin design is set to revolutionize laptops, tablets, and data centers with its durability and compactness.",
+      author: 'Abhishek Katale',
+      date: 'December 29, 2024',
+      image: adImage22,
+      link: '/blogs/revolutionary-fanless-laptop-cooling',
     },
     
   ];
