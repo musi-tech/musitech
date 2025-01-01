@@ -27,15 +27,26 @@ import adImage21 from '../assets/images/china.webp';
 import adImage22 from '../assets/images/cool.webp';
 import adImage23 from '../assets/images/hustle.webp';
 import adImage24 from '../assets/images/gen.webp';
+import adImage25 from '../assets/images/social.webp';
 
 
 const Blog = () => {
   const blogPosts = [
     {
-      id: 26,
-      title:"Why Generation Z Is Headed for Financial Trouble: The Show-Off Trap, FOMO, and Digital Spending",
+      id: 27,
+      title:"This Viral App Gives You Millions of AI Followers Instantly! | Social AI Explained",
       description:
-        "Generation Z is facing financial struggles due to the pressure to show off on social media, the dangers of digital spending, and the rise of lifestyle inflation. Learn how these challenges are affecting their financial health and discover practical solutions to break free from the trap.",
+        "Discover Social AI, the viral app that creates a personalized AI-powered social network just for you. Get instant feedback, explore its addictive features, and uncover its impact on social media and mental health.",
+      author: 'Abhishek Katale',
+      date: 'January 1, 2025',
+      image: adImage25,
+      link: '/blogs/socialai-page',
+    },
+    {
+      id: 26,
+      title:"Why Generation Z Is Headed for Financial Trouble: The Show-Off Trap ",
+      description:
+        "Generation Z is facing financial struggles due to the pressure to show off on social media, the dangers of digital spending, and the rise of lifestyle inflation.",
       author: 'Abhishek Katale',
       date: 'December 31, 2024',
       image: adImage24,
