@@ -34,6 +34,8 @@ import RevolutionaryFanlessLaptopCooling from './pages/blogs/RevolutionaryFanles
 import TopSideHustles2025 from './pages/blogs/TopSideHustles2025.jsx'
 import GenZFinancialTrouble from './pages/blogs/GenZFinancialTrouble.jsx'
 import SocialAIPage from './pages/blogs/SocialAIPage.jsx'
+import Blinkit10MinuteAmbulanceService from './pages/blogs/Blinkit10MinuteAmbulanceService.jsx'
+
 
 import WebDevelopment from './pages/services/WebDevelopment';
 import DigitalMarketing from './pages/services/DigitalMarketing';
@@ -91,6 +93,7 @@ function App() {
         <Route path="/blogs/top-side-hustles-2025" element={<TopSideHustles2025 />} />
         <Route path="/blogs/genz-financial-trouble" element={<GenZFinancialTrouble />} />
         <Route path="/blogs/socialai-page" element={<SocialAIPage />} />
+        <Route path="/blogs/blinkit-10-minute-ambulance-service" element={<Blinkit10MinuteAmbulanceService />} />
 
 
         <Route path="/services/web-development" element={<WebDevelopment />} />
