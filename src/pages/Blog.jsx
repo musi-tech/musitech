@@ -28,10 +28,21 @@ import adImage22 from '../assets/images/cool.webp';
 import adImage23 from '../assets/images/hustle.webp';
 import adImage24 from '../assets/images/gen.webp';
 import adImage25 from '../assets/images/social.webp';
+import adImage26 from '../assets/images/blinkit.webp';
 
 
 const Blog = () => {
   const blogPosts = [
+    {
+      id: 28,
+      title:"Blinkit Launches 10-Minute Ambulance Service in Gurugram",
+      description:
+        "Discover how Blinkit, known for lightning-fast grocery deliveries, is transforming healthcare with its 10-minute ambulance service in Gurugram. Learn about the tech, strategy, and impact of this groundbreaking move.",
+      author: 'Abhishek Katale',
+      date: 'January 3, 2025',
+      image: adImage26,
+      link: '/blogs/blinkit-10-minute-ambulance-service',
+    },
     {
       id: 27,
       title:"This Viral App Gives You Millions of AI Followers Instantly! | Social AI Explained",
