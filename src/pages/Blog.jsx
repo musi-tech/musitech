@@ -29,10 +29,21 @@ import adImage23 from '../assets/images/hustle.webp';
 import adImage24 from '../assets/images/gen.webp';
 import adImage25 from '../assets/images/social.webp';
 import adImage26 from '../assets/images/blinkit.webp';
+import adImage27 from '../assets/images/lam.webp';
 
 
 const Blog = () => {
   const blogPosts = [
+    {
+      id: 29,
+      title:"Large Action Models (LAM): Microsoft's Next-Gen AI for Real-World Tasks",
+      description:
+        "Discover Microsoft's Large Action Models (LAM) — the revolutionary AI designed to execute real-world tasks seamlessly. Learn how LAMs are transforming AI from conversation to action, bridging the gap towards Artificial General Intelligence.",
+      author: 'Abhishek Katale',
+      date: 'January 4, 2025',
+      image: adImage27,
+      link: '/blogs/large-action-models',
+    },
     {
       id: 28,
       title:"Blinkit Launches 10-Minute Ambulance Service in Gurugram",

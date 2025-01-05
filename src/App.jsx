@@ -35,6 +35,7 @@ import TopSideHustles2025 from './pages/blogs/TopSideHustles2025.jsx'
 import GenZFinancialTrouble from './pages/blogs/GenZFinancialTrouble.jsx'
 import SocialAIPage from './pages/blogs/SocialAIPage.jsx'
 import Blinkit10MinuteAmbulanceService from './pages/blogs/Blinkit10MinuteAmbulanceService.jsx'
+import LargeActionModels from './pages/blogs/LargeActionModels.jsx'
 
 
 import WebDevelopment from './pages/services/WebDevelopment';
@@ -94,6 +95,7 @@ function App() {
         <Route path="/blogs/genz-financial-trouble" element={<GenZFinancialTrouble />} />
         <Route path="/blogs/socialai-page" element={<SocialAIPage />} />
         <Route path="/blogs/blinkit-10-minute-ambulance-service" element={<Blinkit10MinuteAmbulanceService />} />
+        <Route path="/blogs/large-action-models" element={<LargeActionModels />} />
 
 
         <Route path="/services/web-development" element={<WebDevelopment />} />
