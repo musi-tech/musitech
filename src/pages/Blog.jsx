@@ -30,10 +30,21 @@ import adImage24 from '../assets/images/gen.webp';
 import adImage25 from '../assets/images/social.webp';
 import adImage26 from '../assets/images/blinkit.webp';
 import adImage27 from '../assets/images/lam.webp';
+import adImage28 from '../assets/images/siri.webp';
 
 
 const Blog = () => {
   const blogPosts = [
+    {
+      id: 30,
+      title:"Siri Eavesdropping: Apple’s $95M Settlement Explained",
+      description:
+        "Is Siri listening to you? Apple agrees to a $95M settlement over claims of accidental recordings and data sharing. Find out what this means for you.",
+      author: 'Abhishek Katale',
+      date: 'January 5, 2025',
+      image: adImage28,
+      link: '/blogs/siri-privacy-blog',
+    },
     {
       id: 29,
       title:"Large Action Models (LAM): Microsoft's Next-Gen AI for Real-World Tasks",
