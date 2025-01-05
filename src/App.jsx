@@ -36,7 +36,7 @@ import GenZFinancialTrouble from './pages/blogs/GenZFinancialTrouble.jsx'
 import SocialAIPage from './pages/blogs/SocialAIPage.jsx'
 import Blinkit10MinuteAmbulanceService from './pages/blogs/Blinkit10MinuteAmbulanceService.jsx'
 import LargeActionModels from './pages/blogs/LargeActionModels.jsx'
-
+import SiriPrivacyBlog from './pages/blogs/SiriPrivacyBlog.jsx'
 
 import WebDevelopment from './pages/services/WebDevelopment';
 import DigitalMarketing from './pages/services/DigitalMarketing';
@@ -96,6 +96,7 @@ function App() {
         <Route path="/blogs/socialai-page" element={<SocialAIPage />} />
         <Route path="/blogs/blinkit-10-minute-ambulance-service" element={<Blinkit10MinuteAmbulanceService />} />
         <Route path="/blogs/large-action-models" element={<LargeActionModels />} />
+        <Route path="/blogs/siri-privacy-blog" element={<SiriPrivacyBlog />} />
 
 
         <Route path="/services/web-development" element={<WebDevelopment />} />
