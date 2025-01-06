@@ -37,6 +37,7 @@ import SocialAIPage from './pages/blogs/SocialAIPage.jsx'
 import Blinkit10MinuteAmbulanceService from './pages/blogs/Blinkit10MinuteAmbulanceService.jsx'
 import LargeActionModels from './pages/blogs/LargeActionModels.jsx'
 import SiriPrivacyBlog from './pages/blogs/SiriPrivacyBlog.jsx'
+import OpenAIBreaksChess from './pages/blogs/OpenAIBreaksChess.jsx'
 
 import WebDevelopment from './pages/services/WebDevelopment';
 import DigitalMarketing from './pages/services/DigitalMarketing';
@@ -97,6 +98,7 @@ function App() {
         <Route path="/blogs/blinkit-10-minute-ambulance-service" element={<Blinkit10MinuteAmbulanceService />} />
         <Route path="/blogs/large-action-models" element={<LargeActionModels />} />
         <Route path="/blogs/siri-privacy-blog" element={<SiriPrivacyBlog />} />
+        <Route path="/blogs/openai-breaks-chess" element={<OpenAIBreaksChess />} />
 
 
         <Route path="/services/web-development" element={<WebDevelopment />} />

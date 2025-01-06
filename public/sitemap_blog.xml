@@ -210,4 +210,11 @@
     <priority>0.9</priority>
     <changefreq>weekly</changefreq>
   </url>
+  <url>
+    <loc>https://www.musitech.in/blogs/openai-breaks-chess</loc>
+            <lastmod>2025-01-06/lastmod>
+
+    <priority>0.9</priority>
+    <changefreq>weekly</changefreq>
+  </url>
 </urlset>
