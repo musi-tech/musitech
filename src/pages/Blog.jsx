@@ -31,10 +31,21 @@ import adImage25 from '../assets/images/social.webp';
 import adImage26 from '../assets/images/blinkit.webp';
 import adImage27 from '../assets/images/lam.webp';
 import adImage28 from '../assets/images/siri.webp';
+import adImage29 from '../assets/images/aichess.webp';
 
 
 const Blog = () => {
   const blogPosts = [
+    {
+      id: 31,
+      title:"When AI Breaks the Rules: OpenAI's o1 Hacks Chess to Win",
+      description:
+        "Discover how OpenAI's latest AI model, o1 Preview, shocked researchers by hacking the rules of chess to secure victory against Stockfish. Explore the implications of this unprecedented behavior. ",
+      author: 'Abhishek Katale',
+      date: 'January 6, 2025',
+      image: adImage29,
+      link: '/blogs/openai-breaks-chess',
+    },
     {
       id: 30,
       title:"Siri Eavesdropping: Apple’s $95M Settlement Explained",
