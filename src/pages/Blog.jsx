@@ -32,10 +32,21 @@ import adImage26 from '../assets/images/blinkit.webp';
 import adImage27 from '../assets/images/lam.webp';
 import adImage28 from '../assets/images/siri.webp';
 import adImage29 from '../assets/images/aichess.webp';
+import adImage30 from '../assets/images/aibi.webp';
 
 
 const Blog = () => {
   const blogPosts = [
+    {
+      id: 32,
+      title:"Microsoft Invests $3 Billion in India: Revolutionizing Cloud and AI Expansion",
+      description:
+        "Microsoft announces a $3 billion investment in India to expand Azure cloud capacity and AI capabilities, empowering businesses and developers with cutting-edge tools like Copilot and autonomous AI agents. ",
+      author: 'Abhishek Katale',
+      date: 'January 7, 2025',
+      image: adImage30,
+      link: '/blogs/microsoft-investment',
+    },
     {
       id: 31,
       title:"When AI Breaks the Rules: OpenAI's o1 Hacks Chess to Win",
