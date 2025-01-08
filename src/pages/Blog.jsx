@@ -33,10 +33,21 @@ import adImage27 from '../assets/images/lam.webp';
 import adImage28 from '../assets/images/siri.webp';
 import adImage29 from '../assets/images/aichess.webp';
 import adImage30 from '../assets/images/aibi.webp';
+import adImage31 from '../assets/images/nivid.webp';
 
 
 const Blog = () => {
   const blogPosts = [
+    {
+      id: 33,
+      title:"RTX 5090: Twice the Power, AI Graphics, and Next-Gen Gaming for $2,000",
+      description:
+        "Discover the Nvidia RTX 5090, the next-gen GPU offering double the power of the RTX 4090, AI-generated graphics, and groundbreaking specs. Perfect for gamers and creators at $2,000. Launching January 30, 2025. ",
+      author: 'Abhishek Katale',
+      date: 'January 8, 2025',
+      image: adImage31,
+      link: '/blogs/nvidia-rtx-5090-blog',
+    },
     {
       id: 32,
       title:"Microsoft Invests $3 Billion in India: Revolutionizing Cloud and AI Expansion",

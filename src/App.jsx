@@ -39,6 +39,7 @@ import LargeActionModels from './pages/blogs/LargeActionModels.jsx'
 import SiriPrivacyBlog from './pages/blogs/SiriPrivacyBlog.jsx'
 import OpenAIBreaksChess from './pages/blogs/OpenAIBreaksChess.jsx'
 import MicrosoftInvestment from './pages/blogs/MicrosoftInvestment.jsx'
+import NvidiaRtx5090Blog from './pages/blogs/NvidiaRtx5090Blog.jsx'
 
 
 import WebDevelopment from './pages/services/WebDevelopment';
@@ -102,6 +103,7 @@ function App() {
         <Route path="/blogs/siri-privacy-blog" element={<SiriPrivacyBlog />} />
         <Route path="/blogs/openai-breaks-chess" element={<OpenAIBreaksChess />} />
         <Route path="/blogs/microsoft-investment" element={<MicrosoftInvestment />} />
+        <Route path="/blogs/nvidia-rtx-5090-blog" element={<NvidiaRtx5090Blog />} />
 
 
         <Route path="/services/web-development" element={<WebDevelopment />} />
