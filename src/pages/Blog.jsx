@@ -34,10 +34,21 @@ import adImage28 from '../assets/images/siri.webp';
 import adImage29 from '../assets/images/aichess.webp';
 import adImage30 from '../assets/images/aibi.webp';
 import adImage31 from '../assets/images/nivid.webp';
+import adImage32 from '../assets/images/digi.webp';
 
 
 const Blog = () => {
   const blogPosts = [
+    {
+      id: 34,
+      title:"Nvidia DIGITS: The Personal AI Supercomputer Revolutionizing Computing",
+      description:
+        "Discover Nvidia DIGITS, the world’s first personal AI supercomputer. Compact, powerful, and energy-efficient, DIGITS brings supercomputing to your desk, empowering developers, researchers, and students like never before. ",
+      author: 'Abhishek Katale',
+      date: 'January 9, 2025',
+      image: adImage32,
+      link: '/blogs/nvidia-digits',
+    },
     {
       id: 33,
       title:"RTX 5090: Twice the Power, AI Graphics, and Next-Gen Gaming for $2,000",
