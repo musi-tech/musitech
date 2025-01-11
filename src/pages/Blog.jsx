@@ -35,10 +35,21 @@ import adImage29 from '../assets/images/aichess.webp';
 import adImage30 from '../assets/images/aibi.webp';
 import adImage31 from '../assets/images/nivid.webp';
 import adImage32 from '../assets/images/digi.webp';
+import adImage33 from '../assets/images/aiage.webp';
 
 
 const Blog = () => {
   const blogPosts = [
+    {
+      id: 35,
+      title:"Agentic AI: Revolutionizing Workflows with Autonomous Intelligence",
+      description:
+        "Discover how Agentic AI is transforming industries by managing workflows autonomously. Explore its applications, benefits, and challenges as this groundbreaking technology redefines the future of work. ",
+      author: 'Abhishek Katale',
+      date: 'January 10, 2025',
+      image: adImage33,
+      link: '/blogs/agenticai-article',
+    },
     {
       id: 34,
       title:"Nvidia DIGITS: The Personal AI Supercomputer Revolutionizing Computing",

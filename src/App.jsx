@@ -41,6 +41,7 @@ import OpenAIBreaksChess from './pages/blogs/OpenAIBreaksChess.jsx'
 import MicrosoftInvestment from './pages/blogs/MicrosoftInvestment.jsx'
 import NvidiaRtx5090Blog from './pages/blogs/NvidiaRtx5090Blog.jsx'
 import NvidiaDigits from './pages/blogs/NvidiaDigits.jsx'
+import AgenticAIArticle from './pages/blogs/AgenticAIArticle.jsx'
 
 
 import WebDevelopment from './pages/services/WebDevelopment';
@@ -106,6 +107,7 @@ function App() {
         <Route path="/blogs/microsoft-investment" element={<MicrosoftInvestment />} />
         <Route path="/blogs/nvidia-rtx-5090-blog" element={<NvidiaRtx5090Blog />} />
         <Route path="/blogs/nvidia-digits" element={<NvidiaDigits />} />
+        <Route path="/blogs/agenticai-article" element={<AgenticAIArticle />} />
 
 
         <Route path="/services/web-development" element={<WebDevelopment />} />
