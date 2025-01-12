@@ -42,6 +42,7 @@ import MicrosoftInvestment from './pages/blogs/MicrosoftInvestment.jsx'
 import NvidiaRtx5090Blog from './pages/blogs/NvidiaRtx5090Blog.jsx'
 import NvidiaDigits from './pages/blogs/NvidiaDigits.jsx'
 import AgenticAIArticle from './pages/blogs/AgenticAIArticle.jsx'
+import PlayStationSmellFeature from './pages/blogs/PlayStationSmellFeature.jsx'
 
 
 import WebDevelopment from './pages/services/WebDevelopment';
@@ -108,6 +109,7 @@ function App() {
         <Route path="/blogs/nvidia-rtx-5090-blog" element={<NvidiaRtx5090Blog />} />
         <Route path="/blogs/nvidia-digits" element={<NvidiaDigits />} />
         <Route path="/blogs/agenticai-article" element={<AgenticAIArticle />} />
+        <Route path="/blogs/playstation-smell-feature" element={<PlayStationSmellFeature />} />
 
 
         <Route path="/services/web-development" element={<WebDevelopment />} />

@@ -36,10 +36,21 @@ import adImage30 from '../assets/images/aibi.webp';
 import adImage31 from '../assets/images/nivid.webp';
 import adImage32 from '../assets/images/digi.webp';
 import adImage33 from '../assets/images/aiage.webp';
+import adImage34 from '../assets/images/ps.webp';
 
 
 const Blog = () => {
   const blogPosts = [
+    {
+      id: 36,
+      title:"PlayStation's Groundbreaking Smell Feature: Experience Games Like Never Before",
+      description:
+        "Sony redefines gaming with its revolutionary smell technology, allowing players to experience in-game scents. Discover how this innovation is changing immersive gameplay forever, from The Last of Us to the future of multi-sensory experiences.",
+      author: 'Abhishek Katale',
+      date: 'January 11, 2025',
+      image: adImage34,
+      link: '/blogs/playstation-smell-feature',
+    },
     {
       id: 35,
       title:"Agentic AI: Revolutionizing Workflows with Autonomous Intelligence",
