@@ -245,4 +245,11 @@
     <priority>0.9</priority>
     <changefreq>weekly</changefreq>
   </url>
+   <url>
+    <loc>https://www.musitech.in/blogs/playstation-smell-feature</loc>
+            <lastmod>2025-01-11</lastmod>
+
+    <priority>0.9</priority>
+    <changefreq>weekly</changefreq>
+  </url>
 </urlset>
