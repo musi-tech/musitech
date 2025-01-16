@@ -43,7 +43,8 @@ import NvidiaRtx5090Blog from './pages/blogs/NvidiaRtx5090Blog.jsx'
 import NvidiaDigits from './pages/blogs/NvidiaDigits.jsx'
 import AgenticAIArticle from './pages/blogs/AgenticAIArticle.jsx'
 import PlayStationSmellFeature from './pages/blogs/PlayStationSmellFeature.jsx'
-
+import MetaHiringIn2025 from './pages/blogs/MetaHiringIn2025.jsx'
+import CopilotPlan from './pages/blogs/CopilotPlan.jsx'
 
 import WebDevelopment from './pages/services/WebDevelopment';
 import DigitalMarketing from './pages/services/DigitalMarketing';
@@ -110,6 +111,8 @@ function App() {
         <Route path="/blogs/nvidia-digits" element={<NvidiaDigits />} />
         <Route path="/blogs/agenticai-article" element={<AgenticAIArticle />} />
         <Route path="/blogs/playstation-smell-feature" element={<PlayStationSmellFeature />} />
+        <Route path="/blogs/meta-hiring-in-2025" element={<MetaHiringIn2025 />} />
+        <Route path="/blogs/copilot-plan" element={<CopilotPlan />} />
 
 
         <Route path="/services/web-development" element={<WebDevelopment />} />
