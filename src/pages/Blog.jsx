@@ -37,10 +37,32 @@ import adImage31 from '../assets/images/nivid.webp';
 import adImage32 from '../assets/images/digi.webp';
 import adImage33 from '../assets/images/aiage.webp';
 import adImage34 from '../assets/images/ps.webp';
+import adImage35 from '../assets/images/metaa.webp';
+import adImage36 from '../assets/images/plan.webp';
 
 
 const Blog = () => {
   const blogPosts = [
+    {
+      id: 38,
+      title:"Microsoft Launches New Pay-As-You-Go Copilot Plan for Businesses",
+      description:
+        "Discover Microsoft’s new pay-as-you-go Copilot plan for business users. Affordable AI-powered tools, seamless Microsoft 365 integration, and advanced features like workflow automation.",
+      author: 'Abhishek Katale',
+      date: 'January 15, 2025',
+      image: adImage36,
+      link: '/blogs/copilot-plan',
+    },
+    {
+      id: 37,
+      title:"Meta to Lay Off 5% of Workforce, Focuses on AI and Plans to Rehire in 2025",
+      description:
+        "Discover why Meta is cutting 5% of its workforce in 2025 as part of its “Year of Efficiency” strategy. Learn about its focus on AI investments, updated content policies, and plans to rehire impacted roles later this year.",
+      author: 'Abhishek Katale',
+      date: 'January 14, 2025',
+      image: adImage35,
+      link: '/blogs/meta-hiring-in-2025',
+    },
     {
       id: 36,
       title:"PlayStation's Groundbreaking Smell Feature: Experience Games Like Never Before",
