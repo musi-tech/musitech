@@ -251,16 +251,25 @@
 
     <priority>0.9</priority>
     <changefreq>weekly</changefreq>
-  </url>4<url>
+  </url>
+  <url>
     <loc>https://www.musitech.in/blogs/meta-hiring-in-2025</loc>
             <lastmod>2025-01-15</lastmod>
 
     <priority>0.9</priority>
     <changefreq>weekly</changefreq>
   </url>
-  </url>4<url>
+  </url>
+  <url>
     <loc>https://www.musitech.in/blogs/copilot-plan</loc>
             <lastmod>2025-01-15</lastmod>
+
+    <priority>0.9</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://www.musitech.in/blogs/mahakumbh-2025-iit-bombay-engineer-journey</loc>
+            <lastmod>2025-01-16</lastmod>
 
     <priority>0.9</priority>
     <changefreq>weekly</changefreq>
