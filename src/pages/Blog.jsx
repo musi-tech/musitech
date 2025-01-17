@@ -42,10 +42,21 @@ import adImage36 from '../assets/images/plan.webp';
 import adImage37 from '../assets/images/iit.jpeg';
 import adImage38 from '../assets/images/aimake.webp';
 import adImage39 from '../assets/images/aldigital.webp';
+import adImage40 from '../assets/images/mlad.webp';
 
 
 const Blog = () => {
   const blogPosts = [
+    {
+      id: 42,
+      title:"Machine Learning in Advertising: Transforming the Future of Marketing",
+      description:
+        "Discover how machine learning is revolutionizing advertising by enabling personalization, predictive pricing, and real-time adaptation. Learn insights from industry leaders and explore trends shaping the future of ethical, data-driven marketing.",
+      author: 'Abhishek Katale',
+      date: 'January 17, 2025',
+      image: adImage40,
+      link: '/blogs/machine-learning-advertising',
+    },
     {
       id: 41,
       title:"Top 10 AI Tools for Digital Marketing in 2025 to Boost Efficiency and Results",
