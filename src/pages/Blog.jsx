@@ -40,10 +40,21 @@ import adImage34 from '../assets/images/ps.webp';
 import adImage35 from '../assets/images/metaa.webp';
 import adImage36 from '../assets/images/plan.webp';
 import adImage37 from '../assets/images/iit.jpeg';
+import adImage38 from '../assets/images/aimake.webp';
 
 
 const Blog = () => {
   const blogPosts = [
+    {
+      id: 40,
+      title:"Beginner's Guide to AI Marketing: Actionable Tips for Success in 2025",
+      description:
+        "Discover the ultimate beginner's guide to AI marketing! Learn actionable tips on leveraging AI tools for keyword research, content creation, SEO, and more. Perfect for marketers ready to thrive in 2025.",
+      author: 'Abhishek Katale',
+      date: 'January 17, 2025',
+      image: adImage38,
+      link: '/blogs/ai-marketing-guide',
+    },
     {
       id: 39,
       title:"Mahakumbh 2025: An IIT Bombay Engineer’s Inspiring Journey to Spiritual Vairagi",
