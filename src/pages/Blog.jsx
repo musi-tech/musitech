@@ -39,10 +39,21 @@ import adImage33 from '../assets/images/aiage.webp';
 import adImage34 from '../assets/images/ps.webp';
 import adImage35 from '../assets/images/metaa.webp';
 import adImage36 from '../assets/images/plan.webp';
+import adImage37 from '../assets/images/iit.jpeg';
 
 
 const Blog = () => {
   const blogPosts = [
+    {
+      id: 39,
+      title:"Mahakumbh 2025: An IIT Bombay Engineer’s Inspiring Journey to Spiritual Vairagi",
+      description:
+        "Discover the remarkable story of Abhay Ji, an IIT Bombay aerospace engineer who renounced a conventional life for spiritual vairagya. Follow his inspiring journey of resilience, self-discovery, and inner peace at Mahakumbh 2025.",
+      author: 'Abhishek Katale',
+      date: 'January 16, 2025',
+      image: adImage37,
+      link: '/blogs/mahakumbh-2025-iit-bombay-engineer-journey',
+    },
     {
       id: 38,
       title:"Microsoft Launches New Pay-As-You-Go Copilot Plan for Businesses",
