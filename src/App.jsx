@@ -48,6 +48,7 @@ import CopilotPlan from './pages/blogs/CopilotPlan.jsx'
 import Mahakumbh2025IITBombayEngineerJourney from './pages/blogs/Mahakumbh2025IITBombayEngineerJourney.jsx'
 import AIMarketingGuide from './pages/blogs/AIMarketingGuide.jsx'
 import TopAIToolsForDigitalMarketingIn2025 from './pages/blogs/TopAIToolsForDigitalMarketingIn2025.jsx'
+import MachineLearningAdvertising from './pages/blogs/MachineLearningAdvertising.jsx'
 
 import WebDevelopment from './pages/services/WebDevelopment';
 import DigitalMarketing from './pages/services/DigitalMarketing';
@@ -119,6 +120,7 @@ function App() {
         <Route path="/blogs/mahakumbh-2025-iit-bombay-engineer-journey" element={<Mahakumbh2025IITBombayEngineerJourney />} />
         <Route path="/blogs/ai-marketing-guide" element={<AIMarketingGuide />} />
         <Route path="/blogs/top-ai-tools-for-digital-marketing-in-2025" element={<TopAIToolsForDigitalMarketingIn2025 />} />
+        <Route path="/blogs/machine-learning-advertising" element={<MachineLearningAdvertising />} />
 
         <Route path="/services/web-development" element={<WebDevelopment />} />
         <Route path="/services/digital-marketing" element={<DigitalMarketing />} />
