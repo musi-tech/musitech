@@ -41,10 +41,21 @@ import adImage35 from '../assets/images/metaa.webp';
 import adImage36 from '../assets/images/plan.webp';
 import adImage37 from '../assets/images/iit.jpeg';
 import adImage38 from '../assets/images/aimake.webp';
+import adImage39 from '../assets/images/aldigital.webp';
 
 
 const Blog = () => {
   const blogPosts = [
+    {
+      id: 41,
+      title:"Top 10 AI Tools for Digital Marketing in 2025 to Boost Efficiency and Results",
+      description:
+        "Discover the top AI tools revolutionizing digital marketing in 2025. From content creation to lead generation, these tools help businesses save time, optimize strategies, and drive better results.",
+      author: 'Abhishek Katale',
+      date: 'January 17, 2025',
+      image: adImage39,
+      link: '/blogs/top-ai-tools-for-digital-marketing-in-2025',
+    },
     {
       id: 40,
       title:"Beginner's Guide to AI Marketing: Actionable Tips for Success in 2025",
@@ -454,7 +465,7 @@ const Blog = () => {
       <div className="bg-white min-h-screen py-10">
         <div className="container mx-auto px-6">
           <h1 className="text-4xl font-bold text-gray-800 text-center mb-8">
-            MusiTech Blog
+            MusiTech Blogs
           </h1>
           <p className="text-center text-lg text-gray-600 mb-10">
             Stay updated with the latest trends and insights in the Tech industry.
