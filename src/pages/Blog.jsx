@@ -44,10 +44,32 @@ import adImage38 from '../assets/images/aimake.webp';
 import adImage39 from '../assets/images/aldigital.webp';
 import adImage40 from '../assets/images/mlad.webp';
 import adImage41 from '../assets/images/voice.webp';
+import adImage42 from '../assets/images/pr1.webp';
+import adImage43 from '../assets/images/pr2.webp';
 
 
 const Blog = () => {
   const blogPosts = [
+    {
+      id: 45,
+      title:"7 Proven Tips to Optimize Your Site for Voice Search in 2025",
+      description:
+        "Discover the latest strategies to optimize your site for voice search in 2025. Learn how to use conversational keywords, featured snippets, schema markup, and improve mobile usability for better voice search ranking.",
+      author: 'Abhishek Katale',
+      date: 'January 18, 2025',
+      image: adImage42,
+      link: '/blogs/optimize-site-for-voice-search-2025',
+    },
+    {
+      id: 44,
+      title:"The Best SEO Strategies for 2025: Stay Ahead in the AI-Driven Era",
+      description:
+        "Discover the top SEO strategies for 2025, including Generative Engine Optimization (GEO), dual SEO tactics, E-E-A-T enhancements, and AI integration. Stay competitive in the evolving digital landscape!",
+      author: 'Abhishek Katale',
+      date: 'January 18, 2025',
+      image: adImage43,
+      link: '/blogs/the-best-seo-strategies-for-2025',
+    },
     {
       id: 43,
       title:"3 Proven SEO Tips for Voice Search Optimization in 2025",
