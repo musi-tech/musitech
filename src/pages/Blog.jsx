@@ -43,10 +43,21 @@ import adImage37 from '../assets/images/iit.jpeg';
 import adImage38 from '../assets/images/aimake.webp';
 import adImage39 from '../assets/images/aldigital.webp';
 import adImage40 from '../assets/images/mlad.webp';
+import adImage41 from '../assets/images/voice.webp';
 
 
 const Blog = () => {
   const blogPosts = [
+    {
+      id: 43,
+      title:"3 Proven SEO Tips for Voice Search Optimization in 2025",
+      description:
+        "Boost your website traffic with these 3 expert SEO tips for voice search optimization. Learn how to use HTTPS, improve site speed, and craft concise answers to stay ahead of the competition in 2025!",
+      author: 'Abhishek Katale',
+      date: 'January 18, 2025',
+      image: adImage41,
+      link: '/blogs/voice-search-optimization',
+    },
     {
       id: 42,
       title:"Machine Learning in Advertising: Transforming the Future of Marketing",
