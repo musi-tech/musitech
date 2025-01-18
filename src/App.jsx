@@ -50,6 +50,8 @@ import AIMarketingGuide from './pages/blogs/AIMarketingGuide.jsx'
 import TopAIToolsForDigitalMarketingIn2025 from './pages/blogs/TopAIToolsForDigitalMarketingIn2025.jsx'
 import MachineLearningAdvertising from './pages/blogs/MachineLearningAdvertising.jsx'
 import VoiceSearchOptimization from './pages/blogs/VoiceSearchOptimization.jsx'
+import OptimizeSiteForVoiceSearch2025 from './pages/blogs/OptimizeSiteForVoiceSearch2025.jsx'
+import TheBestSEOStrategiesFor2025 from './pages/blogs/TheBestSEOStrategiesFor2025.jsx'
 
 import WebDevelopment from './pages/services/WebDevelopment';
 import DigitalMarketing from './pages/services/DigitalMarketing';
@@ -123,6 +125,8 @@ function App() {
         <Route path="/blogs/top-ai-tools-for-digital-marketing-in-2025" element={<TopAIToolsForDigitalMarketingIn2025 />} />
         <Route path="/blogs/machine-learning-advertising" element={<MachineLearningAdvertising />} />
         <Route path="/blogs/voice-search-optimization" element={<VoiceSearchOptimization />} />
+        <Route path="/blogs/the-best-seo-strategies-for-2025" element={<TheBestSEOStrategiesFor2025 />} />
+        <Route path="/blogs/optimize-site-for-voice-search-2025" element={<OptimizeSiteForVoiceSearch2025 />} />
 
         <Route path="/services/web-development" element={<WebDevelopment />} />
         <Route path="/services/digital-marketing" element={<DigitalMarketing />} />
