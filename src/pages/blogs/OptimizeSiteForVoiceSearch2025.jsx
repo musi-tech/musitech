@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
+import MusiBlog from "../../components/MusiBlog"
 
 const BlogArticle = () => {
     const blogData = [
@@ -159,6 +160,7 @@ const BlogArticle = () => {
                     ))}
                 </section>
             </div>
+            <MusiBlog />
             <Footer />
         </>
     );
