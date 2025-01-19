@@ -119,6 +119,19 @@ const ContactUs = () => {
                     </motion.div>
                 </div>
             </div>
+            <div className="flex items-center justify-center min-h-screen bg-gray-100 p-6">
+      <div className="w-full max-w-6xl rounded-lg overflow-hidden shadow-lg">
+      <h2 className="text-xl font-semibold text-gray-700">Our Location</h2>
+        <iframe
+          className="w-full h-[600px] border-none"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1849.6712458706404!2d73.95752000859329!3d18.525169049551184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c3d44274288b%3A0x69a1a2f7e36e1bf4!2sMusitech%3A%20Digital%20Marketing!5e1!3m2!1sen!2sin!4v1737268639368!5m2!1sen!2sin"
+          allowFullScreen=""
+          loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
+        ></iframe>
+        
+      </div>
+    </div>
 
             <div className="py-16 px-6 lg:px-12 bg-gradient-to-br from-gray-50 to-white">
                 <SocialLinks />
