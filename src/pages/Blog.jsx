@@ -46,10 +46,43 @@ import adImage40 from '../assets/images/mlad.webp';
 import adImage41 from '../assets/images/voice.webp';
 import adImage42 from '../assets/images/pr1.webp';
 import adImage43 from '../assets/images/pr2.webp';
+import adImage44 from '../assets/images/emailai.webp';
+import adImage45 from '../assets/images/emailauto.webp';
+import adImage46 from '../assets/images/emailwork.webp';
 
 
 const Blog = () => {
   const blogPosts = [
+    {
+      id: 48,
+      title:"Email List Segmentation 2025: The Ultimate Guide by Mailtrap",
+      description:
+        "Learn the secrets to effective email marketing with Mailtrap's Email List Segmentation 2025 tutorial. Discover why segmentation matters, how to segment your list, and actionable tips to boost engagement, conversions, and ROI.",
+      author: 'Abhishek Katale',
+      date: 'January 19, 2025',
+      image: adImage46,
+      link: '/blogs/email-list-segmentation-2025',
+    },
+    {
+      id: 47,
+      title:"Mastering Email Marketing Automation with MailerLite: Step-by-Step Guide",
+      description:
+        "Learn how to create and optimize email marketing automation workflows with MailerLite. This comprehensive tutorial covers triggers, templates, advanced features, and tips to boost engagement and conversions.",
+      author: 'Abhishek Katale',
+      date: 'January 19, 2025',
+      image: adImage45,
+      link: '/blogs/mastering-email-marketing-automation-mailerlite',
+    },
+    {
+      id: 46,
+      title:"Interactive Emails: A Complete Guide with Tips and Examples",
+      description:
+        "Discover how interactive emails can transform your email campaigns with engaging elements like polls, animations, and more. Learn tips, tools, and examples to create dynamic emails that boost engagement and conversions.",
+      author: 'Abhishek Katale',
+      date: 'January 19, 2025',
+      image: adImage44,
+      link: '/blogs/interactive-emails',
+    },
     {
       id: 45,
       title:"7 Proven Tips to Optimize Your Site for Voice Search in 2025",
