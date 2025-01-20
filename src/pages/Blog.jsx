@@ -49,10 +49,32 @@ import adImage43 from '../assets/images/pr2.webp';
 import adImage44 from '../assets/images/emailai.webp';
 import adImage45 from '../assets/images/emailauto.webp';
 import adImage46 from '../assets/images/emailwork.webp';
+import adImage47 from '../assets/images/dmt.webp';
+import adImage48 from '../assets/images/acc.webp';
 
 
 const Blog = () => {
   const blogPosts = [
+    {
+      id: 50,
+      title:"Digital Marketing Accessibility in 2025: 10 Powerful Strategies for Success",
+      description:
+       "Discover why digital marketing accessibility is essential in 2025. Learn powerful strategies, real-world success stories, and actionable tips to create inclusive campaigns that drive results.",
+      author: 'Abhishek Katale',
+      date: 'January 20, 2025',
+      image: adImage48,
+      link: '/blogs/digital-marketing-accessibility-2025',
+    },
+    {
+      id: 49,
+      title:"Digital Marketing Trends 2025 😱 | Game-Changing Innovations You Can't Ignore",
+      description:
+       "Discover the top Digital Marketing Trends 2025 reshaping the industry, from AI and automation to content quality, influencer marketing shifts, and social e-commerce!",
+      author: 'Abhishek Katale',
+      date: 'January 20, 2025',
+      image: adImage47,
+      link: '/blogs/digital-marketing-trends-2025',
+    },
     {
       id: 48,
       title:"Email List Segmentation 2025: The Ultimate Guide by Mailtrap",

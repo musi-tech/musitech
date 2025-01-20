@@ -55,6 +55,8 @@ import TheBestSEOStrategiesFor2025 from './pages/blogs/TheBestSEOStrategiesFor20
 import InteractiveEmails from './pages/blogs/InteractiveEmails.jsx'
 import MasteringEmailMarketingAutomationMailerlite from './pages/blogs/MasteringEmailMarketingAutomationMailerlite.jsx'
 import EmailListSegmentation2025 from './pages/blogs/EmailListSegmentation2025.jsx'
+import DigitalMarketingTrends2025 from './pages/blogs/DigitalMarketingTrends2025.jsx'
+import DigitalMarketingAccessibility2025 from './pages/blogs/DigitalMarketingAccessibility2025.jsx'
 
 import WebDevelopment from './pages/services/WebDevelopment';
 import DigitalMarketing from './pages/services/DigitalMarketing';
@@ -133,6 +135,9 @@ function App() {
         <Route path="/blogs/interactive-emails" element={<InteractiveEmails />} />
         <Route path="/blogs/mastering-email-marketing-automation-mailerlite" element={<MasteringEmailMarketingAutomationMailerlite />} />
         <Route path="/blogs/email-list-segmentation-2025" element={<EmailListSegmentation2025 />} />
+        <Route path="/blogs/digital-marketing-trends-2025" element={<DigitalMarketingTrends2025 />} />
+        <Route path="/blogs/digital-marketing-accessibility-2025" element={<DigitalMarketingAccessibility2025 />} />
+
 
         <Route path="/services/web-development" element={<WebDevelopment />} />
         <Route path="/services/digital-marketing" element={<DigitalMarketing />} />
