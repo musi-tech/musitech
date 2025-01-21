@@ -51,10 +51,33 @@ import adImage45 from '../assets/images/emailauto.webp';
 import adImage46 from '../assets/images/emailwork.webp';
 import adImage47 from '../assets/images/dmt.webp';
 import adImage48 from '../assets/images/acc.webp';
+import adImage49 from '../assets/images/hat.webp';
+import adImage50 from '../assets/images/bloge.webp';
+
 
 
 const Blog = () => {
   const blogPosts = [
+    {
+      id: 52,
+      title:"How to Write a Blog Post From Start to Finish: 7 Simple Tips",
+      description:
+       "Learn how to write a blog post that captures attention, drives traffic, and engages your readers. Follow these 7 simple tips to create content that resonates!",
+      author: 'Abhishek Katale',
+      date: 'January 21, 2025',
+      image: adImage50,
+      link: '/blogs/how-to-write-a-blog-post-from-start-to-finish',
+    },
+    {
+      id: 51,
+      title:"Understanding White Hat, Black Hat, and Gray Hat SEO: Techniques & Real-World Applications",
+      description:
+       "Learn about White Hat, Black Hat, and Gray Hat SEO techniques. Discover ethical practices, risky shortcuts, and their real-world applications to boost your website’s rankings effectively and sustainably.",
+      author: 'Abhishek Katale',
+      date: 'January 21, 2025',
+      image: adImage49,
+      link: '/blogs/understanding-white-hat-black-hat-gray-hat-seo',
+    },
     {
       id: 50,
       title:"Digital Marketing Accessibility in 2025: 10 Powerful Strategies for Success",

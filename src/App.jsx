@@ -57,6 +57,8 @@ import MasteringEmailMarketingAutomationMailerlite from './pages/blogs/Mastering
 import EmailListSegmentation2025 from './pages/blogs/EmailListSegmentation2025.jsx'
 import DigitalMarketingTrends2025 from './pages/blogs/DigitalMarketingTrends2025.jsx'
 import DigitalMarketingAccessibility2025 from './pages/blogs/DigitalMarketingAccessibility2025.jsx'
+import UnderstandingWhiteHatBlackHatGrayHatSeo from './pages/blogs/UnderstandingWhiteHatBlackHatGrayHatSeo.jsx'
+import HowToWriteABlogPostFromStartToFinish from './pages/blogs/HowToWriteABlogPostFromStartToFinish.jsx'
 
 import WebDevelopment from './pages/services/WebDevelopment';
 import DigitalMarketing from './pages/services/DigitalMarketing';
@@ -137,7 +139,8 @@ function App() {
         <Route path="/blogs/email-list-segmentation-2025" element={<EmailListSegmentation2025 />} />
         <Route path="/blogs/digital-marketing-trends-2025" element={<DigitalMarketingTrends2025 />} />
         <Route path="/blogs/digital-marketing-accessibility-2025" element={<DigitalMarketingAccessibility2025 />} />
-
+        <Route path="/blogs/understanding-white-hat-black-hat-gray-hat-seo" element={<UnderstandingWhiteHatBlackHatGrayHatSeo />} />
+        <Route path="/blogs/how-to-write-a-blog-post-from-start-to-finish"  element={<HowToWriteABlogPostFromStartToFinish />} />
 
         <Route path="/services/web-development" element={<WebDevelopment />} />
         <Route path="/services/digital-marketing" element={<DigitalMarketing />} />
