@@ -50,7 +50,7 @@ const projects = [
     id: 7,
     name: 'Note Vid',
     image: image7,
-    link: '#https://notevid.vercel.app/',
+    link: 'https://notevid.vercel.app/',
   },
 ];
 
@@ -68,6 +68,8 @@ const ProjectCard = ({ project }) => (
     <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-0 opacity-0 group-hover:opacity-100 transition-all duration-500 ease-in-out">
       <a
         href={project.link}
+        target="_blank"
+        rel="noopener noreferrer"
         className="text-white text-lg font-semibold px-6 py-3 rounded-lg border-2 border-white hover:bg-white hover:text-black transition-all duration-300"
       >
         View Project
@@ -84,7 +86,7 @@ const Portfolio = () => {
     const handleScroll = () => {
       const scrollPosition = window.scrollY;
       const projectCards = document.querySelectorAll('.project-card');
-      projectCards.forEach((card, index) => {
+      projectCards.forEach((card) => {
         const offset = card.getBoundingClientRect().top;
         const opacity = Math.min(1, 1 - (offset - window.innerHeight) / window.innerHeight);
         card.style.opacity = opacity;
@@ -99,9 +101,9 @@ const Portfolio = () => {
   return (
     <>
       <Navbar />
-      <section className="container mx-auto py-16 px-4">
-        <h2 className="text-4xl font-bold text-center mb-12">My Website Projects</h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-12">
+      <section className="container mx-auto py-12 px-4">
+        <h2 className="text-5xl font-bold text-center mb-12">My Website Projects</h2>
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-12 pb-24">
           {projects.map((project) => (
             <div
               className="project-card transition-opacity duration-500"
