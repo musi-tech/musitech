@@ -53,11 +53,33 @@ import adImage47 from '../assets/images/dmt.webp';
 import adImage48 from '../assets/images/acc.webp';
 import adImage49 from '../assets/images/hat.webp';
 import adImage50 from '../assets/images/bloge.webp';
+import adImage51 from '../assets/images/deek.webp';
+import adImage52 from '../assets/images/denta.webp';
 
 
 
 const Blog = () => {
   const blogPosts = [
+    {
+      id: 54,
+      title:"Denta Water IPO Review 2025: Should You Invest or Skip?",
+      description:
+       "Discover a detailed review of the Denta Water IPO, opening for subscription from January 22 to January 24, 2025. Learn about its financials, key strengths, risks, and whether it's a good investment for listing gains or long-term returns.",
+      author: 'Abhishek Katale',
+      date: 'January 22, 2025',
+      image: adImage52,
+      link: '/blogs/denta-water-ipo-review-2025',
+    },
+    {
+      id: 53,
+      title:"DeepSeek R1: Redefining AI with Open-Source Brilliance",
+      description:
+       "Discover how DeepSeek R1 is revolutionizing artificial intelligence with its open-source approach, outperforming industry giants while empowering developers and creators worldwide. Dive into its benchmarks, human-like reasoning, and transformative impact.",
+      author: 'Abhishek Katale',
+      date: 'January 22, 2025',
+      image: adImage51,
+      link: '/blogs/deepseek-r1-ai-open-source-revolution',
+    },
     {
       id: 52,
       title:"How to Write a Blog Post From Start to Finish: 7 Simple Tips",

@@ -6,13 +6,13 @@ const projects = [
     title: 'Web Development',
     description: 'Building innovative websites that inspire and engage.',
     image: 'https://ideogram.ai/assets/progressive-image/balanced/response/ZsKybphBTdC91mDqh59VEg',
-    link: 'https://notevid.vercel.app/'
+    link: '/services/web-dev'
   },
   {
     title: 'Digital Marketing',
     description: 'Empowering brands with creative digital strategies.',
     image: 'https://ideogram.ai/assets/progressive-image/balanced/response/3KJduscSQriZyzk6gQd7Zw',
-    link: 'https://www.dropbox.com/scl/fo/72qzlsxjbh18ihdb4zbx7/AJKXPzYxGmpNVvrxgr0LUBQ?rlkey=a0g8x3xwlo59m0zq3ujtutxdv&dl=0'
+    link: '/services/digi-make'
   },
   {
     title: 'Content Creation',
