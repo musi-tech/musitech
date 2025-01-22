@@ -7,6 +7,7 @@ import image3 from '../../assets/images/hespros.png';
 import image4 from '../../assets/images/krushis.png';
 import image5 from '../../assets/images/linuxs.png';
 import image6 from '../../assets/images/pdeas.png';
+import image7 from '../../assets/images/note.png';
 
 const projects = [
   {
@@ -44,6 +45,12 @@ const projects = [
     name: 'PDEA COEM',
     image: image6,
     link: '#',
+  },
+  {
+    id: 7,
+    name: 'Note Vid',
+    image: image7,
+    link: '#https://notevid.vercel.app/',
   },
 ];
 
