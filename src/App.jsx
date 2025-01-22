@@ -59,12 +59,17 @@ import DigitalMarketingTrends2025 from './pages/blogs/DigitalMarketingTrends2025
 import DigitalMarketingAccessibility2025 from './pages/blogs/DigitalMarketingAccessibility2025.jsx'
 import UnderstandingWhiteHatBlackHatGrayHatSeo from './pages/blogs/UnderstandingWhiteHatBlackHatGrayHatSeo.jsx'
 import HowToWriteABlogPostFromStartToFinish from './pages/blogs/HowToWriteABlogPostFromStartToFinish.jsx'
+import DeepSeekR1AIOpenSourceRevolution from './pages/blogs/DeepSeekR1AIOpenSourceRevolution.jsx'
+import DentaWaterIPOReview2025 from './pages/blogs/DentaWaterIPOReview2025.jsx'
 
 import WebDevelopment from './pages/services/WebDevelopment';
 import DigitalMarketing from './pages/services/DigitalMarketing';
 import ContentCreation from './pages/services/ContentCreation';
 import SocialMediaManagement from './pages/services/SocialMediaManagement';
 import MentorshipInternship from './pages/services/MentorshipInternship';
+import WebDev from './pages/services/WebDev';
+import DigiMark from './pages/services/DigiMark';
+
 
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
@@ -141,7 +146,12 @@ function App() {
         <Route path="/blogs/digital-marketing-accessibility-2025" element={<DigitalMarketingAccessibility2025 />} />
         <Route path="/blogs/understanding-white-hat-black-hat-gray-hat-seo" element={<UnderstandingWhiteHatBlackHatGrayHatSeo />} />
         <Route path="/blogs/how-to-write-a-blog-post-from-start-to-finish"  element={<HowToWriteABlogPostFromStartToFinish />} />
+        <Route path="/blogs/deepseek-r1-ai-open-source-revolution"  element={<DeepSeekR1AIOpenSourceRevolution />} />
+        <Route path="/blogs/denta-water-ipo-review-2025"  element={<DentaWaterIPOReview2025 />} />
 
+
+        <Route path="/services/web-dev" element={<WebDev />} />
+        <Route path="/services/digi-make" element={<DigiMark />} />
         <Route path="/services/web-development" element={<WebDevelopment />} />
         <Route path="/services/digital-marketing" element={<DigitalMarketing />} />
         <Route path="/services/content-creation" element={<ContentCreation />} />
