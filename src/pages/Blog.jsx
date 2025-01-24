@@ -57,11 +57,21 @@ import adImage51 from '../assets/images/deek.webp';
 import adImage52 from '../assets/images/denta.webp';
 import adImage53 from '../assets/images/craw.webp';
 import adImage54 from '../assets/images/load.webp';
+import adImage55 from '../assets/images/drive.webp';
 
 
 
 const Blog = () => {
   const blogPosts = [
+    {
+      id: 57,
+      title:"Driving Traffic Growth with Competitor Keyword Analysi",
+      description:"Driving Traffic Growth with Competitor Keyword Analysis:  One of the best ways to grow your website’s traffic is by analyzing your competitors’ keywords. By understanding the strategies they use, you can uncover opportunities to steal their SEO traffic and improve your rankings.",
+      author: 'Abhishek Katale',
+      date: 'January 24, 2025',
+      image: adImage55,
+      link: '/blogs/driving-traffic-growth-with-competitor-keyword-analysi',
+    },
     {
       id: 56,
       title:"10 Proven Tips to Decrease Page Load Time and Boost Website Speed",
