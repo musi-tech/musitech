@@ -63,6 +63,7 @@ import DeepSeekR1AIOpenSourceRevolution from './pages/blogs/DeepSeekR1AIOpenSour
 import DentaWaterIPOReview2025 from './pages/blogs/DentaWaterIPOReview2025.jsx'
 import DecreasePageLoadTime from './pages/blogs/DecreasePageLoadTime.jsx'
 import HowSearchEnginesWorkCrawlingIndexingRanking from './pages/blogs/HowSearchEnginesWorkCrawlingIndexingRanking.jsx'
+import DrivingTrafficGrowthWithCompetitorKeywordAnalysi from './pages/blogs/DrivingTrafficGrowthWithCompetitorKeywordAnalysi.jsx'
 
 import WebDevelopment from './pages/services/WebDevelopment';
 import DigitalMarketing from './pages/services/DigitalMarketing';
@@ -152,6 +153,7 @@ function App() {
         <Route path="/blogs/denta-water-ipo-review-2025"  element={<DentaWaterIPOReview2025 />} />
         <Route path='/blogs/decrease-page-load-time' element={<DecreasePageLoadTime />} />
         <Route path='/blogs/how-search-engines-work-crawling-indexing-ranking' element={<HowSearchEnginesWorkCrawlingIndexingRanking />} />
+        <Route path='/blogs/driving-traffic-growth-with-competitor-keyword-analysi' element={<DrivingTrafficGrowthWithCompetitorKeywordAnalysi />} />
 
         <Route path="/services/web-dev" element={<WebDev />} />
         <Route path="/services/digi-make" element={<DigiMark />} />
