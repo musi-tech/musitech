@@ -61,6 +61,8 @@ import UnderstandingWhiteHatBlackHatGrayHatSeo from './pages/blogs/Understanding
 import HowToWriteABlogPostFromStartToFinish from './pages/blogs/HowToWriteABlogPostFromStartToFinish.jsx'
 import DeepSeekR1AIOpenSourceRevolution from './pages/blogs/DeepSeekR1AIOpenSourceRevolution.jsx'
 import DentaWaterIPOReview2025 from './pages/blogs/DentaWaterIPOReview2025.jsx'
+import DecreasePageLoadTime from './pages/blogs/DecreasePageLoadTime.jsx'
+import HowSearchEnginesWorkCrawlingIndexingRanking from './pages/blogs/HowSearchEnginesWorkCrawlingIndexingRanking.jsx'
 
 import WebDevelopment from './pages/services/WebDevelopment';
 import DigitalMarketing from './pages/services/DigitalMarketing';
@@ -148,7 +150,8 @@ function App() {
         <Route path="/blogs/how-to-write-a-blog-post-from-start-to-finish"  element={<HowToWriteABlogPostFromStartToFinish />} />
         <Route path="/blogs/deepseek-r1-ai-open-source-revolution"  element={<DeepSeekR1AIOpenSourceRevolution />} />
         <Route path="/blogs/denta-water-ipo-review-2025"  element={<DentaWaterIPOReview2025 />} />
-
+        <Route path='/blogs/decrease-page-load-time' element={<DecreasePageLoadTime />} />
+        <Route path='/blogs/how-search-engines-work-crawling-indexing-ranking' element={<HowSearchEnginesWorkCrawlingIndexingRanking />} />
 
         <Route path="/services/web-dev" element={<WebDev />} />
         <Route path="/services/digi-make" element={<DigiMark />} />

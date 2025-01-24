@@ -55,11 +55,33 @@ import adImage49 from '../assets/images/hat.webp';
 import adImage50 from '../assets/images/bloge.webp';
 import adImage51 from '../assets/images/deek.webp';
 import adImage52 from '../assets/images/denta.webp';
+import adImage53 from '../assets/images/craw.webp';
+import adImage54 from '../assets/images/load.webp';
 
 
 
 const Blog = () => {
   const blogPosts = [
+    {
+      id: 56,
+      title:"10 Proven Tips to Decrease Page Load Time and Boost Website Speed",
+      description:
+       "Learn 10 actionable tips to decrease your website's page load time, improve user experience, boost SEO rankings, and increase conversions. Start optimizing your site today!",
+      author: 'Abhishek Katale',
+      date: 'January 23, 2025',
+      image: adImage54,
+      link: '/blogs/decrease-page-load-time',
+    },
+    {
+      id: 55,
+      title:"How Search Engines Work: Crawling, Indexing, and Ranking Explained",
+      description:
+       "Discover how search engines work with a simple breakdown of crawling, indexing, and ranking. Learn actionable tips to optimize your website for better visibility and rankings.",
+      author: 'Abhishek Katale',
+      date: 'January 23, 2025',
+      image: adImage53,
+      link: '/blogs/how-search-engines-work-crawling-indexing-ranking',
+    },
     {
       id: 54,
       title:"Denta Water IPO Review 2025: Should You Invest or Skip?",
