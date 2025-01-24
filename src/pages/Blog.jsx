@@ -58,11 +58,19 @@ import adImage52 from '../assets/images/denta.webp';
 import adImage53 from '../assets/images/craw.webp';
 import adImage54 from '../assets/images/load.webp';
 import adImage55 from '../assets/images/drive.webp';
-
-
+import adImage56 from '../assets/images/tre.webp';
 
 const Blog = () => {
   const blogPosts = [
+    {
+      id: 58,
+      title:"The New Approach to SEO That Changes Everything in 2025",
+      description:"Discover actionable SEO strategies for 2025! Learn how to integrate SEO into digital marketing, optimize e-commerce sites, boost local visibility, and master off-page tactics. Stay ahead in the evolving search landscape!",
+      author: 'Abhishek Katale',
+      date: 'January 24, 2025',
+      image: adImage56,
+      link: '/blogs/the-new-approach-to-seo-that-changes-everything-in-2025',
+    },
     {
       id: 57,
       title:"Driving Traffic Growth with Competitor Keyword Analysi",
