@@ -59,9 +59,29 @@ import adImage53 from '../assets/images/craw.webp';
 import adImage54 from '../assets/images/load.webp';
 import adImage55 from '../assets/images/drive.webp';
 import adImage56 from '../assets/images/tre.webp';
+import adImage57 from '../assets/images/page.webp';
+import adImage58 from '../assets/images/saas.webp';
 
 const Blog = () => {
   const blogPosts = [
+    {
+      id: 60,
+      title:"How to Sell SEO to SaaS Companies: A Personal Perspective",
+      description:"How SaaS Companies Can Optimize for SEO : Selling SEO services to SaaS companies can be challenging, but it's not impossible. My journey working with SaaS companies has taught me valuable lessons.",
+      author: 'Abhishek Katale',
+      date: 'January 25, 2025',
+      image: adImage58,
+      link: '/blogs/how-saas-companies-can-optimize-for-seo',
+    },
+    {
+      id: 59,
+      title:"Understanding Orphan Pages: A Comprehensive Guide with Real-Life Examples",
+      description:"Learn about orphan pages, why they occur, and how they can impact SEO and user experience. Discover strategies to identify and fix them for a healthier website.",
+      author: 'Abhishek Katale',
+      date: 'January 25, 2025',
+      image: adImage57,
+      link: '/blogs/seo-orphan-pages-guide',
+    },
     {
       id: 58,
       title:"The New Approach to SEO That Changes Everything in 2025",

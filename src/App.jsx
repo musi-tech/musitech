@@ -65,6 +65,8 @@ import DecreasePageLoadTime from './pages/blogs/DecreasePageLoadTime.jsx'
 import HowSearchEnginesWorkCrawlingIndexingRanking from './pages/blogs/HowSearchEnginesWorkCrawlingIndexingRanking.jsx'
 import DrivingTrafficGrowthWithCompetitorKeywordAnalysi from './pages/blogs/DrivingTrafficGrowthWithCompetitorKeywordAnalysi.jsx'
 import TheNewApproachToSEOThatChangesEverythingIn2025 from './pages/blogs/TheNewApproachToSEOThatChangesEverythingIn2025.jsx'
+import SeoOrphanPagesGuide from './pages/blogs/SeoOrphanPagesGuide.jsx'
+import HowSaasCompaniesCanOptimizeForSEO from './pages/blogs/HowSaasCompaniesCanOptimizeForSEO.jsx'
 
 import WebDevelopment from './pages/services/WebDevelopment';
 import DigitalMarketing from './pages/services/DigitalMarketing';
@@ -156,6 +158,9 @@ function App() {
         <Route path='/blogs/how-search-engines-work-crawling-indexing-ranking' element={<HowSearchEnginesWorkCrawlingIndexingRanking />} />
         <Route path='/blogs/driving-traffic-growth-with-competitor-keyword-analysi' element={<DrivingTrafficGrowthWithCompetitorKeywordAnalysi />} />
         <Route path='/blogs/the-new-approach-to-seo-that-changes-everything-in-2025' element={<TheNewApproachToSEOThatChangesEverythingIn2025 />} />
+        <Route path="/blogs/seo-orphan-pages-guide"  element={<SeoOrphanPagesGuide />} />
+        <Route path="/blogs/how-saas-companies-can-optimize-for-seo"  element={<HowSaasCompaniesCanOptimizeForSEO />} />
+
 
         <Route path="/services/web-dev" element={<WebDev />} />
         <Route path="/services/digi-make" element={<DigiMark />} />
