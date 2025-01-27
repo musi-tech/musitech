@@ -427,4 +427,18 @@
     <priority>0.9</priority>
     <changefreq>weekly</changefreq>
   </url>
+  <url>
+    <loc>https://www.musitech.in/blogs/what-is-a-pwa-how-progressive-web-apps-work</loc>
+            <lastmod>2025-01-27</lastmod>
+
+    <priority>0.9</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://www.musitech.in/blogs/interactive-content-benefits-engagement-strategies</loc>
+            <lastmod>2025-01-27</lastmod>
+
+    <priority>0.9</priority>
+    <changefreq>weekly</changefreq>
+  </url>
 </urlset>

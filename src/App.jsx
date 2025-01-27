@@ -68,6 +68,8 @@ import TheNewApproachToSEOThatChangesEverythingIn2025 from './pages/blogs/TheNew
 import SeoOrphanPagesGuide from './pages/blogs/SeoOrphanPagesGuide.jsx'
 import HowSaasCompaniesCanOptimizeForSEO from './pages/blogs/HowSaasCompaniesCanOptimizeForSEO.jsx'
 import HowToUploadWebsiteToInternet from './pages/blogs/HowToUploadWebsiteToInternet.jsx'
+import WhatIsAPwaHowProgressiveWebAppsWork from './pages/blogs/WhatIsAPwaHowProgressiveWebAppsWork.jsx'
+import InteractiveContentBenefitsEngagementStrategies from './pages/blogs/InteractiveContentBenefitsEngagementStrategies.jsx'
 
 import WebDevelopment from './pages/services/WebDevelopment';
 import DigitalMarketing from './pages/services/DigitalMarketing';
@@ -162,6 +164,9 @@ function App() {
         <Route path="/blogs/seo-orphan-pages-guide"  element={<SeoOrphanPagesGuide />} />
         <Route path="/blogs/how-saas-companies-can-optimize-for-seo"  element={<HowSaasCompaniesCanOptimizeForSEO />} />
         <Route path="/blogs/how-to-upload-website-to-internet"  element={<HowToUploadWebsiteToInternet />} />
+        <Route path="/blogs/what-is-a-pwa-how-progressive-web-apps-work"  element={<WhatIsAPwaHowProgressiveWebAppsWork />} />
+        <Route path="/blogs/interactive-content-benefits-engagement-strategies"  element={<InteractiveContentBenefitsEngagementStrategies />} />
+
 
         <Route path="/services/web-dev" element={<WebDev />} />
         <Route path="/services/digi-make" element={<DigiMark />} />
