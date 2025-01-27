@@ -67,6 +67,7 @@ import DrivingTrafficGrowthWithCompetitorKeywordAnalysi from './pages/blogs/Driv
 import TheNewApproachToSEOThatChangesEverythingIn2025 from './pages/blogs/TheNewApproachToSEOThatChangesEverythingIn2025.jsx'
 import SeoOrphanPagesGuide from './pages/blogs/SeoOrphanPagesGuide.jsx'
 import HowSaasCompaniesCanOptimizeForSEO from './pages/blogs/HowSaasCompaniesCanOptimizeForSEO.jsx'
+import HowToUploadWebsiteToInternet from './pages/blogs/HowToUploadWebsiteToInternet.jsx'
 
 import WebDevelopment from './pages/services/WebDevelopment';
 import DigitalMarketing from './pages/services/DigitalMarketing';
@@ -160,7 +161,7 @@ function App() {
         <Route path='/blogs/the-new-approach-to-seo-that-changes-everything-in-2025' element={<TheNewApproachToSEOThatChangesEverythingIn2025 />} />
         <Route path="/blogs/seo-orphan-pages-guide"  element={<SeoOrphanPagesGuide />} />
         <Route path="/blogs/how-saas-companies-can-optimize-for-seo"  element={<HowSaasCompaniesCanOptimizeForSEO />} />
-
+        <Route path="/blogs/how-to-upload-website-to-internet"  element={<HowToUploadWebsiteToInternet />} />
 
         <Route path="/services/web-dev" element={<WebDev />} />
         <Route path="/services/digi-make" element={<DigiMark />} />

@@ -420,4 +420,11 @@
     <priority>0.9</priority>
     <changefreq>weekly</changefreq>
   </url>
+   <url>
+    <loc>https://www.musitech.in/blogs/how-to-upload-website-to-internet</loc>
+            <lastmod>2025-01-26</lastmod>
+
+    <priority>0.9</priority>
+    <changefreq>weekly</changefreq>
+  </url>
 </urlset>
