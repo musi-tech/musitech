@@ -62,9 +62,30 @@ import adImage56 from '../assets/images/tre.webp';
 import adImage57 from '../assets/images/page.webp';
 import adImage58 from '../assets/images/saas.webp';
 import adImage59 from '../assets/images/upload.webp';
+import adImage60 from '../assets/images/pwa.webp';
+import adImage61 from '../assets/images/inter.webp';
+
 
 const Blog = () => {
   const blogPosts = [
+    {
+      id: 63,
+      title:"Unlock the Power of Interactive Content: Boost Engagement and Build Connections",
+      description:"Discover how quizzes, infographics, games, and more can transform your content strategy. Learn tips to create interactive content that drives engagement and builds lasting customer relationships.",
+      author: 'Ghanashyam Kadam',
+      date: 'January 27, 2025',
+      image: adImage61,
+      link: '/blogs/interactive-content-benefits-engagement-strategies',
+    },
+    {
+      id: 62,
+      title:"What is a PWA? How Progressive Web Apps Work (Features & Benefits)",
+      description:"Discover the power of Progressive Web Apps (PWAs): A fast, secure, and app-like experience for websites. Learn how PWAs work, key features, and real-world examples. Optimize your app strategy today!",
+      author: 'Ghanashyam Kadam',
+      date: 'January 27, 2025',
+      image: adImage60,
+      link: '/blogs/what-is-a-pwa-how-progressive-web-apps-work',
+    },
     {
       id: 61,
       title:"How to Upload Your Website to the Internet: A Beginner's Guide",
