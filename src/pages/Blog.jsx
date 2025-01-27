@@ -61,9 +61,19 @@ import adImage55 from '../assets/images/drive.webp';
 import adImage56 from '../assets/images/tre.webp';
 import adImage57 from '../assets/images/page.webp';
 import adImage58 from '../assets/images/saas.webp';
+import adImage59 from '../assets/images/upload.webp';
 
 const Blog = () => {
   const blogPosts = [
+    {
+      id: 61,
+      title:"How to Upload Your Website to the Internet: A Beginner's Guide",
+      description:"Building a website is an exciting journey, but the real magic happens when you upload your website to the internet. This step allows your hard work to shine and become accessible to everyone online.",
+      author: 'Ghanashyam Kadam',
+      date: 'January 26, 2025',
+      image: adImage59,
+      link: '/blogs/how-to-upload-website-to-internet',
+    },
     {
       id: 60,
       title:"How to Sell SEO to SaaS Companies: A Personal Perspective",
