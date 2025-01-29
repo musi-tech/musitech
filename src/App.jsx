@@ -70,6 +70,7 @@ import HowSaasCompaniesCanOptimizeForSEO from './pages/blogs/HowSaasCompaniesCan
 import HowToUploadWebsiteToInternet from './pages/blogs/HowToUploadWebsiteToInternet.jsx'
 import WhatIsAPwaHowProgressiveWebAppsWork from './pages/blogs/WhatIsAPwaHowProgressiveWebAppsWork.jsx'
 import InteractiveContentBenefitsEngagementStrategies from './pages/blogs/InteractiveContentBenefitsEngagementStrategies.jsx'
+import WhatIsDeepseek from './pages/blogs/WhatIsDeepseek.jsx'
 
 import WebDevelopment from './pages/services/WebDevelopment';
 import DigitalMarketing from './pages/services/DigitalMarketing';
@@ -168,6 +169,7 @@ function App() {
         <Route path="/blogs/how-to-upload-website-to-internet"  element={<HowToUploadWebsiteToInternet />} />
         <Route path="/blogs/what-is-a-pwa-how-progressive-web-apps-work"  element={<WhatIsAPwaHowProgressiveWebAppsWork />} />
         <Route path="/blogs/interactive-content-benefits-engagement-strategies"  element={<InteractiveContentBenefitsEngagementStrategies />} />
+        <Route path="/blogs/what-is-deepseek"  element={<WhatIsDeepseek />} />
 
         <Route path="/services/content-creat" element={<ContentCreat />} />
         <Route path="/services/social-media" element={<SocialMedia />} />

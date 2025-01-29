@@ -64,10 +64,30 @@ import adImage58 from '../assets/images/saas.webp';
 import adImage59 from '../assets/images/upload.webp';
 import adImage60 from '../assets/images/pwa.webp';
 import adImage61 from '../assets/images/inter.webp';
+import adImage62 from '../assets/images/seek.webp';
+import adImage63 from '../assets/images/seek.webp';
 
 
 const Blog = () => {
   const blogPosts = [
+    {
+      id: 65,
+      title:"DeepSeek Just Crashed $1 Trillion Off the US Market",
+      description:"The US stock market just took a major hit. Over $1 trillion vanished in a matter of hours. Big tech companies, especially chipmakers, saw their stock prices fall sharply. Nvidia dropped 177%. Broadcom also plunged 177%. ARM lost 10%. Investors are in shock.",
+      author: 'Ghanashyam Kadam',
+      date: 'January 28, 2025',
+      image: adImage63,
+      link: '/blogs/what-is-deepseek',
+    },
+    {
+      id: 64,
+      title:"DeepSeek Just Crashed $1 Trillion Off the US Market",
+      description:"The US stock market just took a major hit. Over $1 trillion vanished in a matter of hours. Big tech companies, especially chipmakers, saw their stock prices fall sharply. Nvidia dropped 177%. Broadcom also plunged 177%. ARM lost 10%. Investors are in shock.",
+      author: 'Ghanashyam Kadam',
+      date: 'January 28, 2025',
+      image: adImage62,
+      link: '/blogs/what-is-deepseek',
+    },
     {
       id: 63,
       title:"Unlock the Power of Interactive Content: Boost Engagement and Build Connections",
