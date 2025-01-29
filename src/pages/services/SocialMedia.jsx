@@ -1,105 +1,69 @@
 import React from "react";
-import { motion } from "framer-motion";
 import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
+import { motion } from "framer-motion";
 
-const InstagramProfiles = () => {
-  const profiles = [
-    { name: "Aspire Sports Club", handle: "aspiresportsclub", img: require("../../assets/images/Aspire.png") },
-    { name: "Efent", handle: "efent_", img: require("../../assets/images/logoo.jpg") },
-    { name: "Cadence Academy", handle: "cadencepune", img: require("../../assets/images/cade.png") },
-    { name: "Krushi Unnati Farm", handle: "krushi_unnati_farm", img: require("../../assets/images/ku1.JPG") },
-  ];
+import aspireImg from "../../assets/images/Aspire.png";
+import event2Img from "../../assets/images/cade.png";
+import event3Img from "../../assets/images/logoo.jpg";
+import event4Img from "../../assets/images/ku1.JPG";
 
-  // Animation variants
-  const containerVariants = {
-    hidden: { opacity: 0 },
-    visible: { 
-      opacity: 1, 
-      transition: { staggerChildren: 0.2 } 
-    },
-  };
+const events = [
+  { id: 1, image: aspireImg, title: "Aspire Sports Club", link: "https://www.instagram.com/aspiresportsclub/" },
+  { id: 2, image: event4Img, title: "Krushi Unnati Farm", link: "https://www.instagram.com/krushi_unnati_farm/" },
+  { id: 3, image: event3Img, title: "Efent Event Planner", link: "https://www.instagram.com/efent_/" },
+  { id: 4, image: event2Img, title: "Cadency Academy", link: "https://www.instagram.com/cadencepune/" },
+];
 
-  const itemVariants = {
-    hidden: { y: 20, opacity: 0 },
-    visible: {
-      y: 0,
-      opacity: 1,
-      transition: { type: "spring", stiffness: 100 },
-    },
-    hover: {
-      scale: 1.05,
-      rotate: 2,
-      transition: { type: "spring", stiffness: 300 },
-    },
-  };
-
+export default function Timeline() {
   return (
     <>
       <Navbar />
-      <div className="min-h-screen flex flex-col items-center justify-center bg-white overflow-hidden relative px-8 py-4">
-        {/* Floating Background Effects */}
-        <motion.div className="absolute top-0 left-0 w-72 h-72 bg-purple-400 opacity-30 rounded-full blur-3xl" />
-        <motion.div className="absolute bottom-0 right-0 w-72 h-72 bg-blue-500 opacity-30 rounded-full blur-3xl" />
-
-        {/* Page Title & Description */}
-        <div className="text-center mb-20">
-  <h1 className="text-4xl md:text-5xl font-extrabold text-black mb-4">
-    Boost Your Brand with Expert Social Media Management
-  </h1>
-  <p className="text-lg md:text-xl text-gray-400 font-medium">
-    Maximize your online presence with our professional social media management services. 
-    We create engaging content, grow your audience, and enhance brand visibility across platforms.
-  </p>
-</div>
-
-
-        {/* Profile Grid */}
-        <motion.div
-          variants={containerVariants}
-          initial="hidden"
-          animate="visible"
-          className="relative grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 z-10"
-        >
-          {profiles.map((profile, index) => (
-            <motion.a
-              key={index}
-              href={`https://www.instagram.com/${profile.handle}`}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="relative group transform transition-all duration-500 flex flex-col items-center"
-              variants={itemVariants}
-              whileHover="hover"
+      <section className="py-20 bg-white">
+        <h2 className="mb-12 text-4xl font-bold text-center text-black">
+          Boost Your Brand with Expert Social Media Management
+        </h2>
+        <div className="relative max-w-4xl mx-auto">
+          <div className="absolute h-full transform -translate-x-1/2 border-l-2 border-green-500 left-1/2"></div>
+          {events.map((event, index) => (
+            <motion.div
+              key={event.id}
+              className={`mb-8 flex justify-between items-center w-full ${
+                index % 2 === 0 ? "flex-row-reverse" : ""
+              }`}
+              initial={{ opacity: 0, x: index % 2 === 0 ? 100 : -100 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6 }}
             >
-              {/* Profile Image with Green Hover Effect */}
-              <motion.div
-                className="relative w-24 h-24 md:w-28 md:h-28 lg:w-32 lg:h-32 rounded-full overflow-hidden border-[3px] border-gray-300 shadow-lg transition-transform duration-500 group-hover:scale-105 bg-white flex items-center justify-center"
-                whileHover={{ rotate: 5, scale: 1.1, boxShadow: "0px 0px 20px rgba(34, 197, 94, 0.8)" }} // Green glow effect
+              <div className="order-1 w-5/12"></div>
+              <div className="z-20 flex items-center order-1 w-8 h-8 bg-green-500 rounded-full shadow-xl">
+                <h1 className="mx-auto text-lg font-semibold text-white">
+                  {index + 1}
+                </h1>
+              </div>
+              <a
+                href={event.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="order-1 w-5/12 p-6 bg-white rounded-lg shadow-xl flex flex-col items-center transition-transform transform hover:scale-105"
               >
-                <motion.img
-                  src={profile.img}
-                  alt={`${profile.name} Instagram`}
-                  className="w-[80%] h-[80%] object-contain transition-transform duration-500 group-hover:rotate-3 group-hover:scale-105"
-                  whileHover={{ rotate: -5, scale: 1.1 }}
-                />
-              </motion.div>
-
-              {/* Instagram Name Overlay with Green Hover Effect */}
-              <motion.div
-                className="mt-3 bg-gray-900 bg-opacity-10 backdrop-blur-md px-4 py-2 rounded-lg shadow-md transition-all duration-300"
-                whileHover={{ scale: 1.05, backgroundColor: "rgba(34, 197, 94, 0.8)", color: "white" }} // Green effect
-              >
-                <h2 className="text-gray-900 text-sm md:text-base font-semibold text-center group-hover:text-white transition-colors duration-300">
-                  {profile.name}
-                </h2>
-              </motion.div>
-            </motion.a>
+                <div className="w-32 h-32 flex justify-center items-center bg-gray-100 rounded-lg p-2">
+                  <img
+                    src={event.image}
+                    alt={event.title}
+                    className="w-full h-full object-contain"
+                  />
+                </div>
+                <h3 className="mt-4 text-lg font-semibold text-gray-800 text-center">
+                  {event.title}
+                </h3>
+              </a>
+            </motion.div>
           ))}
-        </motion.div>
-      </div>
+        </div>
+      </section>
       <Footer />
     </>
   );
-};
-
-export default InstagramProfiles;
+}
