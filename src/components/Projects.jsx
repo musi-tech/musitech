@@ -18,13 +18,13 @@ const projects = [
     title: 'Content Creation',
     description: 'Transforming ideas into captivating visual stories.',
     image: 'https://ideogram.ai/assets/progressive-image/balanced/response/Dp3uvAmcR1OkXVLne3DHmw',
-    link: 'https://www.dropbox.com/scl/fo/uhbrneo9tefgsrf7n65tq/AGHDtkJ_UfS2UoM4zWVIjXA?rlkey=sup1qus9dg4c2ptny7jl66vwz&st=bukblvkk&dl=0'
+    link: '/services/content-creat'
   },
   {
     title: 'Social Media Management',
     description: 'Enhancing online presence through smart design and strategy.',
     image: 'https://ideogram.ai/assets/progressive-image/balanced/response/A06-6ZIiRpylGpU_K0fLIA',
-    link: 'https://www.dropbox.com/scl/fo/72qzlsxjbh18ihdb4zbx7/AJKXPzYxGmpNVvrxgr0LUBQ?rlkey=a0g8x3xwlo59m0zq3ujtutxdv&dl=0'
+    link: '/services/social-media'
   },
   {
     title: 'Training & Internship',

@@ -78,6 +78,8 @@ import SocialMediaManagement from './pages/services/SocialMediaManagement';
 import MentorshipInternship from './pages/services/MentorshipInternship';
 import WebDev from './pages/services/WebDev';
 import DigiMark from './pages/services/DigiMark';
+import ContentCreat from './pages/services/ContentCreat';
+import SocialMedia from './pages/services/SocialMedia';
 
 
 import 'slick-carousel/slick/slick.css';
@@ -167,7 +169,8 @@ function App() {
         <Route path="/blogs/what-is-a-pwa-how-progressive-web-apps-work"  element={<WhatIsAPwaHowProgressiveWebAppsWork />} />
         <Route path="/blogs/interactive-content-benefits-engagement-strategies"  element={<InteractiveContentBenefitsEngagementStrategies />} />
 
-
+        <Route path="/services/content-creat" element={<ContentCreat />} />
+        <Route path="/services/social-media" element={<SocialMedia />} />
         <Route path="/services/web-dev" element={<WebDev />} />
         <Route path="/services/digi-make" element={<DigiMark />} />
         <Route path="/services/web-development" element={<WebDevelopment />} />
