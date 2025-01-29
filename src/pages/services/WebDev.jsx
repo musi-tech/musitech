@@ -102,7 +102,7 @@ const Portfolio = () => {
     <>
       <Navbar />
       <section className="container mx-auto py-12 px-4">
-        <h2 className="text-5xl font-bold text-center mb-12">My Website Projects</h2>
+        <h2 className="text-5xl font-bold text-center mb-12">Our Website Projects</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-12 pb-24">
           {projects.map((project) => (
             <div
