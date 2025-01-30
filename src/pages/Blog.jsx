@@ -65,19 +65,19 @@ import adImage59 from '../assets/images/upload.webp';
 import adImage60 from '../assets/images/pwa.webp';
 import adImage61 from '../assets/images/inter.webp';
 import adImage62 from '../assets/images/seek.webp';
-import adImage63 from '../assets/images/seek.webp';
+import adImage63 from '../assets/images/alexa.webp';
 
 
 const Blog = () => {
   const blogPosts = [
     {
       id: 65,
-      title:"DeepSeek Just Crashed $1 Trillion Off the US Market",
-      description:"The US stock market just took a major hit. Over $1 trillion vanished in a matter of hours. Big tech companies, especially chipmakers, saw their stock prices fall sharply. Nvidia dropped 177%. Broadcom also plunged 177%. ARM lost 10%. Investors are in shock.",
+      title:"How to Fetch an Alexa Ranking with PHP",
+      description:"Learn how to fetch Alexa rankings using PHP and XML parsing. This step-by-step guide explains how to extract website rankings, format data, and apply it to SEO tracking. Perfect for developers and digital marketers!",
       author: 'Ghanashyam Kadam',
-      date: 'January 28, 2025',
+      date: 'January 29, 2025',
       image: adImage63,
-      link: '/blogs/what-is-deepseek',
+      link: '/blogs/how-to-fetch-alexa-ranking-with-php',
     },
     {
       id: 64,
