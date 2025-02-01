@@ -72,6 +72,7 @@ import WhatIsAPwaHowProgressiveWebAppsWork from './pages/blogs/WhatIsAPwaHowProg
 import InteractiveContentBenefitsEngagementStrategies from './pages/blogs/InteractiveContentBenefitsEngagementStrategies.jsx'
 import WhatIsDeepseek from './pages/blogs/WhatIsDeepseek.jsx'
 import HowToFetchAlexaRankingWithPHP from './pages/blogs/HowToFetchAlexaRankingWithPHP.jsx'
+import DigitalMarketingMetrics from './pages/blogs/DigitalMarketingMetrics.jsx'
 
 import WebDevelopment from './pages/services/WebDevelopment';
 import DigitalMarketing from './pages/services/DigitalMarketing';
@@ -172,6 +173,7 @@ function App() {
         <Route path="/blogs/interactive-content-benefits-engagement-strategies"  element={<InteractiveContentBenefitsEngagementStrategies />} />
         <Route path="/blogs/what-is-deepseek"  element={<WhatIsDeepseek />} />
         <Route path="/blogs/how-to-fetch-alexa-ranking-with-php"  element={<HowToFetchAlexaRankingWithPHP />} />
+        <Route path="/blogs/digital-marketing-metrics"  element={<DigitalMarketingMetrics />} />
 
         <Route path="/services/content-creat" element={<ContentCreat />} />
         <Route path="/services/social-media" element={<SocialMedia />} />
