@@ -66,10 +66,20 @@ import adImage60 from '../assets/images/pwa.webp';
 import adImage61 from '../assets/images/inter.webp';
 import adImage62 from '../assets/images/seek.webp';
 import adImage63 from '../assets/images/alexa.webp';
+import adImage64 from '../assets/images/kpi.webp';
 
 
 const Blog = () => {
   const blogPosts = [
+    {
+      id: 66,
+      title:"Digital Marketing Metrics & KPIs Explained with Real-Life Insights",
+      description:"Let's be honest—listening to a digital marketer talk about metrics and KPIs can sometimes feel like decoding a foreign language. It reminds me of the first time I sat in a meeting where acronyms like CPA, LTV, and CTR were being thrown around. ",
+      author: 'Ghanashyam Kadam',
+      date: 'January 30, 2025',
+      image: adImage64,
+      link: '/blogs/digital-marketing-metrics',
+    },
     {
       id: 65,
       title:"How to Fetch an Alexa Ranking with PHP",
