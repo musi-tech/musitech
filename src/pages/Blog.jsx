@@ -67,10 +67,20 @@ import adImage61 from '../assets/images/inter.webp';
 import adImage62 from '../assets/images/seek.webp';
 import adImage63 from '../assets/images/alexa.webp';
 import adImage64 from '../assets/images/kpi.webp';
+import adImage65 from '../assets/images/o3.webp';
 
 
 const Blog = () => {
   const blogPosts = [
+    {
+      id: 67,
+      title:"OpenAI’s O3 Mini: The Future of AI Coding, Reasoning, and Affordability",
+      description:"Discover OpenAI’s latest breakthrough, O3 Mini—an affordable yet powerful AI model excelling in coding, STEM reasoning, and massive text processing. Learn how it outperforms competitors while staying cost-effective.",
+      author: 'Ghanashyam Kadam',
+      date: 'Feb 01, 2025',
+      image: adImage65,
+      link: '/blogs/openai-o3-mini',
+    },
     {
       id: 66,
       title:"Digital Marketing Metrics & KPIs Explained with Real-Life Insights",
