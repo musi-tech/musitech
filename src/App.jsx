@@ -73,6 +73,8 @@ import InteractiveContentBenefitsEngagementStrategies from './pages/blogs/Intera
 import WhatIsDeepseek from './pages/blogs/WhatIsDeepseek.jsx'
 import HowToFetchAlexaRankingWithPHP from './pages/blogs/HowToFetchAlexaRankingWithPHP.jsx'
 import DigitalMarketingMetrics from './pages/blogs/DigitalMarketingMetrics.jsx'
+import OpenAI_O3Mini from './pages/blogs/OpenAI_O3Mini.jsx'
+
 
 import WebDevelopment from './pages/services/WebDevelopment';
 import DigitalMarketing from './pages/services/DigitalMarketing';
@@ -174,6 +176,7 @@ function App() {
         <Route path="/blogs/what-is-deepseek"  element={<WhatIsDeepseek />} />
         <Route path="/blogs/how-to-fetch-alexa-ranking-with-php"  element={<HowToFetchAlexaRankingWithPHP />} />
         <Route path="/blogs/digital-marketing-metrics"  element={<DigitalMarketingMetrics />} />
+        <Route path='/blogs/openai-o3-mini' element={<OpenAI_O3Mini />} />
 
         <Route path="/services/content-creat" element={<ContentCreat />} />
         <Route path="/services/social-media" element={<SocialMedia />} />
