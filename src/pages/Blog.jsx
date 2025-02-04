@@ -68,10 +68,30 @@ import adImage62 from '../assets/images/seek.webp';
 import adImage63 from '../assets/images/alexa.webp';
 import adImage64 from '../assets/images/kpi.webp';
 import adImage65 from '../assets/images/o3.webp';
+import adImage66 from '../assets/images/dnss.webp';
+import adImage67 from '../assets/images/go.webp';
 
 
 const Blog = () => {
   const blogPosts = [
+    {
+      id: 69,
+      title:"How to Set Effective Marketing Goals: A Guide to SMART Goal Setting",
+      description:"Learn how to set SMART marketing goals to boost brand awareness, increase leads, and improve ROI. Follow our step-by-step guide for actionable insights and success in digital marketing.",
+      author: 'Ghanashyam Kadam',
+      date: 'Feb 03, 2025',
+      image: adImage67,
+      link: '/blogs/how-to-set-smart-marketing-goals',
+    },
+    {
+      id: 68,
+      title:"Did AI Finally Crack Aging? How GPT-4B Micro is Revolutionizing Longevity",
+      description:"Discover how AI-driven breakthroughs, like GPT-4B Micro and Yamanaka factors, are transforming stem cell therapy and pushing the boundaries of aging reversal. Is a longer, healthier life within reach? Find out now!",
+      author: 'Ghanashyam Kadam',
+      date: 'Feb 02, 2025',
+      image: adImage66,
+      link: '/blogs/ai-aging-breakthrough',
+    },
     {
       id: 67,
       title:"OpenAI’s O3 Mini: The Future of AI Coding, Reasoning, and Affordability",
