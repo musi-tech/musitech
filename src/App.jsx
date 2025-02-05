@@ -76,6 +76,8 @@ import DigitalMarketingMetrics from './pages/blogs/DigitalMarketingMetrics.jsx'
 import OpenAI_O3Mini from './pages/blogs/OpenAI_O3Mini.jsx'
 import AiAgingBreakthrough from './pages/blogs/AiAgingBreakthrough.jsx'
 import HowToSetSmartMarketingGoals from './pages/blogs/HowToSetSmartMarketingGoals.jsx'
+import AIResearchAssistant from './pages/blogs/AIResearchAssistant.jsx'
+import WhatIsGreenMarketing from './pages/blogs/WhatIsGreenMarketing.jsx'
 
 import WebDevelopment from './pages/services/WebDevelopment';
 import DigitalMarketing from './pages/services/DigitalMarketing';
@@ -180,6 +182,8 @@ function App() {
         <Route path='/blogs/openai-o3-mini' element={<OpenAI_O3Mini />} />
         <Route path='/blogs/ai-aging-breakthrough' element={<AiAgingBreakthrough />} />
         <Route path='/blogs/how-to-set-smart-marketing-goals' element={<HowToSetSmartMarketingGoals />} />
+        <Route path='/blogs/ai-research-assistant' element={<AIResearchAssistant />} />
+        <Route path='/blogs/what-is-green-marketing' element={<WhatIsGreenMarketing />} />
 
 
         <Route path="/services/content-creat" element={<ContentCreat />} />

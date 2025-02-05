@@ -70,10 +70,31 @@ import adImage64 from '../assets/images/kpi.webp';
 import adImage65 from '../assets/images/o3.webp';
 import adImage66 from '../assets/images/dnss.webp';
 import adImage67 from '../assets/images/go.webp';
+import adImage68 from '../assets/images/dii.webp';
+import adImage69 from '../assets/images/green.webp';
+
 
 
 const Blog = () => {
   const blogPosts = [
+    {
+      id: 70,
+      title:"Green Marketing: Real-Life Stories and Practical Steps Towards a Sustainable Future",
+      description:"Discover the impact of green marketing through real-world examples and personal stories. Learn how sustainable practices by companies like Starbucks, Apple, and IKEA are shaping a more eco-friendly future and how you can contribute to the movement.",
+      author: 'Ghanashyam Kadam',
+      date: 'Feb 05, 2025',
+      image: adImage69,
+      link: '/blogs/what-is-green-marketing',
+    },
+    {
+      id: 70,
+      title:"OpenAI's Deep Research: The AI Tool That Revolutionizes Online Research",
+      description:"Discover OpenAI's Deep Research, an AI-powered assistant that transforms the way we gather and analyze information. Learn how it works, its benefits, limitations, and its impact on the future of research.",
+      author: 'Ghanashyam Kadam',
+      date: 'Feb 04, 2025',
+      image: adImage68,
+      link: '/blogs/ai-research-assistant',
+    },
     {
       id: 69,
       title:"How to Set Effective Marketing Goals: A Guide to SMART Goal Setting",
