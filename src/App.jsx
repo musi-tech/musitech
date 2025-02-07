@@ -78,6 +78,7 @@ import AiAgingBreakthrough from './pages/blogs/AiAgingBreakthrough.jsx'
 import HowToSetSmartMarketingGoals from './pages/blogs/HowToSetSmartMarketingGoals.jsx'
 import AIResearchAssistant from './pages/blogs/AIResearchAssistant.jsx'
 import WhatIsGreenMarketing from './pages/blogs/WhatIsGreenMarketing.jsx'
+import WhatIsEatInSeoHowToImprove from './pages/blogs/WhatIsEatInSeoHowToImprove.jsx'
 
 import WebDevelopment from './pages/services/WebDevelopment';
 import DigitalMarketing from './pages/services/DigitalMarketing';
@@ -184,6 +185,7 @@ function App() {
         <Route path='/blogs/how-to-set-smart-marketing-goals' element={<HowToSetSmartMarketingGoals />} />
         <Route path='/blogs/ai-research-assistant' element={<AIResearchAssistant />} />
         <Route path='/blogs/what-is-green-marketing' element={<WhatIsGreenMarketing />} />
+        <Route path='/blogs/what-is-eat-in-seo-how-to-improve' element={<WhatIsEatInSeoHowToImprove />} />
 
 
         <Route path="/services/content-creat" element={<ContentCreat />} />

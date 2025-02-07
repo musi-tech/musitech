@@ -72,13 +72,23 @@ import adImage66 from '../assets/images/dnss.webp';
 import adImage67 from '../assets/images/go.webp';
 import adImage68 from '../assets/images/dii.webp';
 import adImage69 from '../assets/images/green.webp';
+import adImage70 from '../assets/images/eat.webp';
 
 
 
 const Blog = () => {
   const blogPosts = [
     {
-      id: 70,
+      id: 72,
+      title:"Mastering Soft Skills: The Key to Career Success in the Digital Age",
+      description:"Discover the essential soft skills that can set you apart in today’s competitive job market. Learn how communication, teamwork, adaptability, and problem-solving can elevate your career success.",
+      author: 'Ghanashyam Kadam',
+      date: 'Feb 06, 2025',
+      image: adImage70,
+      link: '/blogs/what-is-eat-in-seo-how-to-improve',
+    },
+    {
+      id: 71,
       title:"Green Marketing: Real-Life Stories and Practical Steps Towards a Sustainable Future",
       description:"Discover the impact of green marketing through real-world examples and personal stories. Learn how sustainable practices by companies like Starbucks, Apple, and IKEA are shaping a more eco-friendly future and how you can contribute to the movement.",
       author: 'Ghanashyam Kadam',
