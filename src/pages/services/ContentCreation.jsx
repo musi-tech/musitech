@@ -16,7 +16,7 @@ import logo6 from '../../assets/images/pdea3.svg';
 import logo7 from '../../assets/images/cade.png';
 import logo8 from '../../assets/images/puneridd.png';
 import logo9 from '../../assets/images/shree.jpg';
-import logo10 from '../assets/images/city.JPG'
+import logo10 from '../../assets/images/city.JPG'
 
 
 const faqs = [
