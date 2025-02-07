@@ -16,7 +16,7 @@ import logo6 from '../../assets/images/pdea3.svg';
 import logo7 from '../../assets/images/cade.png';
 import logo8 from '../../assets/images/puneridd.png';
 import logo9 from '../../assets/images/shree.jpg';
-import logo10 from '../assets/images/city.JPG'
+import logo10 from '../../assets/images/city.JPG'
 
 const faqs = [
   { question: 'What is included in your social media management services?', answer: 'Our social media management services include content creation, scheduling, and engagement on various social platforms. We also provide analytics and reporting to track performance and optimize strategies.' },
