@@ -74,12 +74,22 @@ import adImage68 from '../assets/images/dii.webp';
 import adImage69 from '../assets/images/green.webp';
 import adImage70 from '../assets/images/eat.webp';
 import adImage71 from '../assets/images/emm.webp';
+import adImage72 from '../assets/images/wm.webp';
 
 
 const Blog = () => {
   const blogPosts = [
     {
-      id: 72,
+      id: 74,
+      title: "WhatsApp Marketing: A Quick Guide for Businesses (2025)",
+      description:"Discover the power of WhatsApp Marketing in 2025! Learn how to engage customers, boost sales, and build lasting relationships using WhatsApp Business API. Enroll in our free masterclass today!",
+      author: 'Ghanashyam Kadam',
+      date: 'Feb 08, 2025',
+      image: adImage72,
+      link: '/blogs/what-is-whatsapp-marketing',
+    },
+    {
+      id: 73,
       title: "Email Marketing: More Than Just a Strategy, It's a Conversation",
       description:"Discover how email marketing goes beyond sales—it builds genuine connections. Learn strategies, real-life success stories, and expert tips to craft emails that engage and convert.",
       author: 'Ghanashyam Kadam',
