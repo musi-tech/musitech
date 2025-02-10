@@ -504,4 +504,11 @@
     <priority>0.9</priority>
     <changefreq>weekly</changefreq>
   </url>
+   <url>
+    <loc>https://www.musitech.in/blogs/what-is-email-marketing</loc>
+            <lastmod>2025-02-10</lastmod>
+
+    <priority>0.9</priority>
+    <changefreq>weekly</changefreq>
+  </url>
 </urlset>
