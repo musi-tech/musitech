@@ -73,11 +73,20 @@ import adImage67 from '../assets/images/go.webp';
 import adImage68 from '../assets/images/dii.webp';
 import adImage69 from '../assets/images/green.webp';
 import adImage70 from '../assets/images/eat.webp';
-
+import adImage71 from '../assets/images/emm.webp';
 
 
 const Blog = () => {
   const blogPosts = [
+    {
+      id: 72,
+      title: "Email Marketing: More Than Just a Strategy, It's a Conversation",
+      description:"Discover how email marketing goes beyond sales—it builds genuine connections. Learn strategies, real-life success stories, and expert tips to craft emails that engage and convert.",
+      author: 'Ghanashyam Kadam',
+      date: 'Feb 07, 2025',
+      image: adImage71,
+      link: '/blogs/what-is-email-marketing',
+    },
     {
       id: 72,
       title:"Mastering Soft Skills: The Key to Career Success in the Digital Age",
