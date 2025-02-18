@@ -91,6 +91,16 @@ import WebDev from './pages/services/WebDev';
 import DigiMark from './pages/services/DigiMark';
 import ContentCreat from './pages/services/ContentCreat';
 import SocialMedia from './pages/services/SocialMedia';
+import DigiBlog from './pages/services/DigiBlog';
+
+import AspireSportsClub from './pages/clients/AspireSportsClub.jsx';
+import CadenceAcademy from './pages/clients/CadenceAcademy.jsx';
+import KrushiUnnatiFarm from './pages/clients/KrushiUnnatiFarm.jsx'
+import PdeaCoem from './pages/clients/PdeaCoem.jsx';
+import CityEscape from './pages/clients/CityEscape.jsx';
+import ShreeProperties from './pages/clients/ShreeProperties.jsx';
+
+
 
 
 import 'slick-carousel/slick/slick.css';
@@ -194,12 +204,20 @@ function App() {
         <Route path="/services/content-creat" element={<ContentCreat />} />
         <Route path="/services/social-media" element={<SocialMedia />} />
         <Route path="/services/web-dev" element={<WebDev />} />
+        <Route path="/services/digi-blog" element={<DigiBlog />} />
         <Route path="/services/digi-make" element={<DigiMark />} />
         <Route path="/services/web-development" element={<WebDevelopment />} />
         <Route path="/services/digital-marketing" element={<DigitalMarketing />} />
         <Route path="/services/content-creation" element={<ContentCreation />} />
         <Route path="/services/social-media-management" element={<SocialMediaManagement />} />
         <Route path="/services/mentorship-internship" element={<MentorshipInternship />} />
+        <Route path="/clients/shree-properties" element={<ShreeProperties />} />
+        <Route path="/clients/city-escape" element={<CityEscape />} />
+        <Route path="/clients/pdea-coem" element={<PdeaCoem />} />
+        <Route path='/clients/krushi-unnati-farm' element={<KrushiUnnatiFarm />} />
+        <Route path="/clients/cadence-academy" element={<CadenceAcademy />} />
+        <Route path="/clients/aspire-sports-club" element={<AspireSportsClub />} />
+
         <Route path="/about" element={<About />} />
         <Route path="/features" element={<Features />} />
         <Route path="/our-team" element={<OurTeam />} />
