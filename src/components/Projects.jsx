@@ -12,7 +12,7 @@ const projects = [
     title: 'Digital Marketing',
     description: 'Empowering brands with creative digital strategies.',
     image: 'https://ideogram.ai/assets/progressive-image/balanced/response/3KJduscSQriZyzk6gQd7Zw',
-    link: '/services/digi-make'
+    link: '/services/digi-blog'
   },
   {
     title: 'Content Creation',
