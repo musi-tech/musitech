@@ -7,12 +7,27 @@ import image3 from '../../assets/images/krushii.jpg';
 import image4 from '../../assets/images/pdeas.jpeg';
 import image5 from '../../assets/images/city.JPG';
 import image6 from '../../assets/images/shree.jpg';
+import image7 from '../../assets/images/AAgamingg.png';
+import image8 from '../../assets/images/hespro1.jpg';
+import image9 from '../../assets/images/logo.jpg';
 
-// Define the ClientCard component with enhanced styling and animation
+
+
 function ClientCard({ client }) {
   return (
     <div className="max-w-sm rounded-lg overflow-hidden shadow-lg m-4 bg-white transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
-      <img className="w-full h-48 object-cover" src={client.image} alt={client.name} />
+      {/* Image Container */}
+      <div className="h-48 w-full overflow-hidden">
+        <img
+          className="w-full h-full object-cover object-center" // Ensures that the image will cover the space without distortion
+          src={client.image}
+          alt={client.name}
+          style={{
+            objectFit: 'contain', // Changes from 'cover' to 'contain' to ensure the whole image is visible
+            objectPosition: 'center', // Centers the image within the frame
+          }}
+        />
+      </div>
       <div className="px-6 py-4">
         <div className="font-bold text-xl mb-2 text-gray-800">{client.name}</div>
         <p className="text-gray-700 text-base">
@@ -25,6 +40,8 @@ function ClientCard({ client }) {
     </div>
   );
 }
+
+
 
 // Define the ClientsView component which uses ClientCard with a refined design
 function ClientsView() {
@@ -64,6 +81,24 @@ function ClientsView() {
       description: 'Enhanced property visibility and sales through targeted ads.',
       image: image6,
       link: '/clients/shree-properties'
+    },
+    {
+      name: 'AA Gaming',
+      description: 'Expanded player base and engagement via strategic social media initiatives.',
+      image: image7,
+      link: '/clients/aa-gaming'
+    },
+    {
+      name: 'Hespro',
+      description: 'Enhanced brand recognition and lead conversion with advanced marketing strategies.',
+      image: image8,
+      link: '/clients/hespro'
+    },
+    {
+      name: 'Musitech',
+      description: 'Musitech Website Organic Growth & SEO Strategy',
+      image: image9,
+      link: '/clients/musitech'
     },
     // Add more clients as needed
   ];

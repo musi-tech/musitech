@@ -99,7 +99,9 @@ import KrushiUnnatiFarm from './pages/clients/KrushiUnnatiFarm.jsx'
 import PdeaCoem from './pages/clients/PdeaCoem.jsx';
 import CityEscape from './pages/clients/CityEscape.jsx';
 import ShreeProperties from './pages/clients/ShreeProperties.jsx';
-
+import AaGaming from './pages/clients/AaGaming.jsx';
+import Hespro from './pages/clients/Hespro.jsx';
+import Musitech from './pages/clients/Musitech.jsx';
 
 
 
@@ -217,6 +219,10 @@ function App() {
         <Route path='/clients/krushi-unnati-farm' element={<KrushiUnnatiFarm />} />
         <Route path="/clients/cadence-academy" element={<CadenceAcademy />} />
         <Route path="/clients/aspire-sports-club" element={<AspireSportsClub />} />
+        <Route path='/clients/hespro' element={<Hespro />} />
+        <Route path='/clients/aa-gaming' element={<AaGaming />} />
+        <Route path='/clients/musitech' element={<Musitech />} />
+
 
         <Route path="/about" element={<About />} />
         <Route path="/features" element={<Features />} />
