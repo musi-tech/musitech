@@ -1,7 +1,6 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import FounderSection from '../components/FounderSection.jsx';
 import CompanyHistorySection from '../components/CompanyHistorySection.jsx';
 import OurValuesSection from '../components/OurValuesSection.jsx';
 import MissionSection from '../components/MissionSection.jsx';
@@ -28,7 +27,7 @@ const AboutUs = () => (
         </motion.div>
 
 
-        <FounderSection />
+   
         <CompanyHistorySection />
         <OurValuesSection />
         <MissionSection />
