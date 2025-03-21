@@ -14,20 +14,20 @@ const testimonials = [
     author: "Dr. R. V. Patil, Principal, PDEACOEM",
   },
   {
-    text: "MusiTech's content has transformed our brand story, captivating our audience with innovative designs and compelling visuals that resonate and engage.",
+    text: "MusiTech's content has transformed our brand story, captivating our audience with innovative designs and compelling visuals that drive engagement and leave a lasting impact.",
     author: "Sanket Tilekar, Founder, Aspire Sports Club",
   },
   {
-    text: "MusiTech boosted our online visibility, attracting more couples with expert digital marketing. Highly recommended!",
+    text: "MusiTech boosted our online reach, attracting more couples with expert marketing strategies. Their approach has significantly improved our visibility and engagement!",
     author: "Sangram Jawalgekar – Pre-Wedding Studio",
   },
   {
-    text: "MusiTech elevated my firm's digital presence, bringing in more client inquiries with their innovative strategies!",
+    text: "MusiTech enhanced my firm's digital presence, increasing client inquiries with innovative strategies. Their expertise has made a real difference in our online growth!",
     author: "Krushna Sanas – Architect",
   },
   {
-    text: "MusiTech’s targeted campaigns increased our student enrollment and brand awareness. A truly game-changing partnership!",
-    author: "Santoshi Suthar – Head Manager, Cadence Academy Pune",
+    text: "MusiTech’s campaigns significantly increased student enrollment and strengthened our academy’s brand presence. Their targeted marketing strategies have delivered outstanding results and lasting impact!",
+    author: "Santoshi Suthar – Head Manager, Cadence Academy ",
   },
 ];
 
