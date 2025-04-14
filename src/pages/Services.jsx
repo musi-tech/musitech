@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import ServiceCard from '../components/ServiceCard';
-import { FaCode, FaBullhorn, FaEdit, FaShareAlt, FaHandshake } from 'react-icons/fa'; // Example icons
+import { FaCode, FaBullhorn, FaEdit, FaShareAlt, FaHandshake, FaStar } from 'react-icons/fa'; // Example icons
 
 const servicesData = [
   {
@@ -35,6 +35,13 @@ const servicesData = [
     description: 'Gain valuable industry experience and guidance through our mentorship and internship programs designed for aspiring professionals.',
     link: '/services/mentorship-internship',
   },
+  {
+    icon: FaStar,
+    title: 'Influencer Marketing',
+    description:
+      'Boost your brand visibility by collaborating with top influencers in your niche, driving authentic engagement and audience trust.',
+    link: '/services/influencer-marketing',
+  }
 ];
 
 const ServicesPage = () => (
