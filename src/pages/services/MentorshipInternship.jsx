@@ -70,7 +70,7 @@ const MentorshipAndInternshipPage = () => {
 
                   <div className="flex items-center mb-2">
                     <FaCalendarAlt className="text-gray-500 mr-2" />
-                    <p className="text-gray-600">Starting from 2nd September 2024</p>
+                    <p className="text-gray-600">Starting from 15th May 2025</p>
                   </div>
 
                   <div className="flex items-center mb-2">
@@ -113,7 +113,7 @@ const MentorshipAndInternshipPage = () => {
 
                   <div className="flex items-center mb-2">
                     <FaCalendarAlt className="text-gray-500 mr-2" />
-                    <p className="text-gray-600">Starting from 2nd September 2024</p>
+                    <p className="text-gray-600">Starting from 11th May 2025</p>
                   </div>
 
                   <div className="flex items-center mb-2">
@@ -131,6 +131,47 @@ const MentorshipAndInternshipPage = () => {
                   <div>
                       <p className="text-gray-900 font-semibold">Sayuri Kamble</p>
                       <p className="text-gray-500 text-sm">Instructor</p>
+                    </div>
+                  </div>
+
+                  {/* Price */}
+                  <div className="text-2xl font-bold text-green-600 mb-4">FREE</div>
+
+                  {/* Call-to-Action Button */}
+                  <a href="/Razorpay" target="_blank" rel="noopener noreferrer">
+                    <button className="bg-green-600 text-white px-4 py-2 rounded-lg w-full">
+                      Enroll Now
+                    </button>
+                  </a>
+                </div>
+                <div className="bg-white p-6 rounded-lg shadow-lg max-w-sm mx-auto">
+                  <div className="mb-4">
+                    <FaBookOpen className="text-green-500 text-4xl mb-2" />
+                    <h2 className="text-2xl font-semibold mb-2">Career Guidance Workshop</h2>
+                    <p className="text-gray-600">
+                    this session will give you the clarity you need to make confident decisions for your future.                    </p>
+                  </div>
+
+                  <div className="flex items-center mb-2">
+                    <FaCalendarAlt className="text-gray-500 mr-2" />
+                    <p className="text-gray-600">Starting from 20th April 2025</p>
+                  </div>
+
+                  <div className="flex items-center mb-2">
+                    <FaClock className="text-gray-500 mr-2" />
+                    <p className="text-gray-600">6:00 PM - 7:00 PM</p>
+                  </div>
+
+                  <div className="flex items-center mb-6">
+                    <FaLaptop className="text-gray-500 mr-2" />
+                    <p className="text-gray-600">Online</p>
+                  </div>
+
+                  <div className="flex items-center mb-6">
+                  <img src={require('./../../assets/images/sayuri.JPG')} alt="Instructor" className="w-12 h-12 rounded-full mr-4" />
+                  <div>
+                      <p className="text-gray-900 font-semibold">Satish Dhage</p>
+                      <p className="text-gray-500 text-sm">Voice solution architect ( Tech Mahindra )</p>
                     </div>
                   </div>
 

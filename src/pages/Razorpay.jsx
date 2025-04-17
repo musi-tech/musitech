@@ -1,3 +1,5 @@
+// src/pages/RazorpayPayment.jsx
+
 import React, { useState } from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
@@ -9,14 +11,10 @@ const RazorpayPayment = () => {
 
     const loadRazorpayScript = () => {
         return new Promise((resolve) => {
-            const script = document.createElement("script");
-            script.src = "https://checkout.razorpay.com/v1/checkout.js";
-            script.onload = () => {
-                resolve(true);
-            };
-            script.onerror = () => {
-                resolve(false);
-            };
+            const script = document.createElement('script');
+            script.src = 'https://checkout.razorpay.com/v1/checkout.js';
+            script.onload = () => resolve(true);
+            script.onerror = () => resolve(false);
             document.body.appendChild(script);
         });
     };
@@ -25,33 +23,36 @@ const RazorpayPayment = () => {
         const isScriptLoaded = await loadRazorpayScript();
 
         if (!isScriptLoaded) {
-            alert("Razorpay SDK failed to load. Please check your connection.");
+            alert('Razorpay SDK failed to load. Please check your connection.');
             return;
         }
 
         const options = {
-            key: process.env.REACT_APP_RAZORPAY_KEY, // Replace with your actual Razorpay Key ID
-            amount: 100 * 1, // Amount is in paise (example: 1000 paise = 10 INR)
-            currency: "INR",
-            name: "Test Payment",
-            description: "This is a test payment",
-            image: "https://www.musitech.in/static/media/logo.142678cffc5139e93730.png", // Optional company logo
+            key: process.env.REACT_APP_RAZORPAY_KEY,
+            amount: 100*10, // 100 paise = ₹1
+            currency: 'INR',
+            name: 'MusiTech',
+            description: 'Test Transaction',
+            image: 'https://www.musitech.in/static/media/logo.142678cffc5139e93730.png',
             handler: function (response) {
                 alert(`Payment successful! Payment ID: ${response.razorpay_payment_id}`);
-                console.log(response);
+                console.log('Razorpay response:', response);
             },
             prefill: {
                 name: name,
                 email: email,
                 contact: contact,
             },
+            notes: {
+                address: 'MusiTech Corporate Office',
+            },
             theme: {
-                color: "#3399cc",
+                color: '#3399cc',
             },
         };
 
-        const paymentObject = new window.Razorpay(options);
-        paymentObject.open();
+        const rzp = new window.Razorpay(options);
+        rzp.open();
     };
 
     return (
@@ -59,7 +60,7 @@ const RazorpayPayment = () => {
             <Navbar />
             <div className="container mx-auto mt-10 max-w-md p-6 bg-white shadow-md rounded-md">
                 <h2 className="text-2xl font-bold text-center mb-6">Payment Details</h2>
-                <form className="space-y-4">
+                <form className="space-y-4" onSubmit={(e) => e.preventDefault()}>
                     <div>
                         <label className="block text-left text-gray-700">Name</label>
                         <input
@@ -97,22 +98,13 @@ const RazorpayPayment = () => {
                         <button
                             type="button"
                             onClick={handlePayment}
-                            className="px-6 py-3 
-                                text-white text-lg 
-                                bg-green-500 
-                                rounded-md 
-                                hover:bg-green-600 
-                                transition-colors 
-                                duration-300 
-                                ease-in-out 
-                                cursor-pointer"
+                            className="px-6 py-3 text-white text-lg bg-green-500 rounded-md hover:bg-green-600 transition-colors duration-300 ease-in-out"
                         >
                             Pay Now
                         </button>
                     </div>
                 </form>
             </div>
-
             <Footer />
         </>
     );
