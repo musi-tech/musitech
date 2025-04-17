@@ -1,4 +1,3 @@
-// src/pages/RazorpayPayment.jsx
 
 import React, { useState } from 'react';
 import Navbar from '../components/Navbar';
@@ -28,7 +27,7 @@ const RazorpayPayment = () => {
         }
 
         const options = {
-            key: process.env.REACT_APP_RAZORPAY_KEY,
+            key: process.env.REACT_APP_RAZORPAY_KEY || 'rzp_live_c3l5GHHFen801a',
             amount: 100*10, // 100 paise = ₹1
             currency: 'INR',
             name: 'MusiTech',
