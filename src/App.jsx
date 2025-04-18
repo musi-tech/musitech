@@ -115,6 +115,7 @@ import CancellationRefundPolicy from './pages/CancellationRefundPolicy.jsx';
 import PolicyPages from './pages/PolicyPages.jsx';
 import ContactUs from './pages/ContactUs.jsx';
 import Razorpay from './pages/Razorpay.jsx';
+import InquiryForm from './pages/InquiryForm.jsx';
 import Blog from './pages/Blog.jsx';
 
 
@@ -236,6 +237,7 @@ function App() {
         <Route path="/privacy-policy" element={<PolicyPages />} />
         <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/razorpay" element={<Razorpay />} />
+        <Route path="/inquiryform" element={<InquiryForm />} />
         <Route path="/blog" element={<Blog />} />
       </Routes>
 

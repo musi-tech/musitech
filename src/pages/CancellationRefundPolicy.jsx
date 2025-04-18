@@ -15,6 +15,7 @@ const CancellationandRefund = () => {
               <a href="/privacy-policy" className="hover:text-green-500">Privacy Policy</a>
               <a href="/cancellation-refund" className="hover:text-green-500">Cancellation and Refund Policy</a>
               <a href="/shipping-delivery" className="hover:text-green-500">Shipping and Delivery</a>
+              
             </nav>
           </div>
         </div>

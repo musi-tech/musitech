@@ -179,7 +179,7 @@ const MentorshipAndInternshipPage = () => {
                   <div className="text-2xl font-bold text-green-600 mb-4">FREE</div>
 
                   {/* Call-to-Action Button */}
-                  <a href="/Razorpay" target="_blank" rel="noopener noreferrer">
+                  <a href="/InquiryForm" target="_blank" rel="noopener noreferrer">
                     <button className="bg-green-600 text-white px-4 py-2 rounded-lg w-full">
                       Enroll Now
                     </button>
