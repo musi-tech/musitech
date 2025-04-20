@@ -14,7 +14,7 @@ const teamMembers = [
   { name: 'Saurabh Thakur', title: 'Creative Analyst', image: require('../assets/images/Sau.jpeg'), linkedin: 'https://www.linkedin.com/in/saurabh36/' },
   { name: 'Ghanshyam Kadam', title: 'Technical Lead', image: require('../assets/images/shyam.JPG'), linkedin: 'https://www.linkedin.com/in/ghanashyamkadam/' },
   { name: 'Pratik Mahalle', title: 'DevRel', image: require('../assets/images/pratik.JPG'), linkedin: 'https://www.linkedin.com/in/mahalle-pratik/' },
-  { name: 'Prathamesh Pichkate', title: 'Web Developer', image: require('../assets/images/prathamesh.jpg'), linkedin: 'https://www.linkedin.com/in/prathamesh-pichkate1208/' },
+  { name: 'Prathamesh Pichkate', title: 'Full Stack Developer', image: require('../assets/images/prathamesh.jpg'), linkedin: 'https://www.linkedin.com/in/prathamesh-pichkate1208/' },
 ];
 
 const MemberCard = ({ member }) => (
