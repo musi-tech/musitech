@@ -22,7 +22,7 @@ const Hero = () => {
   };
 
   return (
-    <section className="bg-gradient-to-br from-indigo-900 via-purple-800 to-blue-900 text-white py-20 relative overflow-hidden">
+   <section className="bg-gradient-to-br from-gray-700 via-gray-800 to-gray-900 text-white py-20 relative overflow-hidden">
       {/* Animated background elements */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute h-64 w-64 rounded-full bg-blue-400 top-10 left-10 blur-3xl"></div>
