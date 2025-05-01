@@ -36,7 +36,7 @@ const RazorpayPayment = () => {
 
         const options = {
             key: process.env.REACT_APP_RAZORPAY_KEY || 'rzp_live_c3l5GHHFen801a',
-            amount: 100*10, // 100 paise = ₹1
+            amount: 100*49, // 100 paise = ₹1
             currency: 'INR',
             name: 'MusiTech',
             description: 'Test Transaction',
@@ -156,13 +156,10 @@ const RazorpayPayment = () => {
                                     {/* Order Summary */}
                                     <div className="mt-6 pt-6 border-t border-gray-200">
                                         <h3 className="text-lg font-medium text-gray-900">Order Summary</h3>
-                                        <div className="mt-3 flex justify-between text-sm">
-                                            <p className="text-gray-500">Product</p>
-                                            <p className="font-medium text-gray-900">MusiTech Premium</p>
-                                        </div>
+                                       
                                         <div className="mt-1 flex justify-between text-sm">
                                             <p className="text-gray-500">Subtotal</p>
-                                            <p className="font-medium text-gray-900">₹10.00</p>
+                                            <p className="font-medium text-gray-900">₹49.00</p>
                                         </div>
                                     </div>
 
@@ -183,7 +180,7 @@ const RazorpayPayment = () => {
                                                 </>
                                             ) : (
                                                 <>
-                                                    Pay Now • ₹10.00
+                                                    Pay Now • ₹49.00
                                                 </>
                                             )}
                                         </button>

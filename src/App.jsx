@@ -116,6 +116,7 @@ import PolicyPages from './pages/PolicyPages.jsx';
 import ContactUs from './pages/ContactUs.jsx';
 import Razorpay from './pages/Razorpay.jsx';
 import InquiryForm from './pages/InquiryForm.jsx';
+import InquiryForms from './pages/InquiryForms.jsx';
 import Blog from './pages/Blog.jsx';
 
 
@@ -238,6 +239,7 @@ function App() {
         <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/razorpay" element={<Razorpay />} />
         <Route path="/inquiryform" element={<InquiryForm />} />
+        <Route path="/inquiryforms" element={<InquiryForms />} />
         <Route path="/blog" element={<Blog />} />
       </Routes>
 
