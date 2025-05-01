@@ -87,6 +87,7 @@ import DigitalMarketing from './pages/services/DigitalMarketing';
 import ContentCreation from './pages/services/ContentCreation';
 import SocialMediaManagement from './pages/services/SocialMediaManagement';
 import MentorshipInternship from './pages/services/MentorshipInternship';
+import InfluencerMarketing from './pages/services/InfluencerMarketing.jsx';
 import WebDev from './pages/services/WebDev';
 import DigiMark from './pages/services/DigiMark';
 import ContentCreat from './pages/services/ContentCreat';
@@ -215,6 +216,7 @@ function App() {
         <Route path="/services/content-creation" element={<ContentCreation />} />
         <Route path="/services/social-media-management" element={<SocialMediaManagement />} />
         <Route path="/services/mentorship-internship" element={<MentorshipInternship />} />
+        <Route path="/services/influencer-marketing" element={<InfluencerMarketing />} />
         <Route path="/clients/shree-properties" element={<ShreeProperties />} />
         <Route path="/clients/city-escape" element={<CityEscape />} />
         <Route path="/clients/pdea-coem" element={<PdeaCoem />} />
