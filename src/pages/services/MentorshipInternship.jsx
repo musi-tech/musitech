@@ -168,7 +168,7 @@ const MentorshipAndInternshipPage = () => {
                   </div>
 
                   <div className="flex items-center mb-6">
-                  <img src={require('./../../assets/images/sayuri.JPG')} alt="Instructor" className="w-12 h-12 rounded-full mr-4" />
+                  <img src={require('./../../assets/images/satish.jpg')} alt="Instructor" className="w-12 h-12 rounded-full mr-4" />
                   <div>
                       <p className="text-gray-900 font-semibold">Satish Dhage</p>
                       <p className="text-gray-500 text-sm">Voice solution architect ( Tech Mahindra )</p>

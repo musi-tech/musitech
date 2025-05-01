@@ -9,7 +9,7 @@ const teamMembers = [
   { name: 'Sayuri Kamble', title: 'Web Architect', image: require('../assets/images/sayuri.JPG'), linkedin: 'https://www.linkedin.com/in/sayurikamble/' },
   { name: 'Shubham Kshetre', title: 'Cloud Engineer', image: require('../assets/images/Shubham.jpg'), linkedin: 'https://www.linkedin.com/in/shubhamkshetre/' },
   { name: 'Raj Raut', title: 'DevOps Engineer', image: require('../assets/images/raj.jpeg'), linkedin: 'https://www.linkedin.com/in/raj-raut-devops/' },
-  { name: 'Ganesh Katwate', title: 'Marketing Executive', image: require('../assets/images/ganesh.jpeg'), linkedin: 'https://www.linkedin.com/in/ganeshkatwate07/' },
+  { name: 'Ganesh Katwate', title: 'Marketing Executive', image: require('../assets/images/ganuu.jpg'), linkedin: 'https://www.linkedin.com/in/ganeshkatwate07/' },
   { name: 'Abhishek Katale', title: 'Marketing Lead', image: require('../assets/images/abhii.JPG'), linkedin: 'https://www.linkedin.com/in/abhishek-katale/' },
   { name: 'Saurabh Thakur', title: 'Creative Analyst', image: require('../assets/images/Sau.jpeg'), linkedin: 'https://www.linkedin.com/in/saurabh36/' },
   { name: 'Ghanshyam Kadam', title: 'Technical Lead', image: require('../assets/images/shyam.JPG'), linkedin: 'https://www.linkedin.com/in/ghanashyamkadam/' },
