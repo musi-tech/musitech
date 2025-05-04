@@ -138,7 +138,7 @@ const MentorshipAndInternshipPage = () => {
 
                   <div className="flex items-center mb-6">
                     <img
-                      src={require("./../../assets/images/Aditya.JPG")}
+                      src={require("./../../assets/images/adii.jpg")}
                       alt="Instructor"
                       className="w-12 h-12 rounded-full mr-4"
                     />
@@ -147,14 +147,17 @@ const MentorshipAndInternshipPage = () => {
                         Aditya Jadhav
                       </p>
                       <p className="text-gray-500 text-sm">
-                        Founder: Musitech Meta Certified Professional
+                        Founder: Musitech, Meta Certified Professional
                       </p>
                     </div>
                   </div>
 
                   {/* Price */}
                   <div className="text-2xl font-bold text-green-600 mb-4">
-                    ₹49
+                    ₹49{" "}
+                    <span className="text-gray-500 line-through text-lg ml-2">
+                      ₹299
+                    </span>
                   </div>
 
                   {/* Call-to-Action Button */}

@@ -32,15 +32,13 @@ const WebinarRegistration = () => {
         <div className="relative z-10 py-8">
           <div className="max-w-7xl mx-auto px-5 lg:px-8">
             <div className="text-center">
-              <span className="inline-block bg-green-600 text-white px-4 py-1 rounded-full text-sm font-semibold tracking-wider mb-3">
-                FREE LIVE WORKSHOP • ONE DAY ONLY
-              </span>
+             
               <h1 className="text-4xl lg:text-6xl font-bold leading-tight mb-4">
-                Career Guidance <span className="text-green-400">Workshop</span>
+                Learn Digital Marketing <span className="text-green-400">Workshop</span>
               </h1>
               <p className="text-xl text-white max-w-3xl mx-auto">
-                Get the clarity you need to make confident decisions for your
-                future
+               From an agency with Real time Clients Projects.
+               Top Performers Will Be Awarded With Internships.
               </p>
             </div>
           </div>
@@ -77,7 +75,7 @@ const WebinarRegistration = () => {
               </h2>
               <ul className="space-y-3">
                 {[
-                  "How Meta ads really work",
+                  "How Meta & Google Ads work",
                   "Build your first campaign",
                   "Market analysis using tools",
                   "Start your freelancing journey",
@@ -102,7 +100,7 @@ const WebinarRegistration = () => {
                 <div className="relative">
                   <div className="w-20 h-20 rounded-lg overflow-hidden bg-gradient-to-b from-green-400 to-green-600 p-1">
                     <img
-                      src={require("../assets/images/Aditya.JPG")}
+                      src={require("../assets/images/adii.jpg")}
                       alt="Satish Dhage"
                       className="w-full h-full object-cover rounded-lg"
                     />
@@ -129,7 +127,7 @@ const WebinarRegistration = () => {
                   </span>
                   <div className="flex items-center">
                     <span className="text-2xl font-bold line-through opacity-70">
-                      ₹2,999
+                      ₹299
                     </span>
                     <span className="ml-3 text-3xl font-bold">49</span>
                   </div>

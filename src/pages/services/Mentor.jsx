@@ -13,9 +13,9 @@ const MentorPage = () => {
     <Navbar />
     <div className="bg-gray-50 min-h-screen">
       {/* Hero Section */}
-      <div className="bg-gradient-to-r from-green-500 to-green-700 text-white py-16">
+      <div className=" py-16">
         <div className="container mx-auto px-4">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4 text-center">Empower Your Tech Career</h1>
+          <h1 className="text-black text-4xl md:text-5xl font-bold mb-4 text-center">Empower Your Tech Career</h1>
           <p className="text-xl md:text-2xl text-center max-w-3xl mx-auto">
             Learn from industry experts and gain real-world experience in tech technology
           </p>
