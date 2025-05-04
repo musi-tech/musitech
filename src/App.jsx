@@ -86,8 +86,10 @@ import WebDevelopment from './pages/services/WebDevelopment';
 import DigitalMarketing from './pages/services/DigitalMarketing';
 import ContentCreation from './pages/services/ContentCreation';
 import SocialMediaManagement from './pages/services/SocialMediaManagement';
-import MentorshipInternship from './pages/services/MentorshipInternship';
+import MentorshipInternship from './pages/services/MentorshipInternship.jsx';
+import MentorshipGuidence from './pages/services/MentorshipGuidence.jsx';
 import InfluencerMarketing from './pages/services/InfluencerMarketing.jsx';
+import Mentor from './pages/services/Mentor.jsx';
 import WebDev from './pages/services/WebDev';
 import DigiMark from './pages/services/DigiMark';
 import ContentCreat from './pages/services/ContentCreat';
@@ -211,11 +213,13 @@ function App() {
         <Route path="/services/web-dev" element={<WebDev />} />
         <Route path="/services/digi-blog" element={<DigiBlog />} />
         <Route path="/services/digi-make" element={<DigiMark />} />
+        <Route path="/services/mentor" element={<Mentor />} />
         <Route path="/services/web-development" element={<WebDevelopment />} />
         <Route path="/services/digital-marketing" element={<DigitalMarketing />} />
         <Route path="/services/content-creation" element={<ContentCreation />} />
         <Route path="/services/social-media-management" element={<SocialMediaManagement />} />
         <Route path="/services/mentorship-internship" element={<MentorshipInternship />} />
+        <Route path="/services/mentorship-guidence" element={<MentorshipGuidence />} />
         <Route path="/services/influencer-marketing" element={<InfluencerMarketing />} />
         <Route path="/clients/shree-properties" element={<ShreeProperties />} />
         <Route path="/clients/city-escape" element={<CityEscape />} />
