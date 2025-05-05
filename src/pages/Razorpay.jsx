@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import ThankYouMessage from './ThankYouMessage';
+import ThankYouMessage from '../components/ThankYouMessage';
 
 const RazorpayPayment = () => {
     const [name, setName] = useState('');
