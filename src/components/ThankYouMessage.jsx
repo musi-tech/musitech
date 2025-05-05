@@ -28,7 +28,7 @@ const ThankYouMessage = ({ paymentId, name }) => {
             <p className="mt-1 text-indigo-100">Thank you for your purchase</p>
           </div>
         </div>
-        
+
         {/* Thank You Content */}
         <div className="px-8 py-10 -mt-6">
           <div className="bg-white rounded-xl shadow-lg p-6 text-center">
@@ -38,22 +38,30 @@ const ThankYouMessage = ({ paymentId, name }) => {
             <p className="text-gray-600 mb-6">
               Your payment has been processed successfully. We appreciate your trust in MusiTech and look forward to serving you.
             </p>
-            
+
             <div className="bg-gray-50 rounded-lg p-4 mb-6">
               <p className="text-sm text-gray-500">Payment ID</p>
               <p className="font-medium text-gray-800">{paymentId}</p>
             </div>
-            
+
             <div className="space-y-4">
-              <button 
+              <button
                 onClick={handleBackToDashboard}
                 className="w-full bg-transparent hover:bg-gray-100 text-gray-700 font-medium py-3 px-4 rounded-lg border border-gray-300 transition-colors"
               >
                 Back to Dashboard
               </button>
+              <a
+                href="https://wa.me/917822827875?text=Hello,%20give%20me%20more%20info%20about%20that%20workshop?"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full inline-block text-center bg-green-500 hover:bg-green-600 text-white font-medium py-3 px-4 rounded-lg transition-colors"
+              >
+                Contact via WhatsApp
+              </a>
             </div>
           </div>
-          
+
           {/* Help section */}
           <div className="mt-6 text-center">
             <p className="text-sm text-gray-500">
