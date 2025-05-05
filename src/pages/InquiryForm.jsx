@@ -1,19 +1,101 @@
-import React from "react";
+import React, { useState } from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
 import {
-  Calendar,
-  Clock,
-  Monitor,
-  Award,
-  ArrowRight,
-  Check,
-  Users,
-  Star,
+  Calendar, Clock, Monitor, Award, ArrowRight, Check, Users, Star, AlertCircle
 } from "lucide-react";
 
 const WebinarRegistration = () => {
+  // Form state
+  const [formData, setFormData] = useState({
+    fullName: "",
+    email: "",
+    phone: "",
+    location: "",
+    interest: "yes"
+  });
+  
+  // Form errors state
+  const [errors, setErrors] = useState({});
+  // Form submission attempt state
+  const [attemptedSubmit, setAttemptedSubmit] = useState(false);
+
+  // Handle input changes
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({
+      ...formData,
+      [name]: value
+    });
+    
+    // Clear error for this field if it exists
+    if (errors[name]) {
+      setErrors({
+        ...errors,
+        [name]: ""
+      });
+    }
+  };
+
+  // Handle radio button changes
+  const handleRadioChange = (e) => {
+    setFormData({
+      ...formData,
+      interest: e.target.value
+    });
+  };
+
+  // Validate form
+  const validateForm = () => {
+    const newErrors = {};
+    
+    if (!formData.fullName.trim()) {
+      newErrors.fullName = "Full name is required";
+    }
+    
+    if (!formData.email.trim()) {
+      newErrors.email = "Email is required";
+    } else if (!/\S+@\S+\.\S+/.test(formData.email)) {
+      newErrors.email = "Email address is invalid";
+    }
+    
+    if (!formData.phone.trim()) {
+      newErrors.phone = "Phone number is required";
+    } else if (!/^\d{10}$/.test(formData.phone.replace(/\D/g, ''))) {
+      newErrors.phone = "Please enter a valid 10-digit phone number";
+    }
+    
+    if (!formData.location.trim()) {
+      newErrors.location = "Location is required";
+    }
+    
+    return newErrors;
+  };
+
+  // Handle form submission
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setAttemptedSubmit(true);
+    
+    const formErrors = validateForm();
+    setErrors(formErrors);
+    
+    // If no errors, proceed to payment
+    if (Object.keys(formErrors).length === 0) {
+      // Navigate to payment page
+      window.location.href = "/razorpay";
+    } else {
+      // Scroll to the first error
+      const firstErrorField = Object.keys(formErrors)[0];
+      const element = document.querySelector(`[name="${firstErrorField}"]`);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        element.focus();
+      }
+    }
+  };
+
   return (
     <>
       <Navbar />
@@ -39,8 +121,7 @@ const WebinarRegistration = () => {
                 Career Guidance <span className="text-green-400">Workshop</span>
               </h1>
               <p className="text-xl text-white max-w-3xl mx-auto">
-                Get the clarity you need to make confident decisions for your
-                future
+                Get the clarity you need to make confident decisions for your future
               </p>
             </div>
           </div>
@@ -158,34 +239,56 @@ const WebinarRegistration = () => {
                   Secure your spot in this exclusive workshop
                 </p>
               </div>
+              
+              {attemptedSubmit && Object.keys(errors).length > 0 && (
+                <div className="mx-6 mt-4 bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded-lg flex items-start">
+                  <AlertCircle className="w-5 h-5 mr-2 mt-0.5 flex-shrink-0" />
+                  <div>
+                    <p className="font-bold">Please complete all required fields</p>
+                    <p className="text-sm">All fields must be filled to proceed with registration</p>
+                  </div>
+                </div>
+              )}
 
               <div className="p-6 text-black">
-                <form className="space-y-5">
+                <form className="space-y-5" onSubmit={handleSubmit}>
                   <div>
                     <label className="block text-sm font-medium mb-1 text-gray-800">
-                      Full Name
+                      Full Name <span className="text-red-500">*</span>
                     </label>
                     <input
                       type="text"
+                      name="fullName"
+                      value={formData.fullName}
+                      onChange={handleChange}
                       placeholder="Enter your name"
-                      className="w-full border border-gray-300 px-4 py-3 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent transition"
+                      className={`w-full border ${errors.fullName ? 'border-red-500 bg-red-50' : 'border-gray-300'} px-4 py-3 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent transition`}
                     />
+                    {errors.fullName && (
+                      <p className="text-red-500 text-sm mt-1">{errors.fullName}</p>
+                    )}
                   </div>
 
                   <div>
                     <label className="block text-sm font-medium mb-1 text-gray-800">
-                      Email Address
+                      Email Address <span className="text-red-500">*</span>
                     </label>
                     <input
                       type="email"
+                      name="email"
+                      value={formData.email}
+                      onChange={handleChange}
                       placeholder="you@example.com"
-                      className="w-full border border-gray-300 px-4 py-3 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent transition"
+                      className={`w-full border ${errors.email ? 'border-red-500 bg-red-50' : 'border-gray-300'} px-4 py-3 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent transition`}
                     />
+                    {errors.email && (
+                      <p className="text-red-500 text-sm mt-1">{errors.email}</p>
+                    )}
                   </div>
 
                   <div>
                     <label className="block text-sm font-medium mb-1 text-gray-800">
-                      Phone Number
+                      Phone Number <span className="text-red-500">*</span>
                     </label>
                     <div className="flex space-x-2">
                       <select className="border border-gray-300 px-3 py-3 rounded-lg w-1/4 focus:ring-2 focus:ring-green-500 focus:border-transparent transition">
@@ -195,21 +298,33 @@ const WebinarRegistration = () => {
                       </select>
                       <input
                         type="text"
+                        name="phone"
+                        value={formData.phone}
+                        onChange={handleChange}
                         placeholder="Phone number"
-                        className="border border-gray-300 px-4 py-3 rounded-lg w-3/4 focus:ring-2 focus:ring-green-500 focus:border-transparent transition"
+                        className={`border ${errors.phone ? 'border-red-500 bg-red-50' : 'border-gray-300'} px-4 py-3 rounded-lg w-3/4 focus:ring-2 focus:ring-green-500 focus:border-transparent transition`}
                       />
                     </div>
+                    {errors.phone && (
+                      <p className="text-red-500 text-sm mt-1">{errors.phone}</p>
+                    )}
                   </div>
 
                   <div>
                     <label className="block text-sm font-medium mb-1 text-gray-800">
-                      Location
+                      Location <span className="text-red-500">*</span>
                     </label>
                     <input
                       type="text"
+                      name="location"
+                      value={formData.location}
+                      onChange={handleChange}
                       placeholder="Enter your city"
-                      className="w-full border border-gray-300 px-4 py-3 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent transition"
+                      className={`w-full border ${errors.location ? 'border-red-500 bg-red-50' : 'border-gray-300'} px-4 py-3 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent transition`}
                     />
+                    {errors.location && (
+                      <p className="text-red-500 text-sm mt-1">{errors.location}</p>
+                    )}
                   </div>
 
                   <div>
@@ -222,7 +337,8 @@ const WebinarRegistration = () => {
                           type="radio"
                           name="interest"
                           value="yes"
-                          defaultChecked
+                          checked={formData.interest === "yes"}
+                          onChange={handleRadioChange}
                           className="w-4 h-4 text-green-600"
                         />
                         <span className="text-gray-800">Yes</span>
@@ -232,6 +348,8 @@ const WebinarRegistration = () => {
                           type="radio"
                           name="interest"
                           value="no"
+                          checked={formData.interest === "no"}
+                          onChange={handleRadioChange}
                           className="w-4 h-4 text-green-600"
                         />
                         <span className="text-gray-800">No</span>
@@ -240,15 +358,13 @@ const WebinarRegistration = () => {
                   </div>
 
                   <div className="pt-2">
-                    <Link to="/razorpay">
-                      <button
-                        type="button"
-                        className="w-full bg-green-600 text-white py-3 px-4 rounded-lg font-bold text-lg hover:bg-green-700 transition flex items-center justify-center"
-                      >
-                        <span>Secure My Spot</span>
-                        <ArrowRight className="ml-2 w-5 h-5" />
-                      </button>
-                    </Link>
+                    <button
+                      type="submit"
+                      className="w-full bg-green-600 text-white py-3 px-4 rounded-lg font-bold text-lg hover:bg-green-700 transition flex items-center justify-center"
+                    >
+                      <span>Secure My Spot</span>
+                      <ArrowRight className="ml-2 w-5 h-5" />
+                    </button>
                   </div>
 
                   <p className="text-xs text-gray-500 mt-4">

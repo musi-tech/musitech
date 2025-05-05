@@ -286,6 +286,7 @@ const MentorshipAndInternshipPage = () => {
                       </p>
                     </div>
                   </div>
+                  
 
                   {/* Workshop Highlights */}
                   <div className="bg-gray-50 p-4 rounded-lg mb-4">
