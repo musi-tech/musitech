@@ -1,12 +1,15 @@
 import React, { useState } from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import ThankYouMessage from './ThankYouMessage';
 
 const RazorpayPayment = () => {
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [contact, setContact] = useState('');
     const [isProcessing, setIsProcessing] = useState(false);
+    const [paymentSuccess, setPaymentSuccess] = useState(false);
+    const [paymentId, setPaymentId] = useState('');
 
     const loadRazorpayScript = () => {
         return new Promise((resolve) => {
@@ -43,7 +46,8 @@ const RazorpayPayment = () => {
             image: 'https://www.musitech.in/static/media/logo.142678cffc5139e93730.png',
             handler: function (response) {
                 setIsProcessing(false);
-                alert(`Payment successful! Payment ID: ${response.razorpay_payment_id}`);
+                setPaymentId(response.razorpay_payment_id);
+                setPaymentSuccess(true);
                 console.log('Razorpay response:', response);
             },
             prefill: {
@@ -68,9 +72,15 @@ const RazorpayPayment = () => {
         rzp.open();
     };
 
+    const closeThankYouMessage = () => {
+        setPaymentSuccess(false);
+        // You can redirect or clear form fields here if needed
+    };
+
     return (
         <>
             <Navbar />
+            {paymentSuccess && <ThankYouMessage paymentId={paymentId} name={name} onClose={closeThankYouMessage} />}
             <div className="min-h-screen bg-gradient-to-br from-indigo-50 to-blue-100 py-12 px-4 sm:px-6 lg:px-8 flex items-center justify-center">
                 <div className="w-full max-w-lg">
                     <div className="bg-white rounded-xl shadow-2xl overflow-hidden">
