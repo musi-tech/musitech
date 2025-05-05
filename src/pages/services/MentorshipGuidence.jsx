@@ -8,6 +8,7 @@ import {
   FaCalendarAlt,
   FaClock,
   FaLaptop,
+  FaCheckCircle
 } from "react-icons/fa";
 import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
@@ -56,14 +57,14 @@ const testimonials = [
     image: require("../../assets/images/pradip.jpeg"),
     role: "AWS Intern",
     testimonial:
-      "MusiTech’s programs are top-notch. The mentorship I received helped me refine my skills and the internship gave me hands-on experience in my field.",
+      "MusiTech's programs are top-notch. The mentorship I received helped me refine my skills and the internship gave me hands-on experience in my field.",
   },
   {
     name: " Bhushan Sawarkar",
     image: require("../../assets/images/bhushan.jpeg"),
     role: "Web Developer Intern",
     testimonial:
-      "Participating in MusiTech’s internship program was a game-changer for my career. The experience and networking opportunities were exceptional.",
+      "Participating in MusiTech's internship program was a game-changer for my career. The experience and networking opportunities were exceptional.",
   },
 ];
 
@@ -108,6 +109,7 @@ const MentorshipAndInternshipPage = () => {
 
           <section className="py-16 px-6 lg:px-12">
             <div className="container mx-auto">
+              <h2 className="text-3xl font-bold mb-8 text-center">Upcoming Workshops</h2>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               
               <div className="bg-white p-6 rounded-lg shadow-lg max-w-sm mx-auto">
@@ -179,7 +181,7 @@ const MentorshipAndInternshipPage = () => {
                       Career Guidance Workshop
                     </h2>
                     <p className="text-gray-600">
-                      this session will give you the clarity you need to make
+                      This session will give you the clarity you need to make
                       confident decisions for your future.{" "}
                     </p>
                   </div>
@@ -231,8 +233,90 @@ const MentorshipAndInternshipPage = () => {
                     </button>
                   </a>
                 </div>
+              </div>
+            </div>
+          </section>
+          
+          {/* Recently Completed Workshops Section */}
+          <section className="py-16 px-6 lg:px-12 bg-gray-50">
+            <div className="container mx-auto">
+              <h2 className="text-3xl font-bold mb-8 text-center">Recently Completed Workshops</h2>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div className="bg-white p-6 rounded-lg shadow-lg max-w-sm mx-auto">
+                  <div className="mb-4">
+                    <FaBookOpen className="text-green-500 text-4xl mb-2" />
+                    <div className="flex items-center mb-2">
+                      <h2 className="text-2xl font-semibold mr-2">
+                        Will AI/ML Replace Jobs?
+                      </h2>
+                      <FaCheckCircle className="text-green-500" />
+                    </div>
+                    <p className="text-gray-600">
+                      An in-depth exploration of AI's impact on the future job market and how professionals can adapt to thrive in an AI-driven economy.
+                    </p>
+                  </div>
 
-               
+                  <div className="flex items-center mb-2">
+                    <FaCalendarAlt className="text-gray-500 mr-2" />
+                    <p className="text-gray-600">Completed on 23rd April 2025</p>
+                  </div>
+
+                  <div className="flex items-center mb-2">
+                    <FaClock className="text-gray-500 mr-2" />
+                    <p className="text-gray-600">5:00 PM - 7:00 PM</p>
+                  </div>
+
+                  <div className="flex items-center mb-6">
+                    <FaLaptop className="text-gray-500 mr-2" />
+                    <p className="text-gray-600">Online</p>
+                  </div>
+
+                  <div className="flex items-center mb-6">
+                    <img
+                      src={require("./../../assets/images/satish.jpg")}
+                      alt="Instructor"
+                      className="w-12 h-12 rounded-full mr-4"
+                    />
+                    <div>
+                      <p className="text-gray-900 font-semibold">
+                        Satish Dhage
+                      </p>
+                      <p className="text-gray-500 text-sm">
+                        Voice solution architect ( Tech Mahindra )
+                      </p>
+                    </div>
+                  </div>
+
+                  {/* Workshop Highlights */}
+                  <div className="bg-gray-50 p-4 rounded-lg mb-4">
+                    <h3 className="font-semibold mb-2">Workshop Highlights:</h3>
+                    <ul className="text-gray-700">
+                      <li className="flex items-start mb-1">
+                        <span className="text-green-500 mr-2">✓</span>
+                        <span>AI's impact on traditional vs. emerging roles</span>
+                      </li>
+                      <li className="flex items-start mb-1">
+                        <span className="text-green-500 mr-2">✓</span>
+                        <span>Essential skills for an AI-driven workforce</span>
+                      </li>
+                      <li className="flex items-start">
+                        <span className="text-green-500 mr-2">✓</span>
+                        <span>How to future-proof your career</span>
+                      </li>
+                    </ul>
+                  </div>
+
+                  {/* Join Waiting List Button */}
+                  <a
+                    href="/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <button className="bg-green-600 text-white px-4 py-2 rounded-lg w-full">
+                      Join Waitlist for Next Session
+                    </button>
+                  </a>
+                </div>
               </div>
             </div>
           </section>
