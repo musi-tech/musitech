@@ -101,7 +101,7 @@ const WebinarRegistration = () => {
                 <div className="relative">
                   <div className="w-20 h-20 rounded-lg overflow-hidden bg-gradient-to-b from-green-400 to-green-600 p-1">
                     <img
-                      src={require("../assets/images/satish.jpg")}
+                      src={require("../assets/images/sd.jpg")}
                       alt="Satish Dhage"
                       className="w-full h-full object-cover rounded-lg"
                     />

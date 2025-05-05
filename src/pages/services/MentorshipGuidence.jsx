@@ -203,7 +203,7 @@ const MentorshipAndInternshipPage = () => {
 
                   <div className="flex items-center mb-6">
                     <img
-                      src={require("./../../assets/images/satish.jpg")}
+                      src={require("./../../assets/images/sd.jpg")}
                       alt="Instructor"
                       className="w-12 h-12 rounded-full mr-4"
                     />
@@ -273,7 +273,7 @@ const MentorshipAndInternshipPage = () => {
 
                   <div className="flex items-center mb-6">
                     <img
-                      src={require("./../../assets/images/satish.jpg")}
+                      src={require("./../../assets/images/sd.jpg")}
                       alt="Instructor"
                       className="w-12 h-12 rounded-full mr-4"
                     />

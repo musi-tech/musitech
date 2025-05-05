@@ -33,7 +33,7 @@ const servicesData = [
     icon: FaHandshake,
     title: 'Mentorship & Internship',
     description: 'Gain valuable industry experience and guidance through our mentorship and internship programs designed for aspiring professionals.',
-    link: '/services/mentorship-internship',
+    link: '/services/mentor',
   },
   {
     icon: FaStar,

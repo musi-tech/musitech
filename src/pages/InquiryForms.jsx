@@ -37,8 +37,8 @@ const WebinarRegistration = () => {
                 Learn Digital Marketing <span className="text-green-400">Workshop</span>
               </h1>
               <p className="text-xl text-white max-w-3xl mx-auto">
-               From an agency with Real time Clients Projects.
-               Top Performers Will Be Awarded With Internships.
+               From an agency with Real time Clients Projects. <br></br>
+               <b className="text-green-500">Top Performers Will Be Awarded With Internships.</b>
               </p>
             </div>
           </div>
