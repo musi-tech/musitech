@@ -13,7 +13,7 @@ const Footer = () => {
         <div className="mb-6">
           <ul className="flex justify-center space-x-6">
             <li><a href="https://www.facebook.com/profile.php?id=61563872920892" aria-label="Facebook" className="text-accent hover:text-green-500"><FaFacebookF size={24} /></a></li>
-            <li><a href="https://x.com/AdityaJ50651416" aria-label="Twitter" className="text-accent hover:text-green-500"><FaX size={24} /></a></li>
+            <li><a href="https://x.com/musitech_" aria-label="Twitter" className="text-accent hover:text-green-500"><FaX size={24} /></a></li>
             <li><a href="https://www.linkedin.com/company/musitech-in/posts/?feedView=all" aria-label="LinkedIn" className="text-accent hover:text-green-500"><FaLinkedinIn size={24} /></a></li>
             <li><a href="https://www.instagram.com/musitech_in?igsh=NndncTA3aHYxZHJk" aria-label="Instagram" className="text-accent hover:text-green-500"><FaInstagram size={24} /></a></li>
           </ul>
