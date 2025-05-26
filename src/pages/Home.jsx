@@ -11,6 +11,7 @@ import Slider from 'react-slick';
 
 // Import your images
 import logo1 from '../assets/images/AAgamingg.png';
+
 import logo2 from '../assets/images/Aspire.png';
 import logo3 from '../assets/images/pdea2.svg';
 import logo4 from '../assets/images/hespro1.jpg';
