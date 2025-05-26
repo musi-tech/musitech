@@ -11,6 +11,9 @@ import image4 from '../../assets/images/krushif.png';
 import image5 from '../../assets/images/linuxs.png';
 import image6 from '../../assets/images/pdeas.png';
 import image7 from '../../assets/images/note.png';
+import image8 from '../../assets/images/image8.png';
+import image9 from '../../assets/images/image9.png';
+
 
 // Projects data moved outside component to prevent recreation
 const projects = [
@@ -69,6 +72,22 @@ const projects = [
     link: 'https://notevid.vercel.app/',
     category: 'Productivity',
     description: 'Video note-taking application'
+  },
+    {
+    id: 8,
+    name: 'Studio Musigns',
+    image: image8,
+    link: 'https://www.studiomusings.com/',
+    category: 'Productivity',
+    description: 'CRAFTING ARCHITECTURAL NARRATIVES THROUGH MINIMALIST DESIGN'
+  },
+  {
+    id: 9,
+    name: 'SNAZE',
+    image: image9,
+    link: 'https://www.snaze.in/',
+    category: 'Productivity',
+    description: 'E-Commerce Platform'
   },
 ];
 

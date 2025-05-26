@@ -85,13 +85,19 @@ const CancellationandRefund = () => {
             </p>
             <ul className="list-disc list-inside text-gray-700 mb-6">
               <li>
-                <strong>Contact Us:</strong> Send an email to [Insert Email Address] with the subject line "Cancellation Request" or "Refund Request" and include your full name, contact information, and details of the service purchased.
+                <strong>Contact Us:</strong> Send an email to [contact@musitech.in] with the subject line "Cancellation Request" or "Refund Request" and include your full name, contact information, and details of the service purchased.
               </li>
               <li>
                 <strong>Provide Supporting Information:</strong> Include any relevant documentation, such as proof of payment, service agreements, and any correspondence with our team.
               </li>
               <li>
                 <strong>Response Time:</strong> We will review your request and respond within 5-7 business days with a decision or further instructions.
+              </li>
+              <li>
+                <strong>Notice Period:</strong> If the project is to be cancelled from the client's side, a 30-day notice period is required.
+              </li>
+              <li>
+                <strong>Immediate Cancellation:</strong> For any immediate cancellation, a written agreement must be signed at the beginning of the project.
               </li>
             </ul>
 
