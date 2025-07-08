@@ -17,18 +17,7 @@ const servicesData = [
     description: 'Boost your online presence with our targeted marketing strategies, including SEO, PPC, and social media campaigns.',
     link: '/services/digital-marketing',
   },
-  {
-    icon: FaEdit,
-    title: 'Content Creation',
-    description: 'Engage your audience with high-quality content, including blog posts, videos, and infographics designed to drive traffic and conversions.',
-    link: '/services/content-creation',
-  },
-  {
-    icon: FaShareAlt,
-    title: 'Social Media Management',
-    description: 'Manage your social media profiles effectively with our comprehensive services, including content scheduling, audience engagement, and analytics.',
-    link: '/services/social-media-management',
-  },
+
   {
     icon: FaHandshake,
     title: 'Mentorship & Internship',

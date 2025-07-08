@@ -5,8 +5,6 @@ import { Link } from 'react-router-dom';
 const services = [
   { icon: <FaCode />, title: 'Web Development', description: 'Innovative web solutions tailored to your needs.', link: '/services/web-development', color: '#11BE86', hoverColor: '#0A8EA8' },
   { icon: <FaBullhorn />, title: 'Digital Marketing', description: 'Strategic marketing to elevate your online presence.', link: '/services/digital-marketing', color: '#F26C4F', hoverColor: '#C8ACD6' },
-  { icon: <FaPenNib />, title: 'Content Creation', description: 'Engaging content that captivates and converts.', link: '/services/content-creation', color: '#F8D03F', hoverColor: '#433D8B' },
-  { icon: <FaUsers />, title: 'Social Media Management', description: 'Effective social media strategies to grow your brand.', link: '/services/social-media-management', color: '#3D8EFC', hoverColor: '#2E236C' },
   { icon: <FaHandshake />, title: 'Training & Internship', description: 'Guidance and opportunities to nurture your talent.', link: '/services/mentorship-internship', color: '#8D5B9D', hoverColor: '#17153B' },
   { icon: <FaStar />, title: 'Influencer Marketing', description: 'Leverage influencers to amplify your brand’s reach.', link: '/services/influencer-marketing', color: '#FF8C42',  hoverColor: '#6A0DAD'   }
 ];
