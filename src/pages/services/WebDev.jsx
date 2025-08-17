@@ -13,6 +13,7 @@ import image6 from '../../assets/images/pdeas.png';
 import image7 from '../../assets/images/note.png';
 import image8 from '../../assets/images/image8.png';
 import image9 from '../../assets/images/image9.png';
+import image10 from '../../assets/images/kathacree.png';  
 
 
 // Projects data moved outside component to prevent recreation
@@ -53,7 +54,7 @@ const projects = [
     id: 5,
     name: 'Linux Club',
     image: image5,
-    link: 'https://linclub.vercel.app/',
+    link: 'https://linux-club.vercel.app/',
     category: 'Technology',
     description: 'Open-source community platform'
   },
@@ -61,7 +62,7 @@ const projects = [
     id: 6,
     name: 'PDEA COEM',
     image: image6,
-    link: '#',
+    link: 'https://pdeacoem.com/',
     category: 'Education',
     description: 'Educational institution website'
   },
@@ -88,6 +89,14 @@ const projects = [
     link: 'https://www.snaze.in/',
     category: 'Productivity',
     description: 'E-Commerce Platform'
+  },
+  {
+    id: 10,
+    name: 'Katha Creations',
+    image: image10,
+    link: 'https://www.kathacreations.in/',
+    category: 'Productivity',
+    description: 'Wedding Cinematography and Photography'
   },
 ];
 

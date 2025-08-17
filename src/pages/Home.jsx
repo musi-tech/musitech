@@ -26,7 +26,7 @@ import logo12 from '../assets/images/iyc.jpg'
 import logo13 from '../assets/images/sm.png'
 import logo14 from '../assets/images/technova.png'
 import logo15 from '../assets/images/snaze.png'
-
+import logo16 from '../assets/images/katha.jpg'; // Example logo, replace with actual logo if needed
 
 const slickSettings = {
   dots: true,
@@ -78,7 +78,7 @@ const Home = () => {
   <h2 className="text-4xl font-bold text-gray-900 mb-8">Trusted By</h2>
   <div className="relative">
     <Slider {...slickSettings} className="py-4">
-      {[logo1, logo2, logo3, logo4, logo5, logo6, logo7, logo8, logo9, logo10, logo11, logo12, logo13, logo14, logo15].map((logo, index) => (
+      {[logo1, logo2, logo3, logo4, logo5, logo6, logo7, logo8, logo9, logo10, logo11, logo12, logo13, logo14, logo15, logo16].map((logo, index) => (
         <div key={index} className="flex-shrink-0 px-4">
           <div className="flex items-center justify-center p-4 bg-white shadow-md rounded-lg">
             <img
