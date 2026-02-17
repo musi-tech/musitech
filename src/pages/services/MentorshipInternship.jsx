@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 import { FaArrowUp, FaArrowDown } from "react-icons/fa";
 import { FaCode, FaCloud, FaDatabase, FaPencilAlt } from 'react-icons/fa';
@@ -77,50 +78,51 @@ const testimonials = [
 ];
 
 const internshipTopics = [
-  { 
-    title: 'Cloud Internship', 
-    icon: <FaCloud className="text-green-500 text-6xl" />, 
-    syllabusLink: 'https://drive.google.com/uc?export=download&id=YOUR_FILE_ID_CLOUD', 
-    brochureLink: 'https://drive.google.com/uc?export=download&id=YOUR_FILE_ID_CLOUD' 
+  {
+    title: 'Cloud Internship',
+    icon: <FaCloud className="text-green-500 text-6xl" />,
+    syllabusLink: 'https://drive.google.com/uc?export=download&id=YOUR_FILE_ID_CLOUD',
+    brochureLink: 'https://drive.google.com/uc?export=download&id=YOUR_FILE_ID_CLOUD'
   },
-  { 
-    title: 'Frontend Internship', 
-    icon: <FaCode className="text-green-500 text-6xl" />, 
-    syllabusLink: 'https://drive.google.com/uc?export=download&id=YOUR_FILE_ID_FRONTEND', 
-    brochureLink: 'https://drive.google.com/uc?export=download&id=YOUR_FILE_ID_FRONTEND' 
+  {
+    title: 'Frontend Internship',
+    icon: <FaCode className="text-green-500 text-6xl" />,
+    syllabusLink: 'https://drive.google.com/uc?export=download&id=YOUR_FILE_ID_FRONTEND',
+    brochureLink: 'https://drive.google.com/uc?export=download&id=YOUR_FILE_ID_FRONTEND'
   },
-  { 
-    title: 'DevOps', 
-    icon: <FaCloud className="text-green-500 text-6xl" />, 
-    syllabusLink: 'https://drive.google.com/uc?export=download&id=YOUR_FILE_ID_DEVOPS', 
-    brochureLink: 'https://drive.google.com/uc?export=download&id=YOUR_FILE_ID_DEVOPS', 
-    comingSoon: true 
+  {
+    title: 'DevOps',
+    icon: <FaCloud className="text-green-500 text-6xl" />,
+    syllabusLink: 'https://drive.google.com/uc?export=download&id=YOUR_FILE_ID_DEVOPS',
+    brochureLink: 'https://drive.google.com/uc?export=download&id=YOUR_FILE_ID_DEVOPS',
+    comingSoon: true
   },
-  { 
-    title: 'Full Stack Internship', 
-    icon: <FaCode className="text-green-500 text-6xl" />, 
-    syllabusLink: 'https://drive.google.com/uc?export=download&id=YOUR_FILE_ID_FULL_STACK', 
-    brochureLink: 'https://drive.google.com/uc?export=download&id=YOUR_FILE_ID_FULL_STACK', 
-    comingSoon: true 
+  {
+    title: 'Full Stack Internship',
+    icon: <FaCode className="text-green-500 text-6xl" />,
+    syllabusLink: 'https://drive.google.com/uc?export=download&id=YOUR_FILE_ID_FULL_STACK',
+    brochureLink: 'https://drive.google.com/uc?export=download&id=YOUR_FILE_ID_FULL_STACK',
+    comingSoon: true
   },
-  { 
-    title: 'Video Editing & Graphic Design', 
-    icon: <FaPencilAlt className="text-green-500 text-6xl" />, 
-    syllabusLink: 'https://drive.google.com/uc?export=download&id=YOUR_FILE_ID_GRAPHICS', 
-    brochureLink: 'https://drive.google.com/uc?export=download&id=YOUR_FILE_ID_GRAPHICS', 
-    comingSoon: true 
+  {
+    title: 'Video Editing & Graphic Design',
+    icon: <FaPencilAlt className="text-green-500 text-6xl" />,
+    syllabusLink: 'https://drive.google.com/uc?export=download&id=YOUR_FILE_ID_GRAPHICS',
+    brochureLink: 'https://drive.google.com/uc?export=download&id=YOUR_FILE_ID_GRAPHICS',
+    comingSoon: true
   },
-  { 
-    title: 'Data Structures & Algorithms', 
-    icon: <FaCode className="text-green-500 text-6xl" />, 
-    syllabusLink: 'https://drive.google.com/uc?export=download&id=YOUR_FILE_ID_DSA', 
-    brochureLink: 'https://drive.google.com/uc?export=download&id=YOUR_FILE_ID_DSA', 
-    comingSoon: true 
+  {
+    title: 'Data Structures & Algorithms',
+    icon: <FaCode className="text-green-500 text-6xl" />,
+    syllabusLink: 'https://drive.google.com/uc?export=download&id=YOUR_FILE_ID_DSA',
+    brochureLink: 'https://drive.google.com/uc?export=download&id=YOUR_FILE_ID_DSA',
+    comingSoon: true
   },
 ];
 
 const MentorshipAndInternshipPage = () => {
   const [activeIndex, setActiveIndex] = useState(null);
+  const navigate = useNavigate();
 
   const toggleFAQ = (index) => {
     setActiveIndex(activeIndex === index ? null : index);
@@ -139,7 +141,7 @@ const MentorshipAndInternshipPage = () => {
   return (
     <>
       <Navbar />
-      
+
       {/* Hero Section */}
       <section className="py-16 px-6 lg:px-12 bg-gradient-to-br from-gray-50 to-white">
         <div className="container mx-auto">
@@ -172,14 +174,14 @@ const MentorshipAndInternshipPage = () => {
                       Cloud Computing (AWS)
                     </h2>
                     <p className="text-gray-600">
-                      Learn AWS and DevOps from Scratch and Kickstart your
-                      career in and DevOps
+                      Learn AWS and from Scratch and Kickstart your
+                      career
                     </p>
                   </div>
 
                   <div className="flex items-center mb-2">
                     <FaCalendarAlt className="text-gray-500 mr-2" />
-                    <p className="text-gray-600">Starting from 15th May 2025</p>
+                    <p className="text-gray-600">Starting from 23rd Feb 2026</p>
                   </div>
 
                   <div className="flex items-center mb-2">
@@ -213,11 +215,12 @@ const MentorshipAndInternshipPage = () => {
                   </div>
 
                   {/* Call-to-Action Button */}
-                  <a href="/" target="_blank" rel="noopener noreferrer">
-                    <button className="bg-green-600 text-white px-4 py-2 rounded-lg w-full">
-                      Enroll Now
-                    </button>
-                  </a>
+                  <button
+                    onClick={() => navigate(`/course-payment?courseName=${encodeURIComponent('Cloud Computing (AWS)')}&price=1988&originalPrice=5000&instructor=${encodeURIComponent('Raj Raut')}&startDate=${encodeURIComponent('15th May 2025')}`)}
+                    className="bg-green-600 text-white px-4 py-2 rounded-lg w-full hover:bg-green-700 transition-colors duration-300"
+                  >
+                    Enroll Now
+                  </button>
                 </div>
 
                 {/* Frontend Training Card */}
@@ -235,7 +238,7 @@ const MentorshipAndInternshipPage = () => {
 
                   <div className="flex items-center mb-2">
                     <FaCalendarAlt className="text-gray-500 mr-2" />
-                    <p className="text-gray-600">Starting from 11th May 2025</p>
+                    <p className="text-gray-600">Starting from 23rd Feb 2026</p>
                   </div>
 
                   <div className="flex items-center mb-2">
@@ -270,20 +273,21 @@ const MentorshipAndInternshipPage = () => {
                     </span>
                   </div>
                   {/* Call-to-Action Button */}
-                  <a href="/" target="_blank" rel="noopener noreferrer">
-                    <button className="bg-green-600 text-white px-4 py-2 rounded-lg w-full">
-                      Enroll Now
-                    </button>
-                  </a>
+                  <button
+                    onClick={() => navigate(`/course-payment?courseName=${encodeURIComponent('Frontend Development')}&price=999&originalPrice=3000&instructor=${encodeURIComponent('Sayuri Kamble')}&startDate=${encodeURIComponent('11th May 2025')}`)}
+                    className="bg-green-600 text-white px-4 py-2 rounded-lg w-full hover:bg-green-700 transition-colors duration-300"
+                  >
+                    Enroll Now
+                  </button>
                 </div>
-                
+
                 {/* Third card can be added here if needed */}
               </div>
             </div>
           </section>
         </div>
       </section>
-      
+
       {/* Internship Opportunities Section */}
       <section className="py-16 px-6 lg:px-12 bg-gradient-to-br from-gray-50 to-white">
         <div className="container mx-auto text-center">
@@ -297,7 +301,7 @@ const MentorshipAndInternshipPage = () => {
               Explore Our Exciting Internship Opportunities
             </h1>
             <p className="text-lg text-gray-700">
-              Dive into our diverse range of internship programs and gain hands-on experience in various fields. 
+              Dive into our diverse range of internship programs and gain hands-on experience in various fields.
               Our programs are designed to provide you with the skills and knowledge needed to excel in your career.
             </p>
           </motion.div>
@@ -357,7 +361,7 @@ const MentorshipAndInternshipPage = () => {
           </div>
         </div>
       </section>
-      
+
       {/* Testimonials Section */}
       <section className="py-16 px-6 lg:px-12">
         <div className="container mx-auto text-center">
@@ -368,7 +372,7 @@ const MentorshipAndInternshipPage = () => {
                 <div
                   key={index}
                   className="p-4 rounded-lg mx-2 bg-white shadow-lg"
-                > 
+                >
                   <div className="grid grid-cols-1 md:grid-cols-3 gap-4 items-center">
                     {/* Left Side: Image, Name, and Role */}
                     <div className="flex items-center md:flex-col md:items-start text-left">
@@ -431,7 +435,7 @@ const MentorshipAndInternshipPage = () => {
           </div>
         </div>
       </section>
-      
+
       <Footer />
     </>
   );

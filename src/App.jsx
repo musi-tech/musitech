@@ -118,6 +118,7 @@ import CancellationRefundPolicy from './pages/CancellationRefundPolicy.jsx';
 import PolicyPages from './pages/PolicyPages.jsx';
 import ContactUs from './pages/ContactUs.jsx';
 import Razorpay from './pages/Razorpay.jsx';
+import CoursePayment from './pages/CoursePayment.jsx';
 import InquiryForm from './pages/InquiryForm.jsx';
 import InquiryForms from './pages/InquiryForms.jsx';
 import Blog from './pages/Blog.jsx';
@@ -184,29 +185,29 @@ function App() {
         <Route path="/blogs/digital-marketing-trends-2025" element={<DigitalMarketingTrends2025 />} />
         <Route path="/blogs/digital-marketing-accessibility-2025" element={<DigitalMarketingAccessibility2025 />} />
         <Route path="/blogs/understanding-white-hat-black-hat-gray-hat-seo" element={<UnderstandingWhiteHatBlackHatGrayHatSeo />} />
-        <Route path="/blogs/how-to-write-a-blog-post-from-start-to-finish"  element={<HowToWriteABlogPostFromStartToFinish />} />
-        <Route path="/blogs/deepseek-r1-ai-open-source-revolution"  element={<DeepSeekR1AIOpenSourceRevolution />} />
-        <Route path="/blogs/denta-water-ipo-review-2025"  element={<DentaWaterIPOReview2025 />} />
+        <Route path="/blogs/how-to-write-a-blog-post-from-start-to-finish" element={<HowToWriteABlogPostFromStartToFinish />} />
+        <Route path="/blogs/deepseek-r1-ai-open-source-revolution" element={<DeepSeekR1AIOpenSourceRevolution />} />
+        <Route path="/blogs/denta-water-ipo-review-2025" element={<DentaWaterIPOReview2025 />} />
         <Route path='/blogs/decrease-page-load-time' element={<DecreasePageLoadTime />} />
         <Route path='/blogs/how-search-engines-work-crawling-indexing-ranking' element={<HowSearchEnginesWorkCrawlingIndexingRanking />} />
         <Route path='/blogs/driving-traffic-growth-with-competitor-keyword-analysi' element={<DrivingTrafficGrowthWithCompetitorKeywordAnalysi />} />
         <Route path='/blogs/the-new-approach-to-seo-that-changes-everything-in-2025' element={<TheNewApproachToSEOThatChangesEverythingIn2025 />} />
-        <Route path="/blogs/seo-orphan-pages-guide"  element={<SeoOrphanPagesGuide />} />
-        <Route path="/blogs/how-saas-companies-can-optimize-for-seo"  element={<HowSaasCompaniesCanOptimizeForSEO />} />
-        <Route path="/blogs/how-to-upload-website-to-internet"  element={<HowToUploadWebsiteToInternet />} />
-        <Route path="/blogs/what-is-a-pwa-how-progressive-web-apps-work"  element={<WhatIsAPwaHowProgressiveWebAppsWork />} />
-        <Route path="/blogs/interactive-content-benefits-engagement-strategies"  element={<InteractiveContentBenefitsEngagementStrategies />} />
-        <Route path="/blogs/what-is-deepseek"  element={<WhatIsDeepseek />} />
-        <Route path="/blogs/how-to-fetch-alexa-ranking-with-php"  element={<HowToFetchAlexaRankingWithPHP />} />
-        <Route path="/blogs/digital-marketing-metrics"  element={<DigitalMarketingMetrics />} />
+        <Route path="/blogs/seo-orphan-pages-guide" element={<SeoOrphanPagesGuide />} />
+        <Route path="/blogs/how-saas-companies-can-optimize-for-seo" element={<HowSaasCompaniesCanOptimizeForSEO />} />
+        <Route path="/blogs/how-to-upload-website-to-internet" element={<HowToUploadWebsiteToInternet />} />
+        <Route path="/blogs/what-is-a-pwa-how-progressive-web-apps-work" element={<WhatIsAPwaHowProgressiveWebAppsWork />} />
+        <Route path="/blogs/interactive-content-benefits-engagement-strategies" element={<InteractiveContentBenefitsEngagementStrategies />} />
+        <Route path="/blogs/what-is-deepseek" element={<WhatIsDeepseek />} />
+        <Route path="/blogs/how-to-fetch-alexa-ranking-with-php" element={<HowToFetchAlexaRankingWithPHP />} />
+        <Route path="/blogs/digital-marketing-metrics" element={<DigitalMarketingMetrics />} />
         <Route path='/blogs/openai-o3-mini' element={<OpenAI_O3Mini />} />
         <Route path='/blogs/ai-aging-breakthrough' element={<AiAgingBreakthrough />} />
         <Route path='/blogs/how-to-set-smart-marketing-goals' element={<HowToSetSmartMarketingGoals />} />
         <Route path='/blogs/ai-research-assistant' element={<AIResearchAssistant />} />
         <Route path='/blogs/what-is-green-marketing' element={<WhatIsGreenMarketing />} />
         <Route path='/blogs/what-is-eat-in-seo-how-to-improve' element={<WhatIsEatInSeoHowToImprove />} />
-        <Route path='/blogs/what-is-email-marketing' element={<WhatIsEmailMarketing/>} />
-        <Route path='/blogs/what-is-whatsapp-marketing' element={<WhatIsWhatsappMarketing/>} />
+        <Route path='/blogs/what-is-email-marketing' element={<WhatIsEmailMarketing />} />
+        <Route path='/blogs/what-is-whatsapp-marketing' element={<WhatIsWhatsappMarketing />} />
 
         <Route path="/services/content-creat" element={<ContentCreat />} />
         <Route path="/services/social-media" element={<SocialMedia />} />
@@ -244,12 +245,13 @@ function App() {
         <Route path="/privacy-policy" element={<PolicyPages />} />
         <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/razorpay" element={<Razorpay />} />
+        <Route path="/course-payment" element={<CoursePayment />} />
         <Route path="/inquiryform" element={<InquiryForm />} />
         <Route path="/inquiryforms" element={<InquiryForms />} />
         <Route path="/blog" element={<Blog />} />
       </Routes>
 
-      </>
+    </>
   );
 }
 
