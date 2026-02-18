@@ -174,7 +174,7 @@ const MentorshipAndInternshipPage = () => {
                       Cloud Computing (AWS)
                     </h2>
 
-                    
+
                     <p className="text-gray-600">
                       Learn AWS and from Scratch and Kickstart your
                       career
