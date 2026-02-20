@@ -166,18 +166,16 @@ const MentorshipAndInternshipPage = () => {
           <section className="mb-16">
             <div className="container mx-auto">
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                {/* AWS Training Card */}
+                {/* AWS Internship Card */}
                 <div className="bg-white p-6 rounded-lg shadow-lg max-w-sm mx-auto">
                   <div className="mb-4">
                     <FaBookOpen className="text-green-500 text-4xl mb-2" />
+                    <span className="inline-block bg-green-100 text-green-700 text-xs font-bold px-2 py-1 rounded-full mb-2">Internship</span>
                     <h2 className="text-2xl font-semibold mb-2">
                       Cloud Computing (AWS)
                     </h2>
-
-
                     <p className="text-gray-600">
-                      Learn AWS and from Scratch and Kickstart your
-                      career
+                      Learn AWS from Scratch and Kickstart your career
                     </p>
                   </div>
 
@@ -191,50 +189,69 @@ const MentorshipAndInternshipPage = () => {
                     <p className="text-gray-600">6:00 PM - 7:00 PM</p>
                   </div>
 
-                  <div className="flex items-center mb-6">
+                  <div className="flex items-center mb-4">
                     <FaLaptop className="text-gray-500 mr-2" />
                     <p className="text-gray-600">Online</p>
                   </div>
 
-                  <div className="flex items-center mb-6">
+                  {/* Mentors */}
+                  <p className="text-gray-700 font-semibold mb-2">Mentors:</p>
+                  <div className="flex items-center mb-3">
                     <img
                       src={require("./../../assets/images/raj.jpeg")}
-                      alt="Instructor"
-                      className="w-12 h-12 rounded-full mr-4"
+                      alt="Raj Raut"
+                      className="w-10 h-10 rounded-full mr-3"
                     />
                     <div>
-                      <p className="text-gray-900 font-semibold">Raj Raut</p>
-                      <p className="text-gray-500 text-sm">Instructor</p>
+                      <p className="text-gray-900 font-semibold text-sm">Raj Raut</p>
+                      <p className="text-gray-500 text-xs">DevOps Engineer</p>
+                    </div>
+                  </div>
+                  <div className="flex items-center mb-6">
+                    <img
+                      src={require("./../../assets/images/Shubham.jpg")}
+                      alt="Shubham Kshetre"
+                      className="w-10 h-10 rounded-full mr-3"
+                    />
+                    <div>
+                      <p className="text-gray-900 font-semibold text-sm">Shubham Kshetre</p>
+                      <p className="text-gray-500 text-xs">DevOps Engineer</p>
                     </div>
                   </div>
 
                   {/* Price */}
                   <div className="text-2xl font-bold text-green-600 mb-4">
-                    ₹1988{" "}
-                    <span className="text-gray-500 line-through text-lg ml-2">
-                      ₹5000
-                    </span>
+                    ₹999/-
                   </div>
 
-                  {/* Call-to-Action Button */}
+                  {/* Syllabus Download Button */}
+                  <a
+                    href="https://drive.google.com/file/d/1uuAmU8i0x5SFjqZmWRhjzWETNXm3qckx/view?usp=sharing"
+                    download
+                    className="block text-center bg-blue-500 text-white px-4 py-2 rounded-lg w-full hover:bg-blue-600 transition-colors duration-300 mb-3"
+                  >
+                    Download Syllabus
+                  </a>
+
+                  {/* Enroll Button */}
                   <button
-                    onClick={() => navigate(`/course-payment?courseName=${encodeURIComponent('Cloud Computing (AWS)')}&price=1988&originalPrice=5000&instructor=${encodeURIComponent('Raj Raut')}&startDate=${encodeURIComponent('15th May 2025')}`)}
+                    onClick={() => navigate(`/course-payment?courseName=${encodeURIComponent('Cloud Computing (AWS) Internship')}&price=999&originalPrice=999&instructor=${encodeURIComponent('Raj Raut & Shubham Kshetre')}&startDate=${encodeURIComponent('23rd Feb 2026')}`)}
                     className="bg-green-600 text-white px-4 py-2 rounded-lg w-full hover:bg-green-700 transition-colors duration-300"
                   >
                     Enroll Now
                   </button>
                 </div>
 
-                {/* Frontend Training Card */}
+                {/* Web Development Internship Card */}
                 <div className="bg-white p-6 rounded-lg shadow-lg max-w-sm mx-auto">
                   <div className="mb-4">
                     <FaBookOpen className="text-green-500 text-4xl mb-2" />
+                    <span className="inline-block bg-green-100 text-green-700 text-xs font-bold px-2 py-1 rounded-full mb-2">Internship</span>
                     <h2 className="text-2xl font-semibold mb-2">
-                      Frontend Development
+                      Web Development
                     </h2>
                     <p className="text-gray-600">
-                      Learn Frontend Development and Become Internship Ready in
-                      Just 2 Months
+                      Learn Frontend Development and Become Internship Ready
                     </p>
                   </div>
 
@@ -248,35 +265,53 @@ const MentorshipAndInternshipPage = () => {
                     <p className="text-gray-600">6:00 PM - 7:00 PM</p>
                   </div>
 
-                  <div className="flex items-center mb-6">
+                  <div className="flex items-center mb-4">
                     <FaLaptop className="text-gray-500 mr-2" />
                     <p className="text-gray-600">Online</p>
                   </div>
 
-                  <div className="flex items-center mb-6">
+                  {/* Mentors */}
+                  <p className="text-gray-700 font-semibold mb-2">Mentors:</p>
+                  <div className="flex items-center mb-3">
                     <img
                       src={require("./../../assets/images/sayuri.JPG")}
-                      alt="Instructor"
-                      className="w-12 h-12 rounded-full mr-4"
+                      alt="Sayuri Kamble"
+                      className="w-10 h-10 rounded-full mr-3"
                     />
                     <div>
-                      <p className="text-gray-900 font-semibold">
-                        Sayuri Kamble
-                      </p>
-                      <p className="text-gray-500 text-sm">Instructor</p>
+                      <p className="text-gray-900 font-semibold text-sm">Sayuri Kamble</p>
+                      <p className="text-gray-500 text-xs">Software Engineer</p>
+                    </div>
+                  </div>
+                  <div className="flex items-center mb-6">
+                    <img
+                      src="https://media.licdn.com/dms/image/v2/D4D03AQFsdn7Wn8kSwA/profile-displayphoto-scale_200_200/B4DZwXkWr3KEAY-/0/1769921934047?e=1773273600&v=beta&t=F6AKoRLrYOot8WSSpWqoHkaXAs_AM2yP7LfU5wrM26k"
+                      alt="Abhishek Katale"
+                      className="w-10 h-10 rounded-full mr-3"
+                    />
+                    <div>
+                      <p className="text-gray-900 font-semibold text-sm">Abhishek Katale</p>
+                      <p className="text-gray-500 text-xs">Teacher</p>
                     </div>
                   </div>
 
                   {/* Price */}
                   <div className="text-2xl font-bold text-green-600 mb-4">
-                    ₹999{" "}
-                    <span className="text-gray-500 line-through text-lg ml-2">
-                      ₹3000
-                    </span>
+                    ₹999/-
                   </div>
-                  {/* Call-to-Action Button */}
+
+                  {/* Syllabus Download Button */}
+                  <a
+                    href="https://drive.google.com/file/d/1fK9VkqwzN1Mc4Nc1-ebvQ2DSBGoEMysj/view?usp=sharing"
+                    download
+                    className="block text-center bg-blue-500 text-white px-4 py-2 rounded-lg w-full hover:bg-blue-600 transition-colors duration-300 mb-3"
+                  >
+                    Download Syllabus
+                  </a>
+
+                  {/* Enroll Button */}
                   <button
-                    onClick={() => navigate(`/course-payment?courseName=${encodeURIComponent('Frontend Development')}&price=999&originalPrice=3000&instructor=${encodeURIComponent('Sayuri Kamble')}&startDate=${encodeURIComponent('11th May 2025')}`)}
+                    onClick={() => navigate(`/course-payment?courseName=${encodeURIComponent('Web Development Internship')}&price=999&originalPrice=999&instructor=${encodeURIComponent('Sayuri Kamble & Abhishek Katale')}&startDate=${encodeURIComponent('23rd Feb 2026')}`)}
                     className="bg-green-600 text-white px-4 py-2 rounded-lg w-full hover:bg-green-700 transition-colors duration-300"
                   >
                     Enroll Now
